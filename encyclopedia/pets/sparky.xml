@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<pet>
+
+	<name>Sparky</name>
+	<description>Sparky the Baby Red Dragon</description>
+	<image>sparky.jpg</image>
+
+	<GENERAL>
+		<Level>20</Level>
+		<Element>Fire</Element>
+		<Type>Magic</Type>
+		<Damage>4 to 10</Damage>
+		<TD text="Training Difficulty">25</TD>
+		<Price>600</Price>
+		<Sell>120</Sell>
+	</GENERAL>
+
+	<ATTACK>
+		<Hits>1</Hits>
+		<Element>Fire</Element>
+		<Type>Magic</Type>
+	</ATTACK>
+
+</pet>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- http://zardwars.battleon.com/build30/spells/spell-scroll1b.swf -->
+<spell>
+
+	<name>Whirl Tide</name>
+	<description>A powerful series of swirling magical water attacks!</description>
+	<image thumbnail="whirl_tide_thumb.jpg">whirl_tide.png</image>
+
+	<GENERAL>
+		<Level>15</Level>
+		<Element>Water</Element>
+		<Price>400</Price>
+		<Sell>300</Sell>
+		<MP>9</MP>
+	</GENERAL>
+
+	<ATTACK>
+		<Hits>6</Hits>
+		<Type>Magic, x6</Type>
+		<Element>Water, x6</Element>
+		<Damage>2-4, x6</Damage>
+		<BTH text="Bonus To Hit">50%, x6</BTH>
+	</ATTACK>
+
+</spell>

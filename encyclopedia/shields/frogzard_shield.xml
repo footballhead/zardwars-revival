@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<shield>
+
+	<name>Frogzard Shield</name>
+	<description>A good all-around shield, protects a little bit from everything except darkness.</description>
+	<image>frogzard_shield.png</image>
+
+	<GENERAL>
+		<Level>30</Level>
+		<Element>Neutral</Element>
+		<Price>1500</Price>
+		<Sell>600</Sell>
+	</GENERAL>
+
+	<DEFENSE>
+		<Melee>+10</Melee>
+		<Ranged>+0</Ranged>
+		<Magic>+0</Magic>
+	</DEFENSE>
+
+	<ELEMENTAL>
+		<Fire>-5%</Fire>
+		<Water>-5%</Water>
+		<Wind>-5%</Wind>
+		<Ice>-5%</Ice>
+		<Earth>-5%</Earth>
+		<Energy>-5%</Energy>
+		<Light>-5%</Light>
+		<Darkness>+10%</Darkness>
+	</ELEMENTAL>
+
+</shield>

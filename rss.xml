@@ -1,0 +1,287 @@
+<?xml version="1.0" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>ZardWars Revival</title>
+		<link>http://zardwarsrevival.nfshost.com/</link>
+		<description>For all your ZardWars needs!</description>
+		<language>en-us</language>
+		<webMaster>mdhitchens@gmail.com (Michael Hitchens)</webMaster>
+		<lastBuildDate>Sun, 17 Aug 2014 17:30:00 UTC</lastBuildDate>
+		<docs>http://www.rssboard.org/rss-specification</docs>
+		<atom:link href="http://zardwarsrevival.nfshost.com/rss.xml" rel="self" type="application/rss+xml" />		
+		
+
+		<item>
+			<title>Fixes!</title>
+			<link>http://zardwarsrevival.nfshost.com/index.php?p=news#entry034</link>
+			<description>An eagle-eyed reader hs been emailing me various typos and errors around the site which I've been working on fixing. Many thanks! [...]</description>
+			<pubDate>Sun, 17 Aug 2014 17:30:00 UTC</pubDate>
+			<guid>http://zardwarsrevival.nfshost.com/index.php?p=news#entry034</guid>
+		</item>
+
+		<item>
+			<title>While I'm At It...</title>
+			<link>http://zardwarsrevival.nfshost.com/index.php?p=news#entry033</link>
+			<description>Thought I should give all of you wonderful people an update on what I've done this past week: [...]</description>
+			<pubDate>Mon, 09 Sep 2013 01:00:00 GMT</pubDate>
+			<guid>http://zardwarsrevival.nfshost.com/index.php?p=news#entry033</guid>
+		</item>
+		
+		<item>
+			<title>I'm Baaaack...</title>
+			<link>http://zardwarsrevival.nfshost.com/index.php?p=news#entry032</link>
+			<description>... for who knows how long. [...]</description>
+			<pubDate>Tue, 03 Sep 2013 02:15:00 GMT</pubDate>
+			<guid>http://zardwarsrevival.nfshost.com/index.php?p=news#entry032</guid>
+		</item>
+
+		<item>
+			<title>On the Subject of E-Mails</title>
+			<link>http://zardwarsrevival.nfshost.com/index.php?p=news#entry031</link>
+			<description>First off, I would like to apologize to those individuals who e-mailed me while I was absent and who didn't get a response. I stated that I would reply to every e-mail I got and this wasn't the case. I'm sorry. Second, I'm still accepting e-mails. I would love for people to send me stats for things like the Golden Axe or Golden Shield, or even monsters I don't have. Lastly, I received a question through e-mail that went unanswered. The sender asks "How do you take a picture of the shield without having the weapon block it?". When you attack with the Golden Plate the animation first drops the shield where you were standing then leaps at the opponent. If you get rid of your pet you can take an unobstructed screenshot of the shield. Crop it and voila! It works very well on the snowy background where Snow Bunnyzards are fought.</description>
+			<pubDate>Fri, 17 Aug 2012 17:20:00 GMT</pubDate>
+			<guid>http://zardwarsrevival.nfshost.com/index.php?p=news#entry031</guid>
+		</item>
+		
+		<item>
+			<title>Done Spells</title>
+			<link>http://zardwarsrevival.nfshost.com/index.php?p=news#entry030</link>
+			<description>Done adding spells. Need to link to the guests with the summon spells yet. Enemies are next. Might write a guide from my experiences sometime.</description>
+			<pubDate>Thu, 16 Aug 2012 19:50:00 GMT</pubDate>
+			<guid>http://zardwarsrevival.nfshost.com/index.php?p=news#entry030</guid>
+		</item>
+		
+		<item>
+			<title>Spells</title>
+			<link>http://zardwarsrevival.nfshost.com/index.php?p=news#entry029</link>
+			<description>Revamp should be finished. Rewrote a lot of the pages, made encyclopedia articles more objective, and finished converting items over to XML. I'm now adding spells. Despite what the index shows I've only done Daybreak, Fireball, Heal Wounds, and Salad Shooter. Clicking on the image thumbnail on a spell entry will enlarge the image.</description>
+			<pubDate>Wed, 15 Aug 2012 17:00:00 GMT</pubDate>
+			<guid>http://zardwarsrevival.nfshost.com/index.php?p=news#entry029</guid>
+		</item>
+		
+		<item>
+			<title>The Revamp Continues</title>
+			<link>http://zardwarsrevival.nfshost.com/index.php?p=news#entry028</link>
+			<description>I've remove all subjective information from the encyclopedia. The opinions belong in a guide, not on the encyclopedia articles. Also, if there was a stat that the game didn't specify or make completely obvious it was removed from the entries too. I still haven't figured out a good way to deal with weapon special rates, weapon special damage, and the likes. I'm all open to suggestions.</description>
+			<pubDate>Tue, 14 Aug 2012 19:30:00 GMT</pubDate>
+			<guid>http://zardwarsrevival.nfshost.com/index.php?p=news#entry028</guid>
+		</item>
+		
+		<item>
+			<title>Major Revamp</title>
+			<link>http://zardwarsrevival.nfshost.com/index.php?p=news#entry027</link>
+			<description>There is a major revamp in progress. Please be patient and hold on to your hats.</description>
+			<pubDate>Tue, 14 Aug 2012 02:40:00 GMT</pubDate>
+			<guid>http://zardwarsrevival.nfshost.com/index.php?p=news#entry027</guid>
+		</item>
+		
+		<item>
+			<title>Here's the Scoop</title>
+			<link>http://zardwarsrevival.nfshost.com/index.php?p=news#entry026</link>
+			<description>I'm baaaack! You thought I had disappeared again, didn't ya? Well think again! I was thinking about you every day I wasn't updating, don't worry. [...]</description>
+			<pubDate>Wed, 28 June 2011 01:00:00 GMT</pubDate>
+			<guid>http://zardwarsrevival.nfshost.com/index.php?p=news#entry026</guid>
+		</item>
+		
+		<item>
+			<title>Spells, How Do They Work?</title>
+			<link>http://zardwarsrevival.nfshost.com/index.php?p=news#entry025</link>
+			<description>A few days ago I finished converting the shields. One more thing down! Here's the list as it stand now: [...]</description>
+			<pubDate>Sun, 05 June 2011 16:20:00 GMT</pubDate>
+			<guid>http://zardwarsrevival.nfshost.com/index.php?p=news#entry025</guid>
+		</item>
+		
+		<item>
+			<title>Pets "Done"</title>
+			<link>http://zardwarsrevival.nfshost.com/index.php?p=news#entry024</link>
+			<description>Just like the title days. The "done" is in quotes because my character isn't a high enough level to get the Pygmy Zombie Entourage. That will be my first priority in 2 levels. [...]</description>
+			<pubDate>Mon, 30 May 2011 02:40:00 GMT</pubDate>
+			<guid>http://zardwarsrevival.nfshost.com/index.php?p=news#entry024</guid>
+		</item>
+		
+		<item>
+			<title>One Pet Down</title>
+			<link>http://zardwarsrevival.nfshost.com/index.php?p=news#entry023</link>
+			<description>Guess what I did tonight. I added a pet! Wooo! Time to celebrate. [...]</description>
+			<pubDate>Wed, 25 May 2011 03:50:00 GMT</pubDate>
+			<guid>http://zardwarsrevival.nfshost.com/index.php?p=news#entry023</guid>
+		</item>
+		
+		<item>
+			<title>I'm Procrastinating From Studying</title>
+			<link>http://zardwarsrevival.nfshost.com/index.php?p=news#entry022</link>
+			<description>Thus ends my weekend, thus, thus, thus. Update part 3 of 2. Okay, so I've been a little optimistic over the past couple of days. You know that plan to finish off the armour and shields, then get the pets done? Well, I did the armour, none of the shields and half of the pets. Since I've been... overestimating this stuff, I'll just provide you with a todo list with no dates attached, just so you can't hold me to as much. [...]</description>
+			<pubDate>Tue, 24 May 2011 02:30:00 GMT</pubDate>
+			<guid>http://zardwarsrevival.nfshost.com/index.php?p=news#entry022</guid>
+		</item>
+		
+		<item>
+			<title>It's always such a pleasure.</title>
+			<link>http://zardwarsrevival.nfshost.com/index.php?p=news#entry021</link>
+			<description>Update part 2 of 2. It's become apparent to me that I am not going to have the current database switched over to XML files by the end of today. A lot of that will spill over to tomorrow. To keep things moving I will probably just start adding new stuff. [...]</description>
+			<pubDate>Mon, 23 May 2011 00:10:00 GMT</pubDate>
+			<guid>http://zardwarsrevival.nfshost.com/index.php?p=news#entry021</guid>
+		</item>
+		
+		<item>
+			<title>Well, here we are again.</title>
+			<link>http://zardwarsrevival.nfshost.com/index.php?p=news#entry020</link>
+			<description>Update part 1 of 2. It's a shame I can't stay commited. Time for me to pop my head in again and improve a few things. [...]</description>
+			<pubDate>Sun, 22 May 2011 03:30:00 GMT</pubDate>
+			<guid>http://zardwarsrevival.nfshost.com/index.php?p=news#entry020</guid>
+		</item>
+		
+		<item>
+			<title>New Layout Up!</title>
+			<link>http://zardwarsrevival.nfshost.com/index.php?p=news#entry019</link>
+			<description>It's Friday-ish! You know what that means! New site layout! I rewrote the HTML, CSS, and PHP for most of the site to make it run properly on all browsers. [...]</description>
+			<pubDate>Sat, 25 Dec 2010 02:30:00 GMT</pubDate>
+			<guid>http://zardwarsrevival.nfshost.com/index.php?p=news#entry019</guid>
+		</item>
+		
+		<item>
+			<title>Belated Sunday</title>
+			<link>http://zardwarsrevival.nfshost.com/index.php?p=news#entry018</link>
+			<description>Status report time! This will be short, sweet, and to the point. Here we go! [...]</description>
+			<pubDate>Mon, 20 Dec 2010 15:30:00 GMT</pubDate>
+			<guid>http://zardwarsrevival.nfshost.com/index.php?p=news#entry018</guid>
+		</item>
+		
+		<item>
+			<title>Nothing New</title>
+			<link>http://zardwarsrevival.nfshost.com/index.php?p=news#entry017</link>
+			<description>For the last week I've been working on another website. It's for a school project so it's taken priority. However, the final layout is done and I have a bit more time. You can expect updates by next Sunday. [...]</description>
+			<pubDate>Sun, 12 Dec 2010 16:00:00 GMT</pubDate>
+			<guid>http://zardwarsrevival.nfshost.com/index.php?p=news#entry017</guid>
+		</item>
+		
+		<item>
+			<title>Sunday as Promised</title>
+			<link>http://zardwarsrevival.nfshost.com/index.php?p=news#entry016</link>
+			<description>Here's your first weekly Sunday update! [...]</description>
+			<pubDate>Sun, 05 Dec 2010 15:00:00 GMT</pubDate>
+			<guid>http://zardwarsrevival.nfshost.com/index.php?p=news#entry016</guid>
+		</item>
+		
+		<item>
+			<title>Update on Updates and Changelogs</title>
+			<link>http://zardwarsrevival.nfshost.com/index.php?p=news#entry015</link>
+			<description>I've scrapped the changelog idea. They would be highly redundant, as well time cosuming in set-up and up-keep. Anything important will just be posted in the news. Like it was meant to be. [...]</description>
+			<pubDate>Wed, 01 Dec 2010 02:45:00 GMT</pubDate>
+			<guid>http://zardwarsrevival.nfshost.com/index.php?p=news#entry015</guid>
+		</item>
+		
+		<item>
+			<title>No Creative Title, Just Changes</title>
+			<link>http://zardwarsrevival.nfshost.com/index.php?p=news#entry014</link>
+			<description>Been thinking about getting rid of the quick updates. They would be replaced by changelogs, reporting on every element of the site. These would be posted once a sufficient number of changes have been made, either in the news section or in a seperate changelog section. I'm leaning towards the former. I'll provide an example soon. [...]</description>
+			<pubDate>Sun, 21 Nov 2010 15:00:00 GMT</pubDate>
+			<guid>http://zardwarsrevival.nfshost.com/index.php?p=news#entry014</guid>
+		</item>
+		
+		<item>
+			<title>I Fixed It?</title>
+			<link>http://zardwarsrevival.nfshost.com/index.php?p=news#entry013</link>
+			<description>Duh... it looks like I fixed it. I removed the tracking code that I recently put in the sidebar, and as soon as I did, everything fixed itself. As soon as I removed that tracker code, the site conformed with W3C standards of HTML 4.01 as well! [...]</description>
+			<pubDate>Sun, 15 Aug 2010 17:00:01 GMT</pubDate>
+			<guid>http://zardwarsrevival.nfshost.com/index.php?p=news#entry013</guid>
+		</item>
+		
+		<item>
+			<title>Gah! More Stuff Broke!</title>
+			<link>http://zardwarsrevival.nfshost.com/index.php?p=news#entry012</link>
+			<description>August update! I'm still here, and I am working on making the site better (sorta) even though it does not seem like it! I just broke a couple of things (that were probably going to break anyway) to improve general coding and... DAH DAH-DAH-DAH! I added an RSS Feed! [...]</description>
+			<pubDate>Sat, 14 Aug 2010 14:53:49 EST</pubDate>
+			<guid>http://zardwarsrevival.nfshost.com/index.php?p=news#entry012</guid>
+		</item>
+		
+		<item>
+			<title>Friday, June 25, 2010</title>
+			<link>http://zardwarsrevival.nfshost.com/index.php?p=news#entry011</link>
+			<description>Okay, now I am in trouble. I missed April, May, and a great deal of June. Geez, why can't I stick to anything?! Gah, I guess I can't make any promises that I will do anything. [...]</description>
+			<pubDate>Fri, 25 Jun 2010 23:39:14 EST</pubDate>
+			<guid>http://zardwarsrevival.nfshost.com/index.php?p=news#entry011</guid>
+		</item>
+
+		<item>
+			<title>Friday, March 19, 2010</title>
+			<link>http://zardwarsrevival.nfshost.com/index.php?p=news#entry010</link>
+			<description>I am back and updating the encyclopedia! I hope to get the shields finished by tomorrow, but no promises. The only shield I cannot do is the Golden Shield, simply because I don't hve the 300 000 gold. [...]</description>
+			<pubDate>Fri, 19 Mar 2010 00:00:01 GMT</pubDate>
+			<guid>http://zardwarsrevival.nfshost.com/index.php?p=news#entry010</guid>
+		</item>
+		
+		<item>
+			<title>Wednesday, March 10, 2010</title>
+			<link>http://zardwarsrevival.nfshost.com/index.php?p=news#entry009</link>
+			<description>Gah! Has it really been a month! Geez. Haven't had much time... however next week is March Break, so expect updates!</description>
+			<pubDate>Wed, 10 Mar 2010 00:00:01 GMT</pubDate>
+			<guid>http://zardwarsrevival.nfshost.com/index.php?p=news#entry009</guid>
+		</item>
+		
+		<item>
+			<title>Tuesday, February 2, 2010</title>
+			<link>http://zardwarsrevival.nfshost.com/index.php?p=news#entry008</link>
+			<description>What? I'm sorry if you thought "I better start working on those shields now" meant that I would actually do work! Anyway, I just downloaded Google Chrome and realized that the site doesn't quite work with it... Going to have to fix that! [...]</description>
+			<pubDate>Tue, 02 Feb 2010 00:00:01 GMT</pubDate>
+			<guid>http://zardwarsrevival.nfshost.com/index.php?p=news#entry008</guid>
+		</item>
+		
+		<item>
+			<title>Monday, February 1, 2010</title>
+			<link>http://zardwarsrevival.nfshost.com/index.php?p=news#entry007</link>
+			<description>Well, I guess I better start working on those shields now. My original plan was to code a program that would help me, but after seeing all the work I have put into it so far and how much I have gotten out of it, it doesn't seem worth it. I'll just have to do it like I normally do.</description>
+			<pubDate>Mon, 01 Feb 2010 00:00:01 GMT</pubDate>
+			<guid>http://zardwarsrevival.nfshost.com/index.php?p=news#entry007</guid>
+		</item>
+		
+		<item>
+			<title>Tuesday, January 26, 2010</title>
+			<link>http://zardwarsrevival.nfshost.com/index.php?p=news#entry006</link>
+			<description>It has been bugging me since I started playing ZardWars again as to the whereabouts of it's section on the BattleOn forums. It contained some great guides that I would love to post here. Finally yesterday, I sent off a few PMs around the forum and got a response. [...]</description>
+			<pubDate>Tue, 26 Jan 2010 00:00:01 GMT</pubDate>
+			<guid>http://zardwarsrevival.nfshost.com/index.php?p=news#entry006</guid>
+		</item>
+		
+		<item>
+			<title>Sunday, January 24, 2010</title>
+			<link>http://zardwarsrevival.nfshost.com/index.php?p=news#entry005</link>
+			<description>I have achieved the third link on Google if you type in ZardWars! Awesome! I hope I get the same results on Bing... Anyway, now that I am getting traffic, I am going to have to start updating. Expect to see lots more in the Encyclopedia, and remember, IT IS A WORK IN PROGRESS! Please, if you have any info, email me at mdhitchens@gmail.com! [...]</description>
+			<pubDate>Sun, 24 Jan 2010 00:00:01 GMT</pubDate>
+			<guid>http://zardwarsrevival.nfshost.com/index.php?p=news#entry005</guid>
+		</item>
+		
+		<item>
+			<title>Thursday, January 14, 2010</title>
+			<link>http://zardwarsrevival.nfshost.com/index.php?p=news#entry004</link>
+			<description>I have been updating for less than I would have liked to. School is eating away hours upon hours of my free time, and I have just caved in to its demands. Near the end of January or the start of February, expect to see this site start to pick up.</description>
+			<pubDate>Thu, 14 Jan 2010 00:00:01 GMT</pubDate>
+			<guid>http://zardwarsrevival.nfshost.com/index.php?p=news#entry004</guid>
+		</item>
+		
+		<item>
+			<title>Thursday, December 24, 2009</title>
+			<link>http://zardwarsrevival.nfshost.com/index.php?p=news#entry003</link>
+			<description>I have set up a forum, and I am releasing the site now. The Encyclopedia will just have to become a work in progress. Maybe I can turn it into a community project! Anyway, I am officially releasing the site. Don't forget to sign up on the forums!</description>
+			<pubDate>Thu, 24 Dec 2009 00:00:01 GMT</pubDate>
+			<guid>http://zardwarsrevival.nfshost.com/index.php?p=news#entry003</guid>
+		</item>
+		
+		<item>
+			<title>Wednesday, December 23, 2009</title>
+			<link>http://zardwarsrevival.nfshost.com/index.php?p=news#entry002</link>
+			<description>Time for a status update! Christmas has been my target release day. I have done everything I want to have done before then but two. First, I would like to have a forum set up, probably one on Invisionfree. That could take some time to get working. Second is the Encyclopedia. That is probably going to take the rest of my life to finish (at this rate). [...]</description>
+			<pubDate>Wed, 23 Dec 2009 00:00:01 GMT</pubDate>
+			<guid>http://zardwarsrevival.nfshost.com/index.php?p=news#entry002</guid>
+		</item>
+		
+		<item>
+			<title>Saturday, December 19, 2009</title>
+			<link>http://zardwarsrevival.nfshost.com/index.php?p=news#entry001</link>
+			<description>Today, ZardWars Revival is born! Through this site, I hope to do three things. First, I want bring awareness to ZardWars. Second, I would like to provide a source of guides and an encyclopedia. Third, I want to create a community for those who care about ZardWars, and help those who are new to the game. [...]</description>
+			<pubDate>Sat, 19 Dec 2009 00:00:01 GMT</pubDate>
+			<guid>http://zardwarsrevival.nfshost.com/index.php?p=news#entry001</guid>
+		</item>
+		
+	</channel>
+</rss>

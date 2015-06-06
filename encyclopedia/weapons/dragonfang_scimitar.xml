@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<weapon>
+
+	<name>Dragonfang Scimitar</name>
+	<description>Forged by Carcharas, the founder of the Order of the Dragonslayers, 1500 years ago. The Dragonfang Scimitar was held in the hoard of the Fear Drake until it was liberated in a great assault on Mount Fear.</description>
+	<image>dragonfang_scimitar.png</image>
+
+	<GENERAL>
+		<Level>65</Level>
+		<Type>Magic</Type>
+		<Element>Wind</Element>
+		<Damage>8-53</Damage>
+		<BonusToHit text="Bonus To Hit">5%</BonusToHit>
+		<Price>1600</Price>
+		<Sell>1200</Sell>
+	</GENERAL>
+
+	<SPECIAL>
+		<Rate>18%</Rate>
+		<Hits>3</Hits>
+		<Type>Melee / Melee / Ranged</Type>
+		<Element>Wind, x3</Element>
+		<Damage>16-106, x3</Damage>
+		<BTH text="Bonus To Hit">30% / 30% / 5%</BTH>
+	</SPECIAL>
+
+</weapon>

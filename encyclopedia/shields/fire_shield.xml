@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<shield>
+
+	<name>Fire Shield</name>
+	<description>This shield is great at blocking dragon breath and all other sources of fire. Many brave adventurers found this shield essential during the battle against the fire dragon Akriloth.</description>
+	<image>fire_shield.png</image>
+
+	<GENERAL>
+		<Level>0</Level>
+		<Element>Fire</Element>
+		<Price>100</Price>
+		<Sell>40</Sell>
+	</GENERAL>
+
+	<DEFENSE>
+		<Melee>+0</Melee>
+		<Ranged>+0</Ranged>
+		<Magic>+0</Magic>
+	</DEFENSE>
+
+	<ELEMENTAL>
+		<Fire>-10%</Fire>
+		<Water>+5%</Water>
+		<Wind>+0%</Wind>
+		<Ice>+5%</Ice>
+		<Earth>+0%</Earth>
+		<Energy>+0%</Energy>
+		<Light>+0%</Light>
+		<Darkness>+0%</Darkness>
+	</ELEMENTAL>
+
+</shield>

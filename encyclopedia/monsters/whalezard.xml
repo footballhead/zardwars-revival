@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- http://zardwars.battleon.com/build30/monsters/monster-whalezard.swf -->
+<enemy>
+	
+	<name>WhaleZard</name>
+	<description>The ZardMaster in his quest to blend DNA combined the Tadzard with the oceans most massive creature: the Battle Whale. Now with the WhaleZard roaming the depths adventurers should take cate when they go swimming!</description>
+	<image>whalezard.png</image>
+
+	<GENERAL>
+		<Level>15</Level>
+		<EXP>450</EXP>
+		<Gold>60</Gold>
+		<HP>100-130</HP>
+		<MP>100-125</MP>
+	</GENERAL>
+	
+	<ATTRIBUTES>
+		<Strength>30</Strength>
+		<Dexterity>15</Dexterity>
+		<Intellect>15</Intellect>
+		<Endurance>15</Endurance>
+		<Charisma>0</Charisma>
+		<Luck>0</Luck>
+	</ATTRIBUTES>
+	
+	<DEFENSE>
+		<Melee>25</Melee>
+		<Ranged>25</Ranged>
+		<Magic>25</Magic>
+	</DEFENSE>
+	
+	<ELEMENTAL>
+		<Fire>100%</Fire>
+		<Water>50%</Water>
+		<Wind>100%</Wind>
+		<Ice>100%</Ice>
+		<Earth>100%</Earth>
+		<Energy>140%</Energy>
+		<Light>100%</Light>
+		<Darkness>100%</Darkness>
+	</ELEMENTAL>
+	
+	<ATTACK num="1">
+		<Hits>1</Hits>
+		<Element>Water</Element>
+		<Type>Melee</Type>
+	</ATTACK>
+	
+	<ATTACK num="2">
+		<Hits>2</Hits>
+		<Element>Water x2</Element>
+		<Type>Magic x2</Type>
+	</ATTACK>
+	
+</enemy>

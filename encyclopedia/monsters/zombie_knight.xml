@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- http://zardwars.battleon.com/build30/monsters/monster-zombieknight.swf -->
+<enemy>
+	
+	<name>Zombie Knight</name>
+	<description>A half-living knight.</description>
+	<image>zombie_knight.png</image>
+
+	<GENERAL>
+		<Level>20</Level>
+		<EXP>450</EXP>
+		<Gold>120</Gold>
+		<HP>210-240</HP>
+		<MP>55-70</MP>
+	</GENERAL>
+	
+	<ATTRIBUTES>
+		<Strength>20</Strength>
+		<Dexterity>20</Dexterity>
+		<Intellect>20</Intellect>
+		<Endurance>20</Endurance>
+		<Charisma>0</Charisma>
+		<Luck>20</Luck>
+	</ATTRIBUTES>
+	
+	<DEFENSE>
+		<Melee>25</Melee>
+		<Ranged>10</Ranged>
+		<Magic>25</Magic>
+	</DEFENSE>
+	
+	<ELEMENTAL>
+		<Fire>100%</Fire>
+		<Water>100%</Water>
+		<Wind>80%</Wind>
+		<Ice>80%</Ice>
+		<Earth>60%</Earth>
+		<Energy>140%</Energy>
+		<Light>130%</Light>
+		<Darkness>40%</Darkness>
+	</ELEMENTAL>
+	
+	<ATTACK num="1">
+		<Hits>1</Hits>
+		<Element>Darkness</Element>
+		<Type>Melee</Type>
+	</ATTACK>
+	
+	<ATTACK num="2">
+		<Hits>1</Hits>
+		<Element>Darkness</Element>
+		<Type>Melee</Type>
+		<Notes>Regenerates 4 of the monster's HP. Cannot regenerate over inital HP.</Notes>
+	</ATTACK>
+
+</enemy>

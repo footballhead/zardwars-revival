@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<pet>
+
+	<name>Lilliputians</name>
+	<description>Lilliputian Sorcerer Army</description>
+	<image>lilliputians.jpg</image>
+
+	<GENERAL>
+		<Level>60</Level>
+		<Element>Energy</Element>
+		<Type>Magic</Type>
+		<Damage>18-39</Damage>
+		<TD text="Training Difficulty">50</TD>
+		<Price>20000</Price>
+		<Sell>4000</Sell>
+	</GENERAL>
+
+	<ATTACK>
+		<Rate>66.6%</Rate>
+		<Hits>3</Hits>
+		<Type>Magic, x3</Type>
+		<Element>Energy / Wind / Fire</Element>
+		<Damage>2-6, x3</Damage>
+		<BTH text="Bonus To Hit">20, x3</BTH>
+	</ATTACK>
+
+</pet>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<weapon>
+
+	<name>Battleaxe</name>
+	<description>A simple double bladed axe.</description>
+	<image>battleaxe.png</image>
+
+	<GENERAL>
+		<Level>0</Level>
+		<Type>Melee</Type>
+		<Element>Earth</Element>
+		<Damage>6-16</Damage>
+		<BonusToHit text="Bonus To Hit">2%</BonusToHit>
+		<Price>20</Price>
+		<Sell>15</Sell>
+	</GENERAL>
+
+</weapon>

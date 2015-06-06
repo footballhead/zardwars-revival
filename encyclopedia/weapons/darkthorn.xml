@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<weapon>
+
+	<name>Darkthorn</name>
+	<description>A pulsing blade of midnight blue.</description>
+	<image>darkthorn.png</image>
+
+	<GENERAL>
+		<Level>20</Level>
+		<Type>Melee</Type>
+		<Element>Darkness</Element>
+		<Damage>3-25</Damage>
+		<BonusToHit text="Bonus To Hit">7%</BonusToHit>
+		<Price>300</Price>
+		<Sell>225</Sell>
+	</GENERAL>
+
+</weapon>

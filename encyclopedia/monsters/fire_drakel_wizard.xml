@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- ??? -->
+<enemy>
+	
+	<name>Fire Drakel Wizard</name>
+	<description>This lizard is an Infernomancer. All shall burn at his fett. Which is scary! Have you ever seen Drakel feet?</description>
+	<image>fire_drakel_wizard.png</image>
+
+	<GENERAL count="5">
+		<Level>10</Level>
+		<EXP>300</EXP>
+		<Gold>44</Gold>
+		<HP>211</HP>
+		<MP>155</MP>
+	</GENERAL>
+	
+	<ATTRIBUTES count="6">
+		<Strength>0</Strength>
+		<Dexterity>10</Dexterity>
+		<Intellect>40</Intellect>
+		<Endurance>0</Endurance>
+		<Charisma>0</Charisma>
+		<Luck>0</Luck>
+	</ATTRIBUTES>
+	
+	<DEFENSE count="3">
+		<Melee>20</Melee>
+		<Ranged>20</Ranged>
+		<Magic>20</Magic>
+	</DEFENSE>
+	
+	<ELEMENTAL count="8">
+		<Fire>50%</Fire>
+		<Water>125%</Water>
+		<Wind>100%</Wind>
+		<Ice>150%</Ice>
+		<Earth>100%</Earth>
+		<Energy>100%</Energy>
+		<Light>150%</Light>
+		<Darkness>50%</Darkness>
+	</ELEMENTAL>
+	
+	<ATTACK count="4" num="1">
+		<Hits>1</Hits>
+		<Element>Fire</Element>
+		<Type>Magic</Type>
+		<Notes>Fire Serpent Touch!</Notes>
+	</ATTACK>
+	
+	<ATTACK count="4" num="2">
+		<Hits>1</Hits>
+		<Element>Fire</Element>
+		<Type>Magic</Type>
+		<Notes>Mana-pyre! Drawns MP instead of HP.</Notes>
+	</ATTACK>
+	
+</enemy>

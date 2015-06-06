@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<weapon>
+
+	<name>Fire Throwing Knives</name>
+	<description>Throw two fire knives at your opponent for two hits per attack turn.</description>
+	<image>fire_throwing_knives.png</image>
+
+	<GENERAL>
+		<Level>5</Level>
+		<Type>Ranged</Type>
+		<Element>Fire</Element>
+		<Damage>2-12</Damage>
+		<BonusToHit text="Bonus To Hit">5%</BonusToHit>
+		<Price>75</Price>
+		<Sell>56</Sell>
+	</GENERAL>
+
+	<SPECIAL>
+		<Rate>100%</Rate>
+		<Hits>2</Hits>
+		<Type>Ranged, x2</Type>
+		<Element>Fire, x2</Element>
+		<Damage>2-12, x2</Damage>
+		<BTH text="Bonus To Hit">5%, x2</BTH>
+	</SPECIAL>
+
+</weapon>

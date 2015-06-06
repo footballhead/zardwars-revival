@@ -1,0 +1,1 @@
+This folder contains stuff that isn't necessary to run the website. Most of it is textual planning/information related to the game which may or may not already be in the encyclopedia. That being said, most of it can be ignored.

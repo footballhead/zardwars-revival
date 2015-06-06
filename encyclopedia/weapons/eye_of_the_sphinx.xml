@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<weapon>
+
+	<name>Eye of the Sphinx</name>
+	<description>An ancient blade that can call forth the spirit of a powerful Sphinx from the sands of time, first found by Kaley.</description>
+	<image>eye_of_the_sphinx.png</image>
+
+	<GENERAL>
+		<Level>50</Level>
+		<Type>Magic</Type>
+		<Element>Wind</Element>
+		<Damage>6-42</Damage>
+		<BonusToHit text="Bonus To Hit">2%</BonusToHit>
+		<Price>10000</Price>
+		<Sell>7500</Sell>
+	</GENERAL>
+
+	<SPECIAL>
+	    <Rate>25%</Rate>
+		<Hits>4</Hits>
+		<Type>Magic, x4</Type>
+		<Element>Wind / Energy / Light / Fire</Element>
+        <Damage>6-22, x4</Damage>
+        <BonusToHit text="Bonus To Hit">5%, x4</BonusToHit>
+	</SPECIAL>
+
+</weapon>

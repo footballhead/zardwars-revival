@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<spell>
+
+	<name>RainStorm</name>
+	<description>Summon a blasting shower of rain.</description>
+	<image thumbnail="rainstorm_thumb.jpg">rainstorm.png</image>
+
+	<GENERAL>
+		<Level>15</Level>
+		<Element>Water</Element>
+		<Price>300</Price>
+		<Sell>225</Sell>
+		<MP>7</MP>
+	</GENERAL>
+
+	<ATTACK>
+		<Hits>2</Hits>
+		<Type>Magic, x2</Type>
+		<Element>Water, x2</Element>
+		<Damage>2-10, x2</Damage>
+		<BTH text="Bonus To Hit">5%, x2</BTH>
+	</ATTACK>
+
+</spell>

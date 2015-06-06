@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- http://zardwars.battleon.com/build30/monsters/monster-grizzle.swf -->
+<enemy>
+	
+	<name>Grizzle</name>
+	<description>Grizzles are an enchanted race of energy creatures that dwell in the forests. Because of their low-level animal intelligence, they often become scared and force battle upon unwitting travelers.</description>
+	<image>grizzle.png</image>
+
+	<GENERAL>
+		<Level>25</Level>
+		<EXP>600</EXP>
+		<Gold>60</Gold>
+		<HP>215-305</HP>
+		<MP>100</MP>
+	</GENERAL>
+	
+	<ATTRIBUTES>
+		<Strength>75</Strength>
+		<Dexterity>0</Dexterity>
+		<Intellect>0</Intellect>
+		<Endurance>50</Endurance>
+		<Charisma>0</Charisma>
+		<Luck>0</Luck>
+	</ATTRIBUTES>
+	
+	<DEFENSE>
+		<Melee>30</Melee>
+		<Ranged>25</Ranged>
+		<Magic>35</Magic>
+	</DEFENSE>
+	
+	<ELEMENTAL>
+		<Fire>80%</Fire>
+		<Water>150%</Water>
+		<Wind>80%</Wind>
+		<Ice>80%</Ice>
+		<Earth>70%</Earth>
+		<Energy>-50%</Energy>
+		<Light>80%</Light>
+		<Darkness>80%</Darkness>
+	</ELEMENTAL>
+	
+	<ATTACK num="1">
+		<Hits>1</Hits>
+		<Element>Energy</Element>
+		<Type>Magic</Type>
+	</ATTACK>
+
+-	<ATTACK num="2">
+		<Hits>2</Hits>
+		<Element>Energy x2</Element>
+		<Type>Magic x2</Type>
+	</ATTACK>
+	
+</enemy>

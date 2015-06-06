@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- ??? -->
+<enemy>
+	
+	<name>Zard Ice Pack</name>
+	<description>This is a small group of very icy zards. Do they travel in packs to keep warm? Or to keep safe? You could ask them, but don't get too close...</description>
+	<image thumbnail="zard_ice_pack_thumbnail.png">zard_ice_pack.png</image>
+
+	<GENERAL>
+		<Level>20</Level>
+		<EXP>825</EXP>
+		<Gold>150</Gold>
+		<HP>200</HP>
+		<MP>65-70</MP>
+	</GENERAL>
+	
+	<ATTRIBUTES>
+		<Strength>30</Strength>
+		<Dexterity>30</Dexterity>
+		<Intellect>10</Intellect>
+		<Endurance>0</Endurance>
+		<Charisma>0</Charisma>
+		<Luck>50</Luck>
+	</ATTRIBUTES>
+	
+	<DEFENSE>
+		<Melee>25</Melee>
+		<Ranged>30</Ranged>
+		<Magic>30</Magic>
+	</DEFENSE>
+	
+	<ELEMENTAL>
+		<Fire>120%</Fire>
+		<Water>80%</Water>
+		<Wind>100%</Wind>
+		<Ice>25%</Ice>
+		<Earth>100%</Earth>
+		<Energy>100%</Energy>
+		<Light>110%</Light>
+		<Darkness>100%</Darkness>
+	</ELEMENTAL>
+	
+	<ATTACK num="1">
+		<Hits>1</Hits>
+		<Element>Ice</Element>
+		<Type>Melee</Type>
+		<Notes>Icezard attack A</Notes>
+	</ATTACK>
+	
+	<ATTACK num="2">
+		<Hits>2</Hits>
+		<Element>Ice x2</Element>
+		<Type>Magic / Melee</Type>
+		<Notes>Icezard attack B</Notes>
+	</ATTACK>
+	
+	<ATTACK num="3">
+		<Hits>1</Hits>
+		<Element>Ice</Element>
+		<Type>Melee</Type>
+		<Notes>BlizZard attack A</Notes>
+	</ATTACK>
+	
+	<ATTACK num="4">
+		<Hits>2</Hits>
+		<Element>Ice x2</Element>
+		<Type>Ranged x2</Type>
+		<Notes>BlizZard attack B</Notes>
+	</ATTACK>
+	
+	<OTHER>
+		<Notes>Basically two Icezards and a BlizZard except with less HP. Acts like a group encounter: performs two attacks per turn when two are alive and one when only one is alive and each Zard has a separate HP bar which contributes to the total shown.</Notes>
+	</OTHER>
+	
+</enemy>

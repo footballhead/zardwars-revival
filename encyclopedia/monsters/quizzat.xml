@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- http://zardwars.battleon.com/build30/monsters/monster-quizzat.swf -->
+<enemy>
+	
+	<name>Quizzat</name>
+	<description>A bouncy creature with a desire to be left alone. It happens to be quite tasty though, despite its appearance, and is a favorite target for hunters.</description>
+	<image>quizzat.png</image>
+
+	<GENERAL>
+		<Level>13</Level>
+		<EXP>390</EXP>
+		<Gold>80</Gold>
+		<HP>165-210</HP>
+		<MP>100</MP>
+	</GENERAL>
+	
+	<ATTRIBUTES>
+		<Strength>0</Strength>
+		<Dexterity>5</Dexterity>
+		<Intellect>0</Intellect>
+		<Endurance>30</Endurance>
+		<Charisma>0</Charisma>
+		<Luck>30</Luck>
+	</ATTRIBUTES>
+	
+	<DEFENSE>
+		<Melee>30</Melee>
+		<Ranged>15</Ranged>
+		<Magic>30</Magic>
+	</DEFENSE>
+	
+	<ELEMENTAL>
+		<Fire>100%</Fire>
+		<Water>150%</Water>
+		<Wind>100%</Wind>
+		<Ice>100%</Ice>
+		<Earth>80%</Earth>
+		<Energy>-20%</Energy>
+		<Light>80%</Light>
+		<Darkness>80%</Darkness>
+	</ELEMENTAL>
+	
+	<ATTACK num="1">
+		<Hits>1</Hits>
+		<Element>Energy</Element>
+		<Type>Magic</Type>
+	</ATTACK>
+	
+	<ATTACK num="2">
+		<Hits>1</Hits>
+		<Element>Energy</Element>
+		<Type>Melee</Type>
+	</ATTACK>
+	
+</enemy>

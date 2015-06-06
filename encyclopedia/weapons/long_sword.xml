@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<weapon>
+
+	<name>Long Sword</name>
+	<description>A sturdy yet simple blade with an ornately carved handle.</description>
+	<image>long_sword.png</image>
+
+	<GENERAL>
+		<Level>0</Level>
+		<Type>Melee</Type>
+		<Element>Earth</Element>
+		<Damage>1-19</Damage>
+		<BonusToHit>2%</BonusToHit>
+		<Price>Not sold</Price>
+		<Sell>Cannot sell</Sell>
+	</GENERAL>
+
+	<OTHER>
+		<Notes>This is the default weapon; you can't buy or sell it.</Notes>
+	</OTHER>
+
+</weapon>

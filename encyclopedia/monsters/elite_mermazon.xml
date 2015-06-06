@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<enemy>
+	
+	<name>Elite Mermazon</name>
+	<description>The Royal Guard of the Tropical Mermazon warrior class.</description>
+	<image>elite_mermazon2.png</image>
+
+	<GENERAL count="5">
+		<Level>60</Level>
+		<EXP>1950</EXP>
+		<Gold>400</Gold>
+		<HP>765-940</HP>
+		<MP>170-185</MP>
+	</GENERAL>
+	
+	<ATTRIBUTES count="6">
+		<Strength>50</Strength>
+		<Dexterity>100</Dexterity>
+		<Intellect>50</Intellect>
+		<Endurance>40</Endurance>
+		<Charisma>50</Charisma>
+		<Luck>10</Luck>
+	</ATTRIBUTES>
+	
+	<DEFENSE count="3">
+		<Melee>30</Melee>
+		<Ranged>25</Ranged>
+		<Magic>25</Magic>
+	</DEFENSE>
+	
+	<ELEMENTAL count="8">
+		<Fire>140%</Fire>
+		<Water>-10%</Water>
+		<Wind>100%</Wind>
+		<Ice>30%</Ice>
+		<Earth>100%</Earth>
+		<Energy>140%</Energy>
+		<Light>100%</Light>
+		<Darkness>70%</Darkness>
+	</ELEMENTAL>
+	
+	<ATTACK count="3" num="1">
+		<Hits>1</Hits>
+		<Element>Water</Element>
+		<Type>Melee</Type>
+	</ATTACK>
+	
+	<ATTACK count="3" num="2">
+		<Hits>1</Hits>
+		<Element>Water</Element>
+		<Type>Ranged</Type>
+	</ATTACK>
+	
+</enemy>

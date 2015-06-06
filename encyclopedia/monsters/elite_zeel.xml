@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<enemy>
+	
+	<name>Elite Zeel</name>
+	<description>Zeels are the ghastly result of the energy sorceress Kreehana's crossing of man with eel. This Zeel is older and stronger than most. Kreehana is still believed to be alive, and still up to her old tricks somewhere...</description>
+	<image>zeel.png</image>
+
+	<GENERAL count="5">
+		<Level>85</Level>
+		<EXP>3600</EXP>
+		<Gold>900</Gold>
+		<HP>515-695</HP>
+		<MP>55-95</MP>
+	</GENERAL>
+	
+	<ATTRIBUTES count="6">
+		<Strength>50</Strength>
+		<Dexterity>100</Dexterity>
+		<Intellect>30</Intellect>
+		<Endurance>100</Endurance>
+		<Charisma>50</Charisma>
+		<Luck>120</Luck>
+	</ATTRIBUTES>
+	
+	<DEFENSE count="3">
+		<Melee>40</Melee>
+		<Ranged>25</Ranged>
+		<Magic>15</Magic>
+	</DEFENSE>
+	
+	<ELEMENTAL count="8">
+		<Fire>30%</Fire>
+		<Water>20%</Water>
+		<Wind>20%</Wind>
+		<Ice>20%</Ice>
+		<Earth>30%</Earth>
+		<Energy>-100%</Energy>
+		<Light>30%</Light>
+		<Darkness>20%</Darkness>
+	</ELEMENTAL>
+	
+	<ATTACK count="3" num="1">
+		<Hits>1</Hits>
+		<Element>Energy</Element>
+		<Type>Magic</Type>
+	</ATTACK>
+	
+	<ATTACK count="3" num="2">
+		<Hits>2</Hits>
+		<Element>Energy x2</Element>
+		<Type>Melee x2</Type>
+	</ATTACK>
+	
+</enemy>

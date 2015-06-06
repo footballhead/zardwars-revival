@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<armour>
+
+	<name>Energy Plate</name>
+	<description>Good protection against energy attacks, but can be shorted out by water.</description>
+	<image>energy_plate.jpg</image>
+
+	<GENERAL>
+		<Level>0</Level>
+		<Element>Energy</Element>
+		<Price>200</Price>
+		<Sell>150</Sell>
+		<Hits>1</Hits>
+	</GENERAL>
+
+	<DEFENSE>
+		<Melee>20</Melee>
+		<Ranged>20</Ranged>
+		<Magic>20</Magic>
+	</DEFENSE>
+
+	<ELEMENTAL>
+		<Fire>100%</Fire>
+		<Water>110%</Water>
+		<Wind>100%</Wind>
+		<Ice>105%</Ice>
+		<Earth>100%</Earth>
+		<Energy>90%</Energy>
+		<Light>100%</Light>
+		<Darkness>100%</Darkness>
+	</ELEMENTAL>
+
+</armour>

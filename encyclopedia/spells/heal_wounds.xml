@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<spell>
+
+	<name>Heal Wounds</name>
+	<description>Not feeling well? Bathe yourself in a nice blue glow of healing magic. (Heals more than 100 hit points)</description>
+	<image thumbnail="heal_wounds_thumb.jpg">heal_wounds.png</image>
+
+	<GENERAL>
+		<Level>60</Level>
+		<Element>Neutral</Element>
+		<Price>10000</Price>
+		<Sell>7500</Sell>
+		<MP>60</MP>
+	</GENERAL>
+
+	<EFFECT num="1">
+		<Rate>90%</Rate>
+		<Notes>Heals player for 100+floor([Player HP]*0.1) HP.</Notes>
+	</EFFECT>
+
+	<EFFECT num="2">
+		<Rate>10%</Rate>
+		<Notes>Heals player for 4*(100+floor([Player HP]*0.1)) HP.</Notes>
+	</EFFECT>
+
+</spell>

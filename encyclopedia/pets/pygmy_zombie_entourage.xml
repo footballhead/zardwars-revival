@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<pet>
+
+	<name>Pygmy Zombie Entourage</name>
+	<description>These pygmy zombies just keep following you everywhere. They must really want to be your friend!</description>
+	<image>pygmy_zombie_entourage.png</image>
+
+	<GENERAL>
+		<Level>85</Level>
+		<Element>Darkness</Element>
+		<Type>Melee</Type>
+		<Damage>50 to 100</Damage>
+		<TD text="Training Difficulty">20</TD>
+		<Price>3000</Price>
+		<Sell>600</Sell>
+	</GENERAL>
+
+	<ATTACK>
+		<Hits>1</Hits>
+		<Element>Darkness</Element>
+		<Type>Melee</Type>
+	</ATTACK>
+</pet>

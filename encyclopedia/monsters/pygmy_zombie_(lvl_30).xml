@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- http://zardwars.battleon.com/build30/monsters/monster-pygmyzombie.swf -->
+<enemy>
+	
+	<name>Pygmy Zombie</name>
+	<description>A pygmy tribesman who ran afould of a shaman, this poor little man has been... zombified! Because he's small, he's quick, and he can actually regenerate life more quickly than his bigger cousins.</description>
+	<image>pygmy_zombie.jpg</image>
+
+	<GENERAL count="5">
+		<Level>30</Level>
+		<EXP>600</EXP>
+		<Gold>100</Gold>
+		<HP>180-195</HP>
+		<MP>90</MP>
+	</GENERAL>
+	
+	<ATTRIBUTES count="6">
+		<Strength>10</Strength>
+		<Dexterity>40</Dexterity>
+		<Intellect>20</Intellect>
+		<Endurance>20</Endurance>
+		<Charisma>0</Charisma>
+		<Luck>10</Luck>
+	</ATTRIBUTES>
+	
+	<DEFENSE count="3">
+		<Melee>40</Melee>
+		<Ranged>40</Ranged>
+		<Magic>35</Magic>
+	</DEFENSE>
+	
+	<ELEMENTAL count="8">
+		<Fire>100%</Fire>
+		<Water>100%</Water>
+		<Wind>20%</Wind>
+		<Ice>80%</Ice>
+		<Earth>80%</Earth>
+		<Energy>100%</Energy>
+		<Light>120%</Light>
+		<Darkness>50%</Darkness>
+	</ELEMENTAL>
+	
+	<ATTACK count="4" num="1">
+		<Hits>1</Hits>
+		<Element>Melee</Element>
+		<Type>Darkness</Type>
+		<Notes>Regenerates 6 of the monster's HP. Cannot regenerate over inital HP.</Notes>
+	</ATTACK>
+	
+	<ATTACK count="3" num="2">
+		<Hits>1</Hits>
+		<Element>Melee</Element>
+		<Type>Darkness</Type>
+	</ATTACK>
+
+</enemy>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- http://zardwars.battleon.com/build30/monsters/monster-tadzard.swf -->
+<enemy>
+	
+	<name>Tadzard</name>
+	<description>Zards born into watery domains find themselves quickly adapting to their environment, and are soon able to survive, and feed, fully submerged or on dry land.</description>
+	<image>tadzard.png</image>
+
+	<GENERAL>
+		<Level>3</Level>
+		<EXP>300</EXP>
+		<Gold>40</Gold>
+		<HP>70-75</HP>
+		<MP>100</MP>
+	</GENERAL>
+	
+	<ATTRIBUTES>
+		<Strength>0</Strength>
+		<Dexterity>10</Dexterity>
+		<Intellect>0</Intellect>
+		<Endurance>5</Endurance>
+		<Charisma>0</Charisma>
+		<Luck>0</Luck>
+	</ATTRIBUTES>
+	
+	<DEFENSE>
+		<Melee>10</Melee>
+		<Ranged>30</Ranged>
+		<Magic>15</Magic>
+	</DEFENSE>
+	
+	<ELEMENTAL>
+		<Fire>0%</Fire>
+		<Water>-100%</Water>
+		<Wind>0%</Wind>
+		<Ice>10%</Ice>
+		<Earth>100%</Earth>
+		<Energy>150%</Energy>
+		<Light>110%</Light>
+		<Darkness>100%</Darkness>
+	</ELEMENTAL>
+	
+	<ATTACK num="1">
+		<Hits>1</Hits>
+		<Element>Water</Element>
+		<Type>Melee</Type>
+	</ATTACK>
+	
+	<ATTACK num="2">
+		<Hits>2</Hits>
+		<Element>Water x2</Element>
+		<Type>Ranged x2</Type>
+	</ATTACK>
+	
+</enemy>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<armour>
+
+	<name>Earthen Plate</name>
+	<description>Constructed of crystallized organic matter, this plate offers excellent protection against earth element attacks, despite being weak against fire.</description>
+	<image>earthern_plate.jpg</image>
+
+	<GENERAL>
+		<Level>0</Level>
+		<Element>Earth</Element>
+		<Price>150</Price>
+		<Sell>112</Sell>
+		<Hits>1</Hits>
+	</GENERAL>
+
+	<DEFENSE>
+		<Melee>20</Melee>
+		<Ranged>10</Ranged>
+		<Magic>15</Magic>
+	</DEFENSE>
+
+	<ELEMENTAL>
+		<Fire>120%</Fire>
+		<Water>95%</Water>
+		<Wind>110%</Wind>
+		<Ice>100%</Ice>
+		<Earth>90%</Earth>
+		<Energy>95%</Energy>
+		<Light>100%</Light>
+		<Darkness>100%</Darkness>
+	</ELEMENTAL>
+
+</armour>

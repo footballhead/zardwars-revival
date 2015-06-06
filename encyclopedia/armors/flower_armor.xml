@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<armour>
+
+	<name>Flower Armor</name>
+	<description>Not for the faint-of-heart. Moderate defense against light, earth, wind and water.</description>
+	<image>flower_armor.jpg</image>
+
+	<GENERAL>
+		<Level>25</Level>
+		<Element>Water</Element>
+		<Price>450</Price>
+		<Sell>337</Sell>
+		<Hits>1</Hits>
+	</GENERAL>
+
+	<DEFENSE>
+		<Melee>25</Melee>
+		<Ranged>25</Ranged>
+		<Magic>35</Magic>
+	</DEFENSE>
+
+	<ELEMENTAL>
+		<Fire>120%</Fire>
+		<Water>85%</Water>
+		<Wind>85%</Wind>
+		<Ice>120%</Ice>
+		<Earth>85%</Earth>
+		<Energy>120%</Energy>
+		<Light>85%</Light>
+		<Darkness>120%</Darkness>
+	</ELEMENTAL>
+
+</armour>

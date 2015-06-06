@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<weapon>
+
+	<name>Zhilo's Axe</name>
+	<description>The massive axe of the great warrior Zhilo.</description>
+	<image>zhilos_axe.png</image>
+
+	<GENERAL>
+		<Level>60</Level>
+		<Type>Melee</Type>
+		<Element>Wind</Element>
+		<Damage>12-52</Damage>
+		<BonusToHit text="Bonus To Hit">-5%</BonusToHit>
+		<Price>100000</Price>
+		<Sell>75000</Sell>
+	</GENERAL>
+
+	<SPECIAL>
+		<Rate>25%</Rate>
+		<Hits>2</Hits>
+		<Type>Ranged, x2</Type>
+		<Element>Wind, x2</Element>
+		<Damage>24-84 / 12-112</Damage>
+		<BonusToHit text="Bonus To Hit">5% / 15%</BonusToHit>
+	</SPECIAL>
+
+</weapon>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<shield>
+
+	<name>Ice Shield</name>
+	<description>Fends off ice attacks. Don't try to lick it.</description>
+	<image>ice_shield.png</image>
+
+	<GENERAL>
+		<Level>0</Level>
+		<Element>Ice</Element>
+		<Price>100</Price>
+		<Sell>40</Sell>
+	</GENERAL>
+
+	<DEFENSE>
+		<Melee>+0</Melee>
+		<Ranged>+0</Ranged>
+		<Magic>+0</Magic>
+	</DEFENSE>
+
+	<ELEMENTAL>
+		<Fire>+5%</Fire>
+		<Water>-5%</Water>
+		<Wind>+0%</Wind>
+		<Ice>-10%</Ice>
+		<Earth>+0%</Earth>
+		<Energy>+5%</Energy>
+		<Light>+5%</Light>
+		<Darkness>0%</Darkness>
+	</ELEMENTAL>
+
+</shield>

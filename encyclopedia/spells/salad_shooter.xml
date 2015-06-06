@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<spell>
+
+	<name>Salad Shooter</name>
+	<description>Great for making potions out of Seed Spitters.</description>
+	<image thumbnail="salad_shooter_thumb.jpg">salad_shooter.png</image>
+
+	<GENERAL>
+		<Level>0</Level>
+		<Element>Earth</Element>
+		<Price>150</Price>
+		<Sell>112</Sell>
+		<MP>3</MP>
+	</GENERAL>
+
+	<ATTACK>
+		<Hits>1</Hits>
+		<Type>Magic</Type>
+		<Element>Earth</Element>
+		<Damage>5-15</Damage>
+		<BTH text="Bonus To Hit">0%</BTH>
+	</ATTACK>
+
+</spell>

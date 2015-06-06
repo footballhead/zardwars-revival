@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<weapon>
+
+	<name>Wave Striker</name>
+	<description>A blue cyrstalline sword (idea by David Keller) that can summon a huge wave.</description>
+	<image>wave_striker.png</image>
+
+	<GENERAL>
+		<Level>27</Level>
+		<Type>Magic</Type>
+		<Element>Water</Element>
+		<Damage>7-34</Damage>
+		<BonusToHit text="Bonus To Hit">1%</BonusToHit>
+		<Price>1200</Price>
+		<Sell>900</Sell>
+	</GENERAL>
+
+	<SPECIAL>
+		<Rate>35%</Rate>
+		<Hits>1</Hits>
+		<Type>Magic</Type>
+		<Element>Water</Element>
+		<Damage>8-28</Damage>
+		<BonusToHit text="Bonus To Hit">0%</BonusToHit>
+	</SPECIAL>
+
+</weapon>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<weapon>
+
+	<name>ZardBane</name>
+	<description>A fairly powerful light weapon constructed by Zhilo. But when it encounters zard monsters it deals Element X damage, plus 3 base and 5 random. Re-equip it at start of each battle for Element X damage to work.</description>
+	<image>zardbane.png</image>
+
+	<GENERAL>
+		<Level>40</Level>
+		<Type>Melee</Type>
+		<Element>Light</Element>
+		<Damage>7-35</Damage>
+		<BonusToHit text="Bonus To Hit">0%</BonusToHit>
+		<Price>5000</Price>
+		<Sell>3750</Sell>
+	</GENERAL>
+
+	<TRIGGER>
+		<Enemy>Enemies with Zard in their name</Enemy>
+		<Element>ElementX</Element>
+		<Damage>10-43</Damage>
+	</TRIGGER>
+
+	<OTHER>
+		<Notes>This weapon has a few bugs. First, it doesn't trigger on Jeffrey because he doesn't have "zard" in his name. Second, you need to re-equip against zards to get the ElementX to work. Third, the trigger does not work with the Invisibility Cloak. Also note that ElementX has the same icon as Fire.</Notes>
+	</OTHER>
+
+</weapon>

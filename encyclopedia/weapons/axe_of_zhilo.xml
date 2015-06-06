@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<weapon>
+
+	<name>Axe of Zhilo</name>
+	<description>The mighty axe used by Zhilo in his quest to become the greatest of all warriors.</description>
+	<image>zhilos_axe.png</image>
+
+	<GENERAL>
+		<Level>1</Level>
+		<Type>Melee</Type>
+		<Element>Wind</Element>
+		<Damage>8-27</Damage>
+		<BonusToHit text="Bonus To Hit">0%</BonusToHit>
+		<Price>Not sold</Price>
+		<Sell>Cannot sell</Sell>
+	</GENERAL>
+
+	<SPECIAL>
+		<Rate>25%</Rate>
+		<Hits>2</Hits>
+		<Type>Ranged, x2</Type>
+		<Element>Wind, x2</Element>
+		<Damage>16-44.5 / 8-55.5</Damage>
+		<BonusToHit text="Bonus To Hit">10% / 20%</BonusToHit>
+	</SPECIAL>
+
+	<OTHER>
+		<Notes>Obtained after defeating Zhilo and clicking on his axe. This is different from Zhilo's Axe. Replaces Long Sword as the default weapon until you log out.</Notes>
+	</OTHER>
+
+</weapon>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<enemy>
+	
+	<name>Narrviz</name>
+	<description>This being is a technowizard that has found a way to live forever: when he "dies" in combat his body seemingly discorporates into energy. But moments later, and perhaps a thousand miles away, the Narrviz re-forms. </description>
+	<image>narrviz.png</image>
+
+	<GENERAL>
+		<Level>95</Level>
+		<EXP>2265</EXP>
+		<Gold>900</Gold>
+		<HP>1320</HP>
+		<MP>400</MP>
+	</GENERAL>
+	
+	<ATTRIBUTES>
+		<Strength>25</Strength>
+		<Dexterity>120</Dexterity>
+		<Intellect>150</Intellect>
+		<Endurance>80</Endurance>
+		<Charisma>50</Charisma>
+		<Luck>50</Luck>
+	</ATTRIBUTES>
+	
+	<DEFENSE>
+		<Melee>40</Melee>
+		<Ranged>35</Ranged>
+		<Magic>35</Magic>
+	</DEFENSE>
+	
+	<ELEMENTAL count="8">
+		<Fire>100%</Fire>
+		<Water>120%</Water>
+		<Wind>80%</Wind>
+		<Ice>100%</Ice>
+		<Earth>90%</Earth>
+		<Energy>-10%</Energy>
+		<Light>90%</Light>
+		<Darkness>80%</Darkness>
+	</ELEMENTAL>
+	
+	<ATTACK num="1">
+		<Hits>3</Hits>
+		<Element>Energy x3</Element>
+		<Type>Magic x3</Type>
+	</ATTACK>
+	
+	<ATTACK num="2">
+		<Hits>1</Hits>
+		<Element>Energy</Element>
+		<Type>Magic</Type>
+	</ATTACK>
+	
+</enemy>

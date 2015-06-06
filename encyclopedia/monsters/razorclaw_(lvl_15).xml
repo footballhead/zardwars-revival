@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- http://zardwars.battleon.com/build30/monsters/monster-razorclaw.swf -->
+<enemy>
+	
+	<name>Razorclaw</name>
+	<description>Although sometimes confused with werewolves, the elusive Razorclaws are actually wolves transformed by dark magic, to act as assassins for their sorcerous makers. Their skins are highly prized, because it usually costs several hunters their lives to get one.</description>
+	<image>razorclaw.png</image>
+
+	<GENERAL count="5">
+		<Level>15</Level>
+		<EXP>450</EXP>
+		<Gold>300</Gold>
+		<HP>205-235</HP>
+		<MP>50-80</MP>
+	</GENERAL>
+	
+	<ATTRIBUTES count="6">
+		<Strength>15</Strength>
+		<Dexterity>15</Dexterity>
+		<Intellect>15</Intellect>
+		<Endurance>15</Endurance>
+		<Charisma>0</Charisma>
+		<Luck>15</Luck>
+	</ATTRIBUTES>
+	
+	<DEFENSE count="3">
+		<Melee>35</Melee>
+		<Ranged>20</Ranged>
+		<Magic>25</Magic>
+	</DEFENSE>
+	
+	<ELEMENTAL count="8">
+		<Fire>180%</Fire>
+		<Water>70%</Water>
+		<Wind>70%</Wind>
+		<Ice>70%</Ice>
+		<Earth>70%</Earth>
+		<Energy>70%</Energy>
+		<Light>100%</Light>
+		<Darkness>50%</Darkness>
+	</ELEMENTAL>
+	
+	<ATTACK count="3" num="1">
+		<Hits>1</Hits>
+		<Element>Darkness</Element>
+		<Type>Melee</Type>
+	</ATTACK>
+	
+	<ATTACK count="4" num="2">
+		<Hits>1</Hits>
+		<Element>Fire</Element>
+		<Type>Melee</Type>
+		<Notes>Only when hit by a Fire weapon. Performs attack out of turn, immediately after hit. Can be interrupted by pets.</Notes>
+	</ATTACK>
+
+	<OTHER>
+		<Notes>The descriptions is cut off. The last word was obtained from "http://forums2.battleon.com/f/tm.asp?m=627017".</Notes>
+	</OTHER>
+	
+</enemy>

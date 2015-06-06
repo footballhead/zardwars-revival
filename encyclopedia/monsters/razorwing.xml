@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- http://zardwars.battleon.com/build30/monsters/monster-razorwing.swf -->
+<!-- &actiontype=loadmonster&idLore_Monsters=27&strMonsterName=Razorwing&strDescription=Razorwings patrol the world of Lore, the eyes of the Wind Lord.  Normally remaining high above, this razorwing must think you're an easy target...&intLevel=10&intExp=300&intGold=40&intBaseHP=150&intBaseMP=100&intBaseSP=100&intSTR=15&intDEX=25&intINT=10&intCHA=0&intEND=0&intLUK=0&strExtraData=none&idLore_Elements=5&idLore_WeaponTypes=2&intWeaponBaseDamage=7&intWeaponRandDamage=40&intWeaponBonusToHit=0&intArmorFIRE=110&intArmorWATER=90&intArmorICE=110&intArmorWIND=80&intArmorEARTH=140&intArmorENERGY=130&intArmorLIGHT=90&intArmorDARKNESS=90&intArmorMELEE=30&intArmorRANGED=25&intArmorMAGIC=25&strBodyFileName=monster-razorwing.swf&strHeadFileName=monster-razorwing-head.swf&idLore_Backgrounds=30&intMonsterSounds=0&intIsRandomEncounter=1&intMaxPackSize=2&intCountBattles=612060&intCountWins=303451&intCountDeaths=124171&strWeaponElement=Wind&strWeaponType=Ranged&strBackgroundName=Rolling Hills&strBackgroundTerrain=hills&strBackgroundFileName=background-rollinghills.swf&intBackgroundSound=0&strDateTime=3/15/2014 11:08:03 AM&intQuantity=1&intExp=300&intGold=40&status=success -->
+<enemy>
+	
+	<name>Razorwing</name>
+	<description>Razorwings patrol the world of Lore, the eyes of the Wind Lord. Normally remaining high above, this razorwing must think you're an easy target...</description>
+	<image>razorwing.png</image>
+
+	<GENERAL>
+		<Level>10</Level>
+		<EXP>300</EXP>
+		<Gold>40</Gold>
+		<HP>150</HP>
+		<MP>105</MP>
+	</GENERAL>
+	
+	<ATTRIBUTES>
+		<Strength>15</Strength>
+		<Dexterity>25</Dexterity>
+		<Intellect>10</Intellect>
+		<Endurance>0</Endurance>
+		<Charisma>0</Charisma>
+		<Luck>0</Luck>
+	</ATTRIBUTES>
+	
+	<DEFENSE>
+		<Melee>30</Melee>
+		<Ranged>25</Ranged>
+		<Magic>25</Magic>
+	</DEFENSE>
+	
+	<ELEMENTAL>
+		<Fire>110%</Fire>
+		<Water>90%</Water>
+		<Wind>80%</Wind>
+		<Ice>110%</Ice>
+		<Earth>140%</Earth>
+		<Energy>130%</Energy>
+		<Light>90%</Light>
+		<Darkness>90%</Darkness>
+	</ELEMENTAL>
+	
+	<ATTACK num="1">
+		<Hits>1</Hits>
+		<Element>Wind</Element>
+		<Type>?</Type>
+	</ATTACK>
+	
+    <ATTACK num="2">
+		<Hits>2</Hits>
+		<Element>Wind x2</Element>
+		<Type>Ranged x2</Type>
+	</ATTACK>
+    
+	<OTHER>
+		<Trivia>For the low level and HP this is one of the hardest hitting monsters you will enounter early game.</Trivia>
+	</OTHER>
+	
+</enemy>

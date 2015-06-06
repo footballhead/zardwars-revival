@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<weapon>
+
+	<name>Unlucky Sword</name>
+	<description>Ever wonder what happens to all of the lucky swords that end up at the bottom of the pile, and all of their luck drains out? This is it.</description>
+	<image>unlucky_sword.png</image>
+
+	<GENERAL>
+		<Level>65</Level>
+		<Type>Melee</Type>
+		<Element>Earth</Element>
+		<Damage>25-25</Damage>
+		<BonusToHit text="Bonus To Hit">0%</BonusToHit>
+		<Price>42000</Price>
+		<Sell>31500</Sell>
+	</GENERAL>
+
+	<!--<SPECIAL>
+		<Rate>0%</Rate>
+		<Hits>1</Hits>
+		<Type>Magic</Type>
+		<Element>Earth</Element>
+		<Damage>1-200</Damage>
+		<BonusToHit text="Bonus To Hit">0%</BonusToHit>
+	</SPECIAL>-->
+
+</weapon>

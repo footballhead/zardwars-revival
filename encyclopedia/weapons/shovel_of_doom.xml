@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<weapon>
+
+	<name>Shovel of Doom</name>
+	<description>A gift from the Moglins with a massively powerful ranged earth special.</description>
+	<image>shovel_of_doom.png</image>
+
+	<GENERAL>
+		<Level>25</Level>
+		<Type>Melee</Type>
+		<Element>Earth</Element>
+		<Damage>3-30</Damage>
+		<BonusToHit text="Bonus To Hit">0%</BonusToHit>
+		<Price>900</Price>
+		<Sell>675</Sell>
+	</GENERAL>
+
+	<SPECIAL>
+		<Rate>25%</Rate>
+		<Hits>2</Hits>
+		<Type>Ranged, x2</Type>
+		<Element>Earth, x2</Element>
+		<Damage>3-35, x2</Damage>
+		<BonusToHit text="Bonus To Hit">1%, x2</BonusToHit>
+	</SPECIAL>
+
+</weapon>

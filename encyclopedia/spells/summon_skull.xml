@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<spell>
+
+	<name>Summon Skull</name>
+	<description>Summon a flaming skull to join you as a guest. Costs 20 MP per turn during the battle to keep it bound it you. Cast again to send skull away. The skull has a powerful Magic Fire attack.</description>
+	<image>summon_skull.png</image>
+
+	<GENERAL>
+		<Level>40</Level>
+		<Element>Fire</Element>
+		<Price>1000</Price>
+		<Sell>750</Sell>
+		<MP>1</MP>
+	</GENERAL>
+
+	<EFFECT>
+		<Notes>Summons a Flaming Skull to be a guest, working alongside you and your pet. Casting to summon or remove still takes a turn.</Notes>
+	</EFFECT>
+
+</spell>

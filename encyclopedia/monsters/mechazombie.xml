@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<enemy>
+
+	<name>MechaZombie</name>
+	<description>A mechanical undead who uses a chained arm to defeat foes. His origin is unknown and so is his power.</description>
+	<image>mechazombie.jpg</image>
+
+	<GENERAL>
+		<Level>68</Level>
+		<EXP>2400</EXP>
+		<Gold>800</Gold>
+		<HP>[Your HP]*0.8</HP>
+		<MP>400</MP>
+	</GENERAL>
+
+	<ATTRIBUTES>
+		<Strength>130</Strength>
+		<Dexterity>120</Dexterity>
+		<Intellect>0</Intellect>
+		<Endurance>50</Endurance>
+		<Charisma>0</Charisma>
+		<Luck>40</Luck>
+	</ATTRIBUTES>
+
+	<DEFENSE>
+		<Melee>40</Melee>
+		<Ranged>50</Ranged>
+		<Magic>30</Magic>
+	</DEFENSE>
+
+	<ELEMENTAL>
+		<Fire>120%</Fire>
+		<Water>80%</Water>
+		<Wind>120%</Wind>
+		<Ice>100%</Ice>
+		<Earth>60%</Earth>
+		<Energy>80%</Energy>
+		<Light>140%</Light>
+		<Darkness>0%</Darkness>
+	</ELEMENTAL>
+
+	<ATTACK num="1">
+		<Hits>1</Hits>
+		<Element>Darkness</Element>
+		<Type>Melee</Type>
+	</ATTACK>
+
+	<ATTACKnum="2">
+		<Hits>2</Hits>
+		<Element>Darkness x2</Element>
+		<Type>Melee x2</Type>
+	</ATTACK>
+
+
+	<OTHER>
+		<Notes>Below 100 HP the decimal point tends to look like some repeating decimal, like .9999999... This is effectively an aesthetic bug.</Notes>
+	</OTHER>
+
+</enemy>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<weapon>
+
+	<name>Stick Blade</name>
+	<description>Pulled straight from the world of StickQuest comes.. the stick blade!! It has a special power versus the stick monsters called Ganzards.</description>
+	<image>stick_blade.png</image>
+
+	<GENERAL>
+		<Level>40</Level>
+		<Type>Melee</Type>
+		<Element>Ice</Element>
+		<Damage>6-33</Damage>
+		<BonusToHit text="Bonus To Hit">20%</BonusToHit>
+		<Price>1000</Price>
+		<Sell>225</Sell>
+	</GENERAL>
+
+	<TRIGGER>
+		<Enemy>Ganzard</Enemy>
+		<Element>ElementX</Element>
+		<Damage>13-50</Damage>
+	</TRIGGER>
+
+	<OTHER>
+		<Notes>By the time you can buy the weapon you stop encountering Ganzards. Go figure.</Notes>
+	</OTHER>
+
+</weapon>

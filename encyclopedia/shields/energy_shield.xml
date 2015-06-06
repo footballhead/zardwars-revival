@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<shield>
+
+	<name>Energy Shield</name>
+	<description>If a bolt of lightning is coming your way, better have one of these.</description>
+	<image>energy_shield.png</image>
+
+	<GENERAL>
+		<Level>0</Level>
+		<Element>Energy</Element>
+		<Price>100</Price>
+		<Sell>40</Sell>
+	</GENERAL>
+
+	<DEFENSE>
+		<Melee>+0</Melee>
+		<Ranged>+0</Ranged>
+		<Magic>+0</Magic>
+	</DEFENSE>
+
+	<ELEMENTAL>
+		<Fire>+0%</Fire>
+		<Water>+5%</Water>
+		<Wind>+0%</Wind>
+		<Ice>+5%</Ice>
+		<Earth>+5%</Earth>
+		<Energy>-10%</Energy>
+		<Light>-5%</Light>
+		<Darkness>+0%</Darkness>
+	</ELEMENTAL>
+
+</shield>

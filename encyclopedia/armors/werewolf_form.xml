@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<armour>
+
+	<name>Werewolf Form</name>
+	<description>Become a Werewolf and rip your enemies to shreds with your bare hands! Defense against ice, earth, light and darkness. Wolves in your command will have higher attack damage.</description>
+	<image>werewolf_form.jpg</image>
+
+	<GENERAL>
+		<Level>70</Level>
+		<Element>Earth</Element>
+		<Price>150000</Price>
+		<Sell>112500</Sell>
+		<Hits>3</Hits>
+	</GENERAL>
+
+	<DEFENSE>
+		<Melee>20</Melee>
+		<Ranged>20</Ranged>
+		<Magic>30</Magic>
+	</DEFENSE>
+
+	<ELEMENTAL>
+		<Fire>110%</Fire>
+		<Water>105%</Water>
+		<Wind>105%</Wind>
+		<Ice>90%</Ice>
+		<Earth>85%</Earth>
+		<Energy>105%</Energy>
+		<Light>90%</Light>
+		<Darkness>90%</Darkness>
+	</ELEMENTAL>
+
+	<ATTACK>
+		<Rate>100%</Rate>
+		<Hits>3</Hits>
+		<Damage>[Base]-[Base+(Random*0.6)], x3</Damage>
+	</ATTACK>
+
+	<OTHER>
+		<Notes>Increase base damage of pets or guests by 3 if their name includes "wolf", "dog", "puppy", or "hound". While being worn your weapon and shield aren't shown.</Notes>
+	</OTHER>
+
+</armour>

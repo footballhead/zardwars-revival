@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- http://zardwars.battleon.com/build30/monsters/monster-orcwizard.swf -->
+<enemy>
+	
+	<name>Orc Wizard</name>
+	<description>These Orcs are smarter and stronger than their brutish ancestors.</description>
+	<image>orc_wizard.png</image>
+
+	<GENERAL>
+		<Level>30</Level>
+		<EXP>900</EXP>
+		<Gold>240</Gold>
+		<HP>250-265</HP>
+		<MP>60-180</MP>
+	</GENERAL>
+	
+	<ATTRIBUTES>
+		<Strength>10</Strength>
+		<Dexterity>10</Dexterity>
+		<Intellect>70</Intellect>
+		<Endurance>10</Endurance>
+		<Charisma>10</Charisma>
+		<Luck>40</Luck>
+	</ATTRIBUTES>
+	
+	<DEFENSE>
+		<Melee>35</Melee>
+		<Ranged>30</Ranged>
+		<Magic>20</Magic>
+	</DEFENSE>
+	
+	<ELEMENTAL>
+		<Fire>100%</Fire>
+		<Water>100%</Water>
+		<Wind>100%</Wind>
+		<Ice>100%</Ice>
+		<Earth>100%</Earth>
+		<Energy>100%</Energy>
+		<Light>100%</Light>
+		<Darkness>100%</Darkness>
+	</ELEMENTAL>
+	
+	<ATTACK num="1">
+		<Hits>2</Hits>
+		<Element>Fire / Water</Element>
+		<Type>Magic x2</Type>
+	</ATTACK>
+	
+	<ATTACK num="2">
+		<Hits>2</Hits>
+		<Element>Wind / Fire</Element>
+		<Type>Magic x2</Type>
+	</ATTACK>
+	
+</enemy>

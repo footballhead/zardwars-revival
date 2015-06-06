@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<weapon>
+
+	<name>Pumpkin Carver</name>
+	<description>Happy Mogloween! The perfect tool for a fun night of pumpkin smashing!</description>
+	<image>pumpkin_carver.png</image>
+
+	<GENERAL>
+		<Level>40</Level>
+		<Type>Melee</Type>
+		<Element>Fire</Element>
+		<Damage>5-30</Damage>
+		<BonusToHit text="Bonus To Hit">5%</BonusToHit>
+		<Price>12000</Price>
+		<Sell>9000</Sell>
+	</GENERAL>
+
+	<SPECIAL>
+		<Rate>30% (see Notes)</Rate>
+		<Hits>4</Hits>
+		<Type>Ranged, x4</Type>
+		<Element>Fire, x4</Element>
+		<Damage>2-12, x4</Damage>
+		<BonusToHit text="Bonus To Hit">0%, x4</BonusToHit>
+		<Notes>Although this weapon has a special it never actually triggers for whatever reason.</Notes>
+	</SPECIAL>
+
+</weapon>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- http://zardwars.battleon.com/build30/monsters/monster-firezard.swf -->
+<enemy>
+	
+	<name>FlameZard</name>
+	<description>More powerful than a normal FireZard, with some boosted resistances. It prefers warm places, like hot lava beds, sulfar springs, hot baths, and wrapped up in fresh human fur.</description>
+	<image>firezard.png</image>
+
+	<GENERAL count="5">
+		<Level>35</Level>
+		<EXP>700</EXP>
+		<Gold>100</Gold>
+		<HP>250</HP>
+		<MP>50</MP>
+	</GENERAL>
+	
+	<ATTRIBUTES count="6">
+		<Strength>35</Strength>
+		<Dexterity>100</Dexterity>
+		<Intellect>0</Intellect>
+		<Endurance>0</Endurance>
+		<Charisma>40</Charisma>
+		<Luck>0</Luck>
+	</ATTRIBUTES>
+	
+	<DEFENSE count="3">
+		<Melee>20</Melee>
+		<Ranged>20</Ranged>
+		<Magic>20</Magic>
+	</DEFENSE>
+	
+	<ELEMENTAL count="8">
+		<Fire>-300%</Fire>
+		<Water>100%</Water>
+		<Wind>-50%</Wind>
+		<Ice>100%</Ice>
+		<Earth>100%</Earth>
+		<Energy>-50%</Energy>
+		<Light>50%</Light>
+		<Darkness>50%</Darkness>
+	</ELEMENTAL>
+	
+	<ATTACK count="3" num="1">
+		<Hits>1</Hits>
+		<Element>Fire</Element>
+		<Type>Melee</Type>
+	</ATTACK>
+	
+	<ATTACK count="3" num="1">
+		<Hits>2</Hits>
+		<Element>Fire x2</Element>
+		<Type>Melee x2</Type>
+	</ATTACK>
+	
+</enemy>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<armour>
+
+	<name>Frogzard Hunter</name>
+	<description>The outfit of the League of Frogzard Hunters. Wear it with pride! Offers good earth defense and gives a damage bonus for fighting zards.</description>
+	<image>frogzard_hunter.jpg</image>
+
+	<GENERAL>
+		<Level>0</Level>
+		<Element>Earth</Element>
+		<Price>N/A</Price>
+		<Sell>Cannot sell</Sell>
+		<Hits>1</Hits>
+	</GENERAL>
+
+	<DEFENSE>
+		<Melee>20</Melee>
+		<Ranged>20</Ranged>
+		<Magic>20</Magic>
+	</DEFENSE>
+
+	<ELEMENTAL>
+		<Fire>95%</Fire>
+		<Water>95%</Water>
+		<Wind>95%</Wind>
+		<Ice>95%</Ice>
+		<Earth>90%</Earth>
+		<Energy>95%</Energy>
+		<Light>95%</Light>
+		<Darkness>95%</Darkness>
+	</ELEMENTAL>
+
+	<OTHER>
+		<Notes>Against Zards provides +3 base damage to your weapon and +4 base damage to your pet. This is the default armor and, as such, cannot be sold.</Notes>
+	</OTHER>
+
+</armour>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- http://zardwars.battleon.com/build30/monsters/monster-blizzard.swf -->
+<monster>
+	
+	<name>BlizZard</name>
+	<description>This diabolical creation of the Zardmaster, crafted for war, has an icy disposition, and is all spike, all ice, and not very nice! Normally bound to arctic lands, it follows its master's commands, hunting the cold wastelands in search of prey, often young adventurers.</description>
+	<image>blizzard.png</image>
+
+	<GENERAL>
+		<Level>15</Level>
+		<EXP>450</EXP>
+		<Gold>60</Gold>
+		<HP>105-145</HP>
+		<MP>120-135</MP>
+	</GENERAL>
+	
+	<ATTRIBUTES>
+		<Strength>20</Strength>
+		<Dexterity>15</Dexterity>
+		<Intellect>20</Intellect>
+		<Endurance>20</Endurance>
+		<Charisma>0</Charisma>
+		<Luck>0</Luck>
+	</ATTRIBUTES>
+	
+	<DEFENSE>
+		<Melee>25</Melee>
+		<Ranged>25</Ranged>
+		<Magic>25</Magic>
+	</DEFENSE>
+	
+	<ELEMENTAL>
+		<Fire>140%</Fire>
+		<Water>100%</Water>
+		<Wind>100%</Wind>
+		<Ice>50%</Ice>
+		<Earth>100%</Earth>
+		<Energy>100%</Energy>
+		<Light>100%</Light>
+		<Darkness>100%</Darkness>
+	</ELEMENTAL>
+	
+	<ATTACK num="1">
+		<Hits>1</Hits>
+		<Element>Ice</Element>
+		<Type>Melee</Type>
+	</ATTACK>
+	
+	<ATTACK num="2">
+		<Hits>2</Hits>
+		<Element>Ice x2</Element>
+		<Type>Ranged x2</Type>
+	</ATTACK>
+	
+</monster>

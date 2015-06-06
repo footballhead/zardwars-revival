@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- http://zardwars.battleon.com/build30/monsters/monster-nightzard.swf -->
+<enemy>
+	
+	<name>NightZard</name>
+	<description>Huge, strong and dumb as a rock this estanged evolution of from lizards are being pushed from their natural habitat in the Zamboo swamp region for some unknown reason, making them a threat to nearby towns and farms.</description>
+	<image>nightzard.png</image>
+
+	<GENERAL>
+		<Level>15</Level>
+		<EXP>450</EXP>
+		<Gold>60</Gold>
+		<HP>100</HP>
+		<MP>130-185</MP>
+	</GENERAL>
+	
+	<ATTRIBUTES>
+		<Strength>10</Strength>
+		<Dexterity>25</Dexterity>
+		<Intellect>35</Intellect>
+		<Endurance>0</Endurance>
+		<Charisma>0</Charisma>
+		<Luck>5</Luck>
+	</ATTRIBUTES>
+	
+	<DEFENSE>
+		<Melee>25</Melee>
+		<Ranged>25</Ranged>
+		<Magic>25</Magic>
+	</DEFENSE>
+	
+	<ELEMENTAL>
+		<Fire>100%</Fire>
+		<Water>100%</Water>
+		<Wind>100%</Wind>
+		<Ice>100%</Ice>
+		<Earth>100%</Earth>
+		<Energy>100%</Energy>
+		<Light>140%</Light>
+		<Darkness>50%</Darkness>
+	</ELEMENTAL>
+	
+	<ATTACK num="1">
+		<Hits>1</Hits>
+		<Element>Darkness</Element>
+		<Type>Melee</Type>
+	</ATTACK>
+	
+	<ATTACK num="1">
+		<Hits>4</Hits>
+		<Element>Darkness x4</Element>
+		<Type>Magic x4</Type>
+	</ATTACK>
+	
+</enemy>

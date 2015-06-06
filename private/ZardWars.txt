@@ -1,0 +1,9 @@
+
+
+BeastMaster Hybrid:
+STR - 125
+DEX - 100
+INT - 125
+END - 50
+CHA - 150
+LUK - 0 

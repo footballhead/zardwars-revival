@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<guest>
+	
+	<name>Flaming Skull</name>
+	<image>summon_skull.png</image>
+	
+	<ATTACK count="3">
+		<Hits>1</Hits>
+		<Element>Fire</Element>
+		<Type>Magic</Type>
+	</ATTACK>
+	
+	<OTHER>
+		<Notes>Summoned by casting Summon Skull. Each turn this guest uses 20 of your character's MP. If you are out of MP this guest will disappear.</Notes>
+	</OTHER>
+	
+</guest>

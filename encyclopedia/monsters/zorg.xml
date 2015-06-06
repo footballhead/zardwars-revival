@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- Has no SWF; causes crash -->
+<!-- &actiontype=loadmonster&idLore_Monsters=516&strMonsterName=Zorg&strDescription=This monster is pure evil. It's made from The Reapers mind, combined with Darkness Lords power. It's said, it can cast the worst Darkness spell ever seen. Discovered by Hazkerd.&intLevel=0&intExp=300&intGold=40&intBaseHP=100&intBaseMP=50&intBaseSP=50&intSTR=0&intDEX=0&intINT=0&intCHA=0&intEND=0&intLUK=0&strExtraData=none&idLore_Elements=1&idLore_WeaponTypes=1&intWeaponBaseDamage=1&intWeaponRandDamage=27&intWeaponBonusToHit=0&intArmorFIRE=100&intArmorWATER=100&intArmorICE=100&intArmorWIND=100&intArmorEARTH=100&intArmorENERGY=100&intArmorLIGHT=100&intArmorDARKNESS=100&intArmorMELEE=25&intArmorRANGED=25&intArmorMAGIC=25&strBodyFileName=monster-.swf&strHeadFileName=monster-x-head.swf&idLore_Backgrounds=2&intMonsterSounds=0&intIsRandomEncounter=1&intMaxPackSize=1&intCountBattles=167&intCountWins=3&intCountDeaths=1&strWeaponElement=Fire&strWeaponType=Melee&strBackgroundName=Hills&strBackgroundTerrain=hills&strBackgroundFileName=background-hillsmts.swf&intBackgroundSound=0&strDateTime=3/15/2014 10:28:18 AM&intQuantity=1&intExp=300&intGold=40&status=success -->
+<enemy>
+	
+	<name>Zorg</name>
+	<description>This monster is pure evil. It's made from The Reapers mind, combined with Darkness Lords power. It's said, it can cast the worst Darkness spell ever seen. Discovered by Hazkerd.</description>
+	<image>derp.png</image>
+
+	<GENERAL>
+		<Level>0</Level>
+		<EXP>300</EXP>
+		<Gold>40</Gold>
+		<HP>100</HP>
+		<MP>50</MP>
+	</GENERAL>
+	
+	<ATTRIBUTES>
+		<Strength>0</Strength>
+		<Dexterity>0</Dexterity>
+		<Intellect>0</Intellect>
+		<Endurance>0</Endurance>
+		<Charisma>0</Charisma>
+		<Luck>0</Luck>
+	</ATTRIBUTES>
+	
+	<DEFENSE>
+		<Melee>25</Melee>
+		<Ranged>25</Ranged>
+		<Magic>25</Magic>
+	</DEFENSE>
+	
+	<ELEMENTAL>
+		<Fire>100%</Fire>
+		<Water>100%</Water>
+		<Wind>100%</Wind>
+		<Ice>100%</Ice>
+		<Earth>100%</Earth>
+		<Energy>100%</Energy>
+		<Light>100%</Light>
+		<Darkness>100%</Darkness>
+	</ELEMENTAL>
+	
+	<OTHER>
+	    <Notes>This monster causes the game to never load, forever stuck on "Loading Monster...". That's because the game can't find the monster image on the server; the client receives all the monster stats (which is why they are posted here).</Notes>
+	</OTHER>
+	
+</enemy>

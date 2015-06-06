@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<shield>
+
+	<name>Pathos</name>
+	<description>A shield that helps you defend from melee attacks. Its power comes from the emotions of its user.</description>
+	<image>pathos.png</image>
+
+	<GENERAL>
+		<Level>70</Level>
+		<Element>Neutral</Element>
+		<Price>100</Price>
+		<Sell>1</Sell>
+	</GENERAL>
+
+	<DEFENSE>
+		<Melee>+18</Melee>
+		<Ranged>-5</Ranged>
+		<Magic>-5</Magic>
+	</DEFENSE>
+
+	<ELEMENTAL>
+		<Fire>+0%</Fire>
+		<Water>+0%</Water>
+		<Wind>+0%</Wind>
+		<Ice>+0%</Ice>
+		<Earth>+0%</Earth>
+		<Energy>+0%</Energy>
+		<Light>+0%</Light>
+		<Darkness>+0%</Darkness>
+	</ELEMENTAL>
+
+</shield>

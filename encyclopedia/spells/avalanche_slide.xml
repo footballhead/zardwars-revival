@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<spell>
+
+	<name>Avalanche Slide</name>
+	<description>"On the twelfth day of Frostval my true love gave to me... a dozen magic hits against my enemy!"</description>
+	<image thumbnail="avalanche_slide_thumb.jpg">avalanche_slide.png</image>
+
+	<GENERAL>
+		<Level>5</Level>
+		<Element>Neutral</Element>
+		<Price>100</Price>
+		<Sell>75</Sell>
+		<MP>3</MP>
+	</GENERAL>
+
+	<ATTACK>
+		<Hits>13</Hits>
+		<Type>Magic, x13</Type>
+		<Element>Fire / Earth / Water / Energy / Wind / Fire / Light / Ice / Darkness / Energy / Earth / Wind / Water</Element>
+		<Damage>1-2, x13</Damage>
+		<BTH text="Bonus To Hit">0%, x13</BTH>
+	</ATTACK>
+
+</spell>

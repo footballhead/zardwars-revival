@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<armour>
+
+	<name>Elite Frogzard Hunter</name>
+	<description>The outfit of the League of Frogzard Hunters. Wear it with pride! Offers good earth defense and gives a damage bonus for fighting zards.</description>
+	<image>frogzard_hunter.jpg</image>
+
+	<GENERAL>
+		<Level>40</Level>
+		<Element>Earth</Element>
+		<Price>20000</Price>
+		<Sell>15000</Sell>
+		<Hits>1</Hits>
+	</GENERAL>
+
+	<DEFENSE>
+		<Melee>30</Melee>
+		<Ranged>30</Ranged>
+		<Magic>25</Magic>
+	</DEFENSE>
+
+	<ELEMENTAL>
+		<Fire>90%</Fire>
+		<Water>90%</Water>
+		<Wind>90%</Wind>
+		<Ice>90%</Ice>
+		<Earth>70%</Earth>
+		<Energy>90%</Energy>
+		<Light>90%</Light>
+		<Darkness>90%</Darkness>
+	</ELEMENTAL>
+
+	<OTHER>
+		<Notes>Against Zards provides +3 base damage to your weapon and +4 base damage to your pet.</Notes>
+	</OTHER>
+
+</armour>

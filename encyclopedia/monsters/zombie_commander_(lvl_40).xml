@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- ?? -->
+<enemy>
+	
+	<name>Zombie Commander</name>
+	<description>This zombie seems to be the one who commands all the others-- his power is vast. Stop him before he escapes to continue his reign of terror!</description>
+	<image>zombie_commander.png</image>
+
+	<GENERAL>
+		<Level>40</Level>
+		<EXP>2100</EXP>
+		<Gold>400</Gold>
+		<HP>770</HP>
+		<MP>125</MP>
+	</GENERAL>
+	
+	<ATTRIBUTES>
+		<Strength>35</Strength>
+		<Dexterity>35</Dexterity>
+		<Intellect>35</Intellect>
+		<Endurance>30</Endurance>
+		<Charisma>30</Charisma>
+		<Luck>25</Luck>
+	</ATTRIBUTES>
+	
+	<DEFENSE>
+		<Melee>20</Melee>
+		<Ranged>20</Ranged>
+		<Magic>20</Magic>
+	</DEFENSE>
+	
+	<ELEMENTAL>
+		<Fire>140%</Fire>
+		<Water>90%</Water>
+		<Wind>80%</Wind>
+		<Ice>80%</Ice>
+		<Earth>90%</Earth>
+		<Energy>140%</Energy>
+		<Light>140%</Light>
+		<Darkness>50%</Darkness>
+	</ELEMENTAL>
+	
+	<ATTACK num="1">
+		<Hits>2</Hits>
+		<Element>Darkness x2</Element>
+		<Type>Melee x2</Type>
+	</ATTACK>
+    
+    <ATTACK num="2">
+		<Hits>1</Hits>
+		<Element>Darkness</Element>
+		<Type>Melee</Type>
+        <Notes>Regenerates 6 of the monster's HP. Cannot regenerate over inital HP.</Notes>
+	</ATTACK>
+	
+</enemy>

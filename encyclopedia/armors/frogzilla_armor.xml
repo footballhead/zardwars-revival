@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<armour>
+
+	<name>Frogzilla Armor</name>
+	<description>A mutant crossbreed of human and zard!</description>
+	<image>frogzilla_armor.jpg</image>
+
+	<GENERAL>
+		<Level>30</Level>
+		<Element>Earth</Element>
+		<Price>3000</Price>
+		<Sell>2500</Sell>
+	</GENERAL>
+
+	<DEFENSE>
+		<Melee>30</Melee>
+		<Ranged>30</Ranged>
+		<Magic>30</Magic>
+	</DEFENSE>
+
+	<ELEMENTAL>
+		<Fire>95%</Fire>
+		<Water>95%</Water>
+		<Wind>95%</Wind>
+		<Ice>95%</Ice>
+		<Earth>95%</Earth>
+		<Energy>95%</Energy>
+		<Light>95%</Light>
+		<Darkness>95%</Darkness>
+	</ELEMENTAL>
+
+	<ATTACK num="1">
+		<Rate>66.6%</Rate>
+		<Hits>1</Hits>
+		<Type>Melee</Type>
+		<Element>Earth</Element>
+		<Damage>6-26</Damage>
+		<BTH text="Bonus To Hit">10%</BTH>
+	</ATTACK>
+
+	<ATTACK num="2">
+		<Rate>33.4%</Rate>
+		<Hits>3</Hits>
+		<Type>Magic, x3</Type>
+		<Element>Earth, x3</Element>
+		<Damage>6-16, x3</Damage>
+		<BTH text="Bonus To Hit">0%, x3</BTH>
+	</ATTACK>
+
+	<OTHER>
+		<Notes>While being worn shield and weapon aren't shown. This armor also disables any weapon specials.</Notes>
+	</OTHER>
+
+</armour>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- http://zardwars.battleon.com/build30/monsters/monster-zombie.swf -->
+<enemy>
+	
+	<name>Lesser Zombie</name>
+	<description>A Zombie is not someone who died and was reanimated-- it is someone who is haldway between life and death. They survive by sucking life from the fully living. This one has gone a long time without sucking life energy and is weakened.</description>
+	<image>zombie.png</image>
+
+	<GENERAL>
+		<Level>9</Level>
+		<EXP>300</EXP>
+		<Gold>60</Gold>
+		<HP>70-75</HP>
+		<MP>50</MP>
+	</GENERAL>
+	
+	<ATTRIBUTES>
+		<Strength>5</Strength>
+		<Dexterity>10</Dexterity>
+		<Intellect>0</Intellect>
+		<Endurance>5</Endurance>
+		<Charisma>5</Charisma>
+		<Luck>20</Luck>
+	</ATTRIBUTES>
+	
+	<DEFENSE>
+		<Melee>25</Melee>
+		<Ranged>25</Ranged>
+		<Magic>25</Magic>
+	</DEFENSE>
+	
+	<ELEMENTAL>
+		<Fire>150%</Fire>
+		<Water>100%</Water>
+		<Wind>100%</Wind>
+		<Ice>70%</Ice>
+		<Earth>100%</Earth>
+		<Energy>100%</Energy>
+		<Light>140%</Light>
+		<Darkness>60%</Darkness>
+	</ELEMENTAL>
+	
+	<ATTACK num="1">
+		<Hits>1</Hits>
+		<Element>Melee</Element>
+		<Type>Darkness</Type>
+	</ATTACK>
+
+	<ATTACK num="1">
+		<Hits>1</Hits>
+		<Element>Melee</Element>
+		<Type>Darkness</Type>
+		<Notes>Regenerates 2 of the monster's HP. Cannot regenerate over inital HP.</Notes>
+	</ATTACK>
+
+</enemy>

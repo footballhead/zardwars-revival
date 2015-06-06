@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<enemy>
+	
+	<name>Zadd the Golem Builder</name>
+	<description>Zadd specializes in making Golems of all types. He plans on taking over the Skraeling Desert with his army of Golems. Can you stop him? Discovered by Qwesh and Smashycomman.</description>
+	<image thumbnail="zadd_the_golem_builder_thumb.jpg">zadd_the_golem_builder.png</image>
+
+	<GENERAL>
+		<Level>64</Level>
+		<EXP>2100</EXP>
+		<Gold>700</Gold>
+		<HP>470</HP>
+		<MP>185</MP>
+	</GENERAL>
+	
+	<ATTRIBUTES>
+		<Strength>85</Strength>
+		<Dexterity>55</Dexterity>
+		<Intellect>105</Intellect>
+		<Endurance>0</Endurance>
+		<Charisma>20</Charisma>
+		<Luck>40</Luck>
+	</ATTRIBUTES>
+	
+	<DEFENSE>
+		<Melee>35</Melee>
+		<Ranged>20</Ranged>
+		<Magic>30</Magic>
+	</DEFENSE>
+	
+	<ELEMENTAL>
+		<Fire>100%</Fire>
+		<Water>120%</Water>
+		<Wind>120%</Wind>
+		<Ice>100%</Ice>
+		<Earth>50%</Earth>
+		<Energy>100%</Energy>
+		<Light>120%</Light>
+		<Darkness>100%</Darkness>
+	</ELEMENTAL>
+	
+	<ATTACK num="1">
+		<Hits>1</Hits>
+		<Element>Wind</Element>
+		<Type>Magic</Type>
+		<Notes>Zadd's attack</Notes>
+	</ATTACK>
+	
+	<ATTACK num="2">
+		<Hits>1</Hits>
+		<Element>Darkness</Element>
+		<Type>Melee</Type>
+		<Notes>Stone golem attack A</Notes>
+	</ATTACK>
+	
+	<ATTACK num="3">
+		<Hits>1</Hits>
+		<Element>Darkness</Element>
+		<Type>Ranged</Type>
+		<Notes>Stone golem attack B</Notes>
+	</ATTACK>
+	
+	<ATTACK num="4">
+		<Hits>1</Hits>
+		<Element>Light</Element>
+		<Type>Melee</Type>
+		<Notes>Red golem attack A</Notes>
+	</ATTACK>
+	
+	<ATTACK num="5">
+		<Hits>1</Hits>
+		<Element>Light</Element>
+		<Type>Melee</Type>
+		<Notes>Red golem attack B</Notes>
+	</ATTACK>
+	
+	<ATTACK num="6">
+		<Hits>4</Hits>
+		<Element>Earth</Element>
+		<Type>Melee</Type>
+		<Notes>Brown golem attack A</Notes>
+	</ATTACK>
+	
+	<ATTACK num="7">
+		<Hits>3</Hits>
+		<Element>Earth</Element>
+		<Type>Ranged</Type>
+		<Notes>Brown golem attack B</Notes>
+	</ATTACK>
+	
+	<ATTACK num="8">
+		<Hits>4</Hits>
+		<Element>Ice</Element>
+		<Type>Melee</Type>
+		<Notes>Blue golem attack A</Notes>
+	</ATTACK>
+	
+	<ATTACK num="9">
+		<Hits>3</Hits>
+		<Element>Ice</Element>
+		<Type>Ranged</Type>
+		<Notes>Blue golem attack B</Notes>
+	</ATTACK>
+	
+	<ATTACK num="10">
+		<Hits>1</Hits>
+		<Element>Energy</Element>
+		<Type>Melee</Type>
+		<Notes>Metal golem attack A</Notes>
+	</ATTACK>
+	
+	<ATTACK num="11">
+		<Hits>1</Hits>
+		<Element>Energy</Element>
+		<Type>Ranged</Type>
+		<Notes>Metal golem attack B</Notes>
+	</ATTACK>
+
+	<OTHER>
+		<Notes>Acts as a three enemy encounter. One enemy is always Zadd, the other two chosen from five possible golem minions. Each golem has its own set of attacks. All the golems share Zadd's stats and modifiers. If a golem dies and Zadd is still alive there is a chance that he will use "Summon Reinforcements" to call a new golem to take the place of the deceased. Doing so does not count as an attack. It increases the enemy's total health, possibly even past the max. There seems to be a limit to how many times Zadd can summon reinforcements.</Notes>
+	</OTHER>
+	
+</enemy>

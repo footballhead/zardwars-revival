@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<spell>
+
+	<name>Powerword Whoops</name>
+	<description>Behold! The Power of Whoops!&#60;br&#62;
+	&#60;br&#62;
+	Heh heh heh.</description>
+	<image thumbnail="powerword_whoops_thumb.jpg">powerword_whoops.png</image>
+
+	<GENERAL>
+		<Level>50</Level>
+		<Element>Darkness</Element>
+		<Price>2000</Price>
+		<Sell>1500</Sell>
+		<MP>4</MP>
+	</GENERAL>
+
+	<EFFECT>
+		<Notes>Automatically kills your player on first use after login. Subsequent uses reduce player HP by 20.</Notes>
+	</EFFECT>
+
+</spell>

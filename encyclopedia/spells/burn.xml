@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<spell>
+
+	<name>Burn</name>
+	<description>Generate the heat of a small star from the palm of your hand.</description>
+	<image thumbnail="burn_thumb.jpg">burn.png</image>
+
+	<GENERAL>
+		<Level>20</Level>
+		<Element>Fire</Element>
+		<Price>400</Price>
+		<Sell>300</Sell>
+		<MP>7</MP>
+	</GENERAL>
+
+	<ATTACK>
+		<Hits>1</Hits>
+		<Type>Magic</Type>
+		<Element>Fire</Element>
+		<Damage>8-30</Damage>
+		<BTH text="Bonus To Hit">0%</BTH>
+	</ATTACK>
+
+</spell>

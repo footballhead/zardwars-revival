@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<enemy>
+	
+	<name>Zard X-3</name>
+	<description>The ZardMaster's chosen mutant zard leader, version 3.0.</description>
+	<image>zard_x-32.png</image>
+
+	<GENERAL count="5">
+		<Level>80</Level>
+		<EXP>2550</EXP>
+		<Gold>800</Gold>
+		<HP>715</HP>
+		<MP>160</MP>
+	</GENERAL>
+	
+	<ATTRIBUTES count="6">
+		<Strength>75</Strength>
+		<Dexterity>75</Dexterity>
+		<Intellect>50</Intellect>
+		<Endurance>75</Endurance>
+		<Charisma>50</Charisma>
+		<Luck>75</Luck>
+	</ATTRIBUTES>
+	
+	<DEFENSE count="3">
+		<Melee>35</Melee>
+		<Ranged>25</Ranged>
+		<Magic>35</Magic>
+	</DEFENSE>
+	
+	<ELEMENTAL count="8">
+		<Fire>100%</Fire>
+		<Water>100%</Water>
+		<Wind>100%</Wind>
+		<Ice>100%</Ice>
+		<Earth>100%</Earth>
+		<Energy>100%</Energy>
+		<Light>100%</Light>
+		<Darkness>100%</Darkness>
+	</ELEMENTAL>
+	
+	<ATTACK count="3" num="1">
+		<Hits>1</Hits>
+		<Element>Wind</Element>
+		<Type>Melee</Type>
+	</ATTACK>
+	
+	<ATTACK count="3" num="2">
+		<Hits>8</Hits>
+		<Element>Ice / Earth / Wind / Darkness / Light / Fire / Energy / Water</Element>
+		<Type>Ranged x8</Type>
+	</ATTACK>
+	
+</enemy>

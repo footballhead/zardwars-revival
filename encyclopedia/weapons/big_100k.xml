@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<weapon>
+
+	<name>Big 100K</name>
+	<description>An ultimate weapon because of superb damage, bonus to hit, and a special ability: it's darkness blade, but if it senses you are fighting an undead or zombie, it becomes a light weapon!</description>
+	<image trigger="big_100k_trigger.png">big_100k.png</image>
+
+	<GENERAL>
+		<Level>70</Level>
+		<Type>Magic</Type>
+		<Element>Darkness</Element>
+		<Damage>12-57</Damage>
+		<BonusToHit text="Bonus To Hit">15%</BonusToHit>
+		<Price>100000</Price>
+		<Sell>75000</Sell>
+	</GENERAL>
+
+	<SPECIAL num="1">
+		<Rate>25%</Rate>
+		<Hits>2</Hits>
+		<Type>Magic, x2</Type>
+		<Element>Darkness, x2</Element>
+		<Damage>12-192 / 12-66</Damage>
+		<BonusToHit text="Bonus To Hit">15% / 45%</BonusToHit>
+		<Notes>Occurs only when not triggered. Half the damage done on the second hit is added to the player's HP.</Notes>
+	</SPECIAL>
+
+	<SPECIAL num="2">
+		<Rate>25%</Rate>
+		<Hits>2</Hits>
+		<Type>Magic, x2</Type>
+		<Element>Light, x2</Element>
+		<Damage>12-192 / 12-66</Damage>
+		<BonusToHit text="Bonus To Hit">15% / 45%</BonusToHit>
+		<Notes>Occurs only when triggered. Half the damage done on the second hit is added to the player's MP.</Notes>
+	</SPECIAL>
+
+	<TRIGGER>
+		<Enemy>Undead</Enemy>
+		<Element>Light</Element>
+	</TRIGGER>
+
+	<OTHER>
+		<Notes>On trigger, if you attack before the sword finishes its transform animation you'll still deal Darkness damage. It's possible, against enemies with negative elemental resistances, to lose HP/MP when the special is triggered.</Notes>
+	</OTHER>
+
+</weapon>

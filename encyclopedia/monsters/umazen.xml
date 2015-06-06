@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- http://zardwars.battleon.com/build30/monsters/monster-amazon.swf -->
+<enemy>
+
+	<name>Umazen</name>
+	<description>One of a society of warrior women who are most feared on the battlefield, Umazen are trained from age 3 to fight. Their mission is to free those enslaved by tyrants. They then take payment for their deeds. It is rumored the Umazen men are slaves themselves.</description>
+	<image>umazen.png</image>
+
+	<GENERAL>
+		<Level>65</Level>
+		<EXP>1500</EXP>
+		<Gold>400</Gold>
+		<HP>[Your HP]*0.8</HP>
+		<MP>150</MP>
+	</GENERAL>
+
+	<ATTRIBUTES count="6">
+		<Strength>50</Strength>
+		<Dexterity>100</Dexterity>
+		<Intellect>50</Intellect>
+		<Endurance>50</Endurance>
+		<Charisma>50</Charisma>
+		<Luck>25</Luck>
+	</ATTRIBUTES>
+
+	<DEFENSE count="3">
+		<Melee>35</Melee>
+		<Ranged>25</Ranged>
+		<Magic>25</Magic>
+	</DEFENSE>
+
+	<ELEMENTAL count="8">
+		<Fire>80%</Fire>
+		<Water>80%</Water>
+		<Wind>100%</Wind>
+		<Ice>120%</Ice>
+		<Earth>100%</Earth>
+		<Energy>120%</Energy>
+		<Light>80%</Light>
+		<Darkness>120%</Darkness>
+	</ELEMENTAL>
+
+	<ATTACK count="3" num="1">
+		<Hits>1</Hits>
+		<Element>Light</Element>
+		<Type>Melee</Type>
+	</ATTACK>
+
+	<ATTACK count="3" num="2">
+		<Hits>1</Hits>
+		<Element>Water</Element>
+		<Type>Melee</Type>
+	</ATTACK>
+
+	<ATTACK count="3" num="3">
+		<Hits>3</Hits>
+		<Element>Melee x3</Element>
+		<Type>Light / Light / Fire</Type>
+	</ATTACK>
+
+</enemy>

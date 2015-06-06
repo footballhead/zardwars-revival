@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<shield>
+
+	<name>Logos</name>
+	<description>A shield that helps you defend from magic attacks. Its power comes from the intellect of the user.</description>
+	<image>logos.png</image>
+
+	<GENERAL>
+		<Level>45</Level>
+		<Element>Neutral</Element>
+		<Price>100</Price>
+		<Sell>1</Sell>
+	</GENERAL>
+
+	<DEFENSE>
+		<Melee>-5</Melee>
+		<Ranged>-5</Ranged>
+		<Magic>+18</Magic>
+	</DEFENSE>
+
+	<ELEMENTAL>
+		<Fire>+0%</Fire>
+		<Water>+0%</Water>
+		<Wind>+0%</Wind>
+		<Ice>+0%</Ice>
+		<Earth>+0%</Earth>
+		<Energy>+0%</Energy>
+		<Light>+0%</Light>
+		<Darkness>+0%</Darkness>
+	</ELEMENTAL>
+
+</shield>

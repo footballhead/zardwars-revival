@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<pet>
+
+	<name>Bunny Rabbit</name>
+	<description>Widdle Bunny Wabbit</description>
+	<image>bunny_rabbit.jpg</image>
+
+	<GENERAL>
+		<Level>0</Level>
+		<Element>Wind</Element>
+		<Type>Melee</Type>
+		<Damage>4 to 6</Damage>
+		<TD text="Training Difficulty">5</TD>
+		<Price>100</Price>
+		<Sell>20</Sell>
+	</GENERAL>
+
+	<ATTACK>
+		<Hits>2</Hits>
+		<Element>Wind x2</Element>
+		<Type>Melee x2</Type>
+	</ATTACK>
+
+</pet>

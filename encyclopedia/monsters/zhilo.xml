@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- http://zardwars.battleon.com/build30/monsters/monster-zhilo.swf -->
+<!-- actiontype=loadmonster&idLore_Monsters=447&strMonsterName=Zhilo&strDescription=A warrior in a quest to become the greatest of all Axe Masters. Be careful, he's short-tempered, and you don't want to be on his bad side, which happens to be bladed and heavy!
+&intLevel=95&intExp=5400&intGold=1000&intBaseHP=2000&intBaseMP=50&intBaseSP=50&intSTR=100&intDEX=100&intINT=50&intCHA=80&intEND=100&intLUK=55&strExtraData=none&idLore_Elements=5&idLore_WeaponTypes=1&intWeaponBaseDamage=35&intWeaponRandDamage=100&intWeaponBonusToHit=0&intArmorFIRE=80&intArmorWATER=80&intArmorICE=80&intArmorWIND=50&intArmorEARTH=50&intArmorENERGY=100&intArmorLIGHT=100&intArmorDARKNESS=100&intArmorMELEE=40&intArmorRANGED=40&intArmorMAGIC=10&strBodyFileName=monster-zhilo.swf&strHeadFileName=monster-zhilo-head.swf&idLore_Backgrounds=34&intMonsterSounds=0&intIsRandomEncounter=1&intMaxPackSize=1&intCountBattles=122989&intCountWins=58187&intCountDeaths=31952&strWeaponElement=Wind&strWeaponType=Melee&strBackgroundName=Keep Interior&strBackgroundTerrain=dungeon&strBackgroundFileName=background-keep2.swf&intBackgroundSound=0&strDateTime=10/24/2014 10:53:59 AM&intQuantity=1&intExp=5400&intGold=1000&status=success -->
+<enemy>
+
+	<name>Zhilo</name>
+	<description>A warrior in a quest to become the greatest of all Axe Masters. Be careful, he's short-tempered, and you don't want to be on his bad side, which happens to be bladed and heavy!</description>
+	<image>zhilo.png</image>
+
+	<GENERAL>
+		<Level>95</Level>
+		<EXP>5400</EXP>
+		<Gold>1000</Gold>
+		<HP>1113.6</HP>
+		<MP>165</MP>
+	</GENERAL>
+
+	<ATTRIBUTES>
+		<Strength>100</Strength>
+		<Dexterity>100</Dexterity>
+		<Intellect>50</Intellect>
+		<Endurance>100</Endurance>
+		<Charisma>80</Charisma>
+		<Luck>55</Luck>
+	</ATTRIBUTES>
+
+	<DEFENSE>
+		<Melee>40</Melee>
+		<Ranged>40</Ranged>
+		<Magic>10</Magic>
+	</DEFENSE>
+
+	<ELEMENTAL>
+		<Fire>80%</Fire>
+		<Water>80%</Water>
+		<Wind>50%</Wind>
+		<Ice>80%</Ice>
+		<Earth>50%</Earth>
+		<Energy>100%</Energy>
+		<Light>100%</Light>
+		<Darkness>100%</Darkness>
+	</ELEMENTAL>
+
+	<ATTACK num="1">
+		<Hits>3</Hits>
+		<Element>Wind x3</Element>
+		<Type>Melee x3</Type>
+		<!-- threee normal attacks -->
+	</ATTACK>
+
+	<ATTACK num="2">
+		<Hits>2</Hits>
+		<Element>Wind x2</Element>
+		<Type>Ranged / Melee</Type>
+		<!-- 75% damage, x2 -->
+	</ATTACK>
+
+</enemy>

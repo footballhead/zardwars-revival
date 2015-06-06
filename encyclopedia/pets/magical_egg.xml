@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<pet>
+
+	<name>Magical Egg</name>
+	<description>What on Lore could be inside this strange-looking egg? Don't eat it before you find out!</description>
+	<image>magical_egg.jpg</image>
+
+	<GENERAL>
+		<Level>60</Level>
+		<Element>Light</Element>
+		<Type>Melee</Type>
+		<Damage>16 to 36</Damage>
+		<TD text="Training Difficulty">20</TD>
+		<Price>1000</Price>
+		<Sell>200</Sell>
+	</GENERAL>
+
+	<ATTACK num="1">
+		<Hits>1</Hits>
+		<Element>Light</Element>
+		<Type>Melee</Type>
+	</ATTACK>
+
+	<ATTACK num="2">
+		<Hits>1</Hits>
+		<Element>Light</Element>
+		<Type>Ranged</Type>
+	</ATTACK>
+
+</pet>

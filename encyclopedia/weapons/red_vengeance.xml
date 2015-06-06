@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<weapon>
+
+	<name>Red Vengeance</name>
+	<description>A staff powered by a matrix of small fire orbs fashioned by the legendary Drakonnan, who was defeated in the Great Fire War!</description>
+	<image>red_vengeance.png</image>
+
+	<GENERAL>
+		<Level>60</Level>
+		<Type>Magic</Type>
+		<Element>Fire</Element>
+		<Damage>8-50</Damage>
+		<BonusToHit text="Bonus To Hit">5%</BonusToHit>
+		<Price>100000</Price>
+		<Sell>75000</Sell>
+	</GENERAL>
+
+	<SPECIAL>
+		<Rate>11%</Rate>
+		<Hits>2</Hits>
+		<Type>Magic, x2</Type>
+		<Element>Fire, x2</Element>
+		<Damage>12-42 / 10-75</Damage>
+		<BonusToHit text="Bonus To Hit">2% / 5%</BonusToHit>
+		<Notes>This special, although Fire, does not cause Razorclaw to go beserk and do his higher damage Fire attack.</Notes>
+	</SPECIAL>
+
+</weapon>

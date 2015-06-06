@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<shield>
+
+	<name>Shield of Darkness</name>
+	<description>Created from hardened shadows, this shield protects you strongly against all darkness based attacks but the price is increased sensitivity to light.</description>
+	<image>shield_of_darkness.png</image>
+
+	<GENERAL>
+		<Level>0</Level>
+		<Element>Darkness</Element>
+		<Price>100</Price>
+		<Sell>40</Sell>
+	</GENERAL>
+
+	<DEFENSE>
+		<Melee>+0</Melee>
+		<Ranged>+0</Ranged>
+		<Magic>+0</Magic>
+	</DEFENSE>
+
+	<ELEMENTAL>
+		<Fire>+0%</Fire>
+		<Water>+0%</Water>
+		<Wind>+0%</Wind>
+		<Ice>+0%</Ice>
+		<Earth>+0%</Earth>
+		<Energy>+0%</Energy>
+		<Light>+10%</Light>
+		<Darkness>-10%</Darkness>
+	</ELEMENTAL>
+
+</shield>

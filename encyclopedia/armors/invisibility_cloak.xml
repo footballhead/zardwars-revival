@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<armour>
+
+	<name>Invisibility Cloak</name>
+	<description>Your enemy won't be able to see you... so this strong wind armor protects greatly against melee and ranged attacks!</description>
+	<!--<image>invisibility_cloak.jpg</image>-->
+
+	<GENERAL>
+		<Level>45</Level>
+		<Element>Wind</Element>
+		<Price>2000</Price>
+		<Sell>1500</Sell>
+		<Hits>1</Hits>
+	</GENERAL>
+
+	<DEFENSE>
+		<Melee>40</Melee>
+		<Ranged>40</Ranged>
+		<Magic>10</Magic>
+	</DEFENSE>
+
+	<ELEMENTAL>
+		<Fire>100%</Fire>
+		<Water>100%</Water>
+		<Wind>70%</Wind>
+		<Ice>100%</Ice>
+		<Earth>100%</Earth>
+		<Energy>100%</Energy>
+		<Light>90%</Light>
+		<Darkness>90%</Darkness>
+	</ELEMENTAL>
+
+	<OTHER>
+		<Notes>Zardbane does NOT trigger while wearing this armor. Also, do you really need a picture? </Notes>
+	</OTHER>
+
+</armour>

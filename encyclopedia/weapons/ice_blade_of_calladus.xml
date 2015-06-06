@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<weapon>
+
+	<name>Ice Blade of Calladus</name>
+	<description>A mighty blade of the Dragon Master Calladus.</description>
+	<image>ice_blade_of_calladus.png</image>
+
+	<GENERAL>
+		<Level>70</Level>
+		<Type>Melee</Type>
+		<Element>Ice</Element>
+		<Damage>12-48</Damage>
+		<BTH text="Bonus To Hit">10%</BTH>
+		<Price>1500</Price>
+		<Sell>1125</Sell>
+	</GENERAL>
+
+	<SPECIAL>
+		<Rate>25%</Rate>
+		<Hits>2</Hits>
+		<Type>Ranged / Magic</Type>
+		<Element>Fire, x2</Element>
+		<Damage>24-78, x2</Damage>
+		<BTH text="Bonus To Hit">25%, x2</BTH>
+	</SPECIAL>
+
+</weapon>

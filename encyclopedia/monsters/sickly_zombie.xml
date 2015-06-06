@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- http://zardwars.battleon.com/build30/monsters/monster-sicklyzombie.swf -->
+<!-- &actiontype=loadmonster&idLore_Monsters=357&strMonsterName=Sickly Zombie&strDescription=This zombie has lost his ability to drain life, making him especially weak.&intLevel=4&intExp=225&intGold=40&intBaseHP=100&intBaseMP=50&intBaseSP=50&intSTR=0&intDEX=5&intINT=5&intCHA=0&intEND=5&intLUK=5&strExtraData=zombie&idLore_Elements=8&idLore_WeaponTypes=1&intWeaponBaseDamage=1&intWeaponRandDamage=27&intWeaponBonusToHit=0&intArmorFIRE=100&intArmorWATER=80&intArmorICE=80&intArmorWIND=100&intArmorEARTH=100&intArmorENERGY=100&intArmorLIGHT=130&intArmorDARKNESS=100&intArmorMELEE=10&intArmorRANGED=20&intArmorMAGIC=20&strBodyFileName=monster-sicklyzombie.swf&strHeadFileName=monster-zombie-head.swf&idLore_Backgrounds=33&intMonsterSounds=0&intIsRandomEncounter=1&intMaxPackSize=1&intCountBattles=913007&intCountWins=819749&intCountDeaths=6259&strWeaponElement=Darkness&strWeaponType=Melee&strBackgroundName=Dark Cemetary&strBackgroundTerrain=cemetary&strBackgroundFileName=background-darkcemetary.swf&intBackgroundSound=0&strDateTime=3/15/2014 11:05:20 AM&intQuantity=1&intExp=225&intGold=40&status=success -->
+<enemy>
+	
+	<name>Sickly Zombie</name>
+	<description>This zombie has lost his ability to drain life, making him especially weak.</description>
+	<image>sickly_zombie.png</image>
+
+	<GENERAL>
+		<Level>4</Level>
+		<EXP>225</EXP>
+		<Gold>40</Gold>
+		<HP>105</HP>
+		<MP>55</MP>
+	</GENERAL>
+	
+	<ATTRIBUTES>
+		<Strength>0</Strength>
+		<Dexterity>5</Dexterity>
+		<Intellect>5</Intellect>
+		<Endurance>5</Endurance>
+		<Charisma>0</Charisma>
+		<Luck>5</Luck>
+	</ATTRIBUTES>
+	
+	<DEFENSE>
+		<Melee>10</Melee>
+		<Ranged>20</Ranged>
+		<Magic>20</Magic>
+	</DEFENSE>
+	
+	<ELEMENTAL>
+		<Fire>100%</Fire>
+		<Water>80%</Water>
+		<Wind>100%</Wind>
+		<Ice>80%</Ice>
+		<Earth>100%</Earth>
+		<Energy>100%</Energy>
+		<Light>130%</Light>
+		<Darkness>100%</Darkness>
+	</ELEMENTAL>
+	
+	<ATTACK num="1">
+		<Hits>1</Hits>
+		<Element>Darkness</Element>
+		<Type>Melee</Type>
+	</ATTACK>
+	
+    <ATTACK num="2">
+		<Hits>1</Hits>
+		<Element>Darkness</Element>
+		<Type>Melee</Type>
+        <Notes>Unlike other zombies, this drain attack doesn't regenerate the monster's HP.</Notes>
+	</ATTACK>
+	
+</enemy>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<weapon>
+
+	<name>Rhublade</name>
+	<description>A mighty weapon for a great pirate! Floyd was supposed to be guarding it, but the Sheep Biter stole it while Floyd was watching cartoons. Robina lifted it from him, and sold it to the Frogzard Hunter.</description>
+	<image>rhublade.png</image>
+
+	<GENERAL>
+		<Level>89</Level>
+		<Type>Melee</Type>
+		<Element>Earth</Element>
+		<Damage>5-35</Damage>
+		<BonusToHit text="Bonus To Hit">0%</BonusToHit>
+		<Price>250000</Price>
+		<Sell>150000</Sell>
+	</GENERAL>
+
+	<SPECIAL>
+		<Rate>20%</Rate>
+		<Hits>8</Hits>
+		<Type>Ranged, x5 / Melee, x3</Type>
+		<Element>Earth, x8</Element>
+		<Damage>15-105, x8</Damage>
+		<BonusToHit text="Bonus To Hit">20%, x8</BonusToHit>
+	</SPECIAL>
+
+</weapon>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- http://zardwars.battleon.com/build30/monsters/monster-darkzard.swf -->
+<!-- &actiontype=loadmonster&idLore_Monsters=11&strMonsterName=Darkzard&strDescription=What first appeared to be a shadow is now leaping to eat you.  A race of frogzard enchanted by the Wizards of Darkness and sent to wreak havoc on all.&intLevel=3&intExp=300&intGold=36&intBaseHP=50&intBaseMP=0&intBaseSP=0&intSTR=0&intDEX=0&intINT=0&intCHA=0&intEND=0&intLUK=15&strExtraData=zard&idLore_Elements=8&idLore_WeaponTypes=1&intWeaponBaseDamage=1&intWeaponRandDamage=19&intWeaponBonusToHit=0&intArmorFIRE=50&intArmorWATER=50&intArmorICE=50&intArmorWIND=50&intArmorEARTH=100&intArmorENERGY=50&intArmorLIGHT=150&intArmorDARKNESS=-10&intArmorMELEE=25&intArmorRANGED=25&intArmorMAGIC=25&strBodyFileName=monster-darkzard.swf&strHeadFileName=monster-darkzard-head.swf&idLore_Backgrounds=21&intMonsterSounds=0&intIsRandomEncounter=1&intMaxPackSize=2&intCountBattles=2687388&intCountWins=2524109&intCountDeaths=16433&strWeaponElement=Darkness&strWeaponType=Melee&strBackgroundName=Dead Forest&strBackgroundTerrain=forest&strBackgroundFileName=background-darkforest.swf&intBackgroundSound=0&strDateTime=3/15/2014 10:48:26 AM&intQuantity=1&intExp=300&intGold=36&status=success -->
+<enemy>
+	
+	<name>Darkzard</name>
+	<description>What first appeared to be a shadow is now leaping to eat you. A race of frogzard enchanted by the Wizards of Darkness and sent to wreak havoc on all.</description>
+	<image>darkzard.png</image>
+
+	<GENERAL>
+		<Level>3</Level>
+		<EXP>300</EXP>
+		<Gold>36</Gold>
+		<HP>50</HP>
+		<MP>0</MP>
+	</GENERAL>
+	
+	<ATTRIBUTES>
+		<Strength>0</Strength>
+		<Dexterity>0</Dexterity>
+		<Intellect>0</Intellect>
+		<Endurance>0</Endurance>
+		<Charisma>0</Charisma>
+		<Luck>15</Luck>
+	</ATTRIBUTES>
+	
+	<DEFENSE>
+		<Melee>25</Melee>
+		<Ranged>25</Ranged>
+		<Magic>25</Magic>
+	</DEFENSE>
+	
+	<ELEMENTAL>
+		<Fire>50%</Fire>
+		<Water>50%</Water>
+		<Wind>50%</Wind>
+		<Ice>50%</Ice>
+		<Earth>100%</Earth>
+		<Energy>50%</Energy>
+		<Light>150%</Light>
+		<Darkness>-10%</Darkness>
+	</ELEMENTAL>
+	
+	<ATTACK>
+		<Hits>1</Hits>
+		<Element>Darkness</Element>
+		<Type>Melee</Type>
+	</ATTACK>
+	
+</enemy>

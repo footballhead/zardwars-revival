@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<shield>
+
+	<name>Golden</name>
+	<description>The shield of rulers, it costs 300000 gold and adds greatly to all defenses.</description>
+	<image>golden.png</image>
+
+	<GENERAL>
+		<Level>75</Level>
+		<Element>Neutral</Element>
+		<Price>300000</Price>
+		<Sell>150000</Sell>
+	</GENERAL>
+
+	<DEFENSE>
+		<Melee>+12</Melee>
+		<Ranged>+12</Ranged>
+		<Magic>+12</Magic>
+	</DEFENSE>
+
+	<ELEMENTAL>
+		<Fire>-15%</Fire>
+		<Water>-15%</Water>
+		<Wind>-15%</Wind>
+		<Ice>-15%</Ice>
+		<Earth>-15%</Earth>
+		<Energy>-15%</Energy>
+		<Light>-15%</Light>
+		<Darkness>-15%</Darkness>
+	</ELEMENTAL>
+
+</shield>

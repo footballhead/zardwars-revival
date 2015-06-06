@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<armour>
+
+	<name>Wind Plate</name>
+	<description>Offers extra protection against wind, melee, and magic attacks.</description>
+	<image>wind_plate.jpg</image>
+
+	<GENERAL>
+		<Level>0</Level>
+		<Element>Wind</Element>
+		<Price>200</Price>
+		<Sell>150</Sell>
+		<Hits>1</Hits>
+	</GENERAL>
+
+	<DEFENSE>
+		<Melee>23</Melee>
+		<Ranged>20</Ranged>
+		<Magic>25</Magic>
+	</DEFENSE>
+
+	<ELEMENTAL>
+		<Fire>100%</Fire>
+		<Water>100%</Water>
+		<Wind>90%</Wind>
+		<Ice>100%</Ice>
+		<Earth>100%</Earth>
+		<Energy>110%</Energy>
+		<Light>100%</Light>
+		<Darkness>100%</Darkness>
+	</ELEMENTAL>
+
+</armour>

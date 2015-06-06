@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<pet>
+
+	<name>Parrot</name>
+	<description>Petey the Parrot</description>
+	<image>parrot.jpg</image>
+
+	<GENERAL>
+		<Level>20</Level>
+		<Element>Water</Element>
+		<Type>Ranged</Type>
+		<Damage>2-5</Damage>
+		<TD text="Training Difficulty">15</TD>
+		<Price>200</Price>
+		<Sell>40</Sell>
+	</GENERAL>
+
+	<ATTACK>
+		<Hits>1</Hits>
+		<Type>Melee</Type>
+		<Element>Water or Energy or Earth or Light</Element>
+		<Damage>1-4</Damage>
+		<BTH text="Bonus To Hit">15%</BTH>
+		<Notes>Element is random of those four.</Notes>
+	</ATTACK>
+
+</pet>

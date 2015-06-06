@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<weapon>
+
+	<name>Boomerang</name>
+	<description>Look out, mate!</description>
+	<image>boomerang.png</image>
+
+	<GENERAL>
+		<Level>5</Level>
+		<Type>Ranged</Type>
+		<Element>Earth</Element>
+		<Damage>3-13</Damage>
+		<BTH text="Bonus To Hit">0%</BTH>
+		<Price>150</Price>
+		<Sell>112</Sell>
+	</GENERAL>
+
+	<SPECIAL>
+		<Rate>100%</Rate>
+		<Hits>1</Hits>
+		<Type>Ranged</Type>
+		<Element>Earth</Element>
+		<Damage>3-13</Damage>
+		<BTH text="Bonus To Hit">0%</BTH>
+	</SPECIAL>
+
+</weapon>

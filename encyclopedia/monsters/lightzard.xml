@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- http://zardwars.battleon.com/build30/monsters/monster-lightzard.swf -->
+<enemy>
+	
+	<name>LightZard</name>
+	<description>The ZardMaster found some uncontrollable RayZards that were let go by dwarf miners. He bred them to be even more powerful and aggressive than before. Unlike other breeds, they seem to actively seek out humans as their main food source!</description>
+	<image>lightzard.png</image>
+
+	<GENERAL count="5">
+		<Level>15</Level>
+		<EXP>450</EXP>
+		<Gold>60</Gold>
+		<HP>100</HP>
+		<MP>100-115</MP>
+	</GENERAL>
+	
+	<ATTRIBUTES count="6">
+		<Strength>20</Strength>
+		<Dexterity>20</Dexterity>
+		<Intellect>10</Intellect>
+		<Endurance>0</Endurance>
+		<Charisma>0</Charisma>
+		<Luck>25</Luck>
+	</ATTRIBUTES>
+	
+	<DEFENSE count="3">
+		<Melee>25</Melee>
+		<Ranged>25</Ranged>
+		<Magic>25</Magic>
+	</DEFENSE>
+	
+	<ELEMENTAL count="8">
+		<Fire>100%</Fire>
+		<Water>100%</Water>
+		<Wind>100%</Wind>
+		<Ice>100%</Ice>
+		<Earth>100%</Earth>
+		<Energy>100%</Energy>
+		<Light>50%</Light>
+		<Darkness>140%</Darkness>
+	</ELEMENTAL>
+	
+	<ATTACK count="3" num="1">
+		<Hits>1</Hits>
+		<Element>Light</Element>
+		<Type>Melee</Type>
+	</ATTACK>
+	
+	<ATTACK count="3" num="2">
+		<Hits>2</Hits>
+		<Element>Light x2</Element>
+		<Type>Melee x2</Type>
+	</ATTACK>
+	
+</enemy>

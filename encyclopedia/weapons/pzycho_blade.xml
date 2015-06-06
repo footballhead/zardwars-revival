@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<weapon>
+
+	<name>Pzycho Blade</name>
+	<description>A sword that focuses the hidden berserker rage inside the warrior who wields it, first discovered by Pzycho himself.</description>
+	<image>pzycho_blade.png</image>
+
+	<GENERAL>
+		<Level>32</Level>
+		<Type>Melee</Type>
+		<Element>Fire</Element>
+		<Damage>1-43</Damage>
+		<BonusToHit text="Bonus To Hit">10%</BonusToHit>
+		<Price>1500</Price>
+		<Sell>1125</Sell>
+	</GENERAL>
+
+	<SPECIAL>
+		<Rate>10%</Rate>
+		<Hits>3</Hits>
+		<Type>Melee, x3</Type>
+		<Element>Earth, x3</Element>
+		<Damage>1-6 / 4-8 / 1-9</Damage>
+		<BonusToHit text="Bonus To Hit">0%, x3</BonusToHit>
+	</SPECIAL>
+
+</weapon>

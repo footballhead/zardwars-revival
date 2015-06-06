@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<armour>
+
+	<name>Breakneck Robe</name>
+	<description>Prepare yourself for learning the ways of Martial Arts combat. Channel your weapon's attack damage through your hands and feet in a double melee attack! No element resistances with average defense bonuses.</description>
+	<image>breakneck_robe.jpg</image>
+
+	<GENERAL>
+		<Level>30</Level>
+		<Element>Neutral</Element>
+		<Price>1111</Price>
+		<Sell>833</Sell>
+
+	</GENERAL>
+
+	<DEFENSE>
+		<Melee>27</Melee>
+		<Ranged>27</Ranged>
+		<Magic>27</Magic>
+	</DEFENSE>
+
+	<ELEMENTAL>
+		<Fire>100%</Fire>
+		<Water>100%</Water>
+		<Wind>100%</Wind>
+		<Ice>100%</Ice>
+		<Earth>100%</Earth>
+		<Energy>100%</Energy>
+		<Light>100%</Light>
+		<Darkness>100%</Darkness>
+	</ELEMENTAL>
+
+	<ATTACK>
+		<Rate>100%</Rate>
+		<Hits>2</Hits>
+		<Type>Melee, x2</Type>
+		<Damage>[Base]-[Base+(Random*0.5)] / [Unmodified damage]</Damage>
+		<Notes>Each round you attack you take 2 damage (hence the "Breakneck" part of the name).</Notes>
+	</ATTACK>
+
+	<OTHER>
+		<Notes>While worn your weapon and shield aren't shown.</Notes>
+	</OTHER>
+
+</armour>

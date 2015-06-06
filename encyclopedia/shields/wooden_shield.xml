@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<shield>
+
+	<name>Wooden Shield</name>
+	<description>This cleanly sliced section of a giant Kwaino tree will reduce the amount of damage you take from earth weapons. However it offers very little protection versus fire.</description>
+	<image>wooden_shield.png</image>
+
+	<GENERAL>
+		<Level>0</Level>
+		<Element>Earth</Element>
+		<Price>50</Price>
+		<Sell>25</Sell>
+	</GENERAL>
+
+	<DEFENSE>
+		<Melee>+0</Melee>
+		<Ranged>+0</Ranged>
+		<Magic>+0</Magic>
+	</DEFENSE>
+
+	<ELEMENTAL>
+		<Fire>+10%</Fire>
+		<Water>-5%</Water>
+		<Wind>+5%</Wind>
+		<Ice>+0%</Ice>
+		<Earth>-10%</Earth>
+		<Energy>+0%</Energy>
+		<Light>+0%</Light>
+		<Darkness>+0%</Darkness>
+	</ELEMENTAL>
+
+</shield>

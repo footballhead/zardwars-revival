@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<enemy>
+	
+	<name>Elizabeth</name>
+	<description>If you are fighting Elizabeth, then you are too busy to read this description.</description>
+	<image>elizabeth.png</image>
+
+	<GENERAL>
+		<Level>75</Level>
+		<EXP>3000</EXP>
+		<Gold>800</Gold>
+		<HP>[Your HP]</HP>
+		<MP>135</MP>
+	</GENERAL>
+	
+	<ATTRIBUTES>
+		<Strength>50</Strength>
+		<Dexterity>75</Dexterity>
+		<Intellect>50</Intellect>
+		<Endurance>50</Endurance>
+		<Charisma>50</Charisma>
+		<Luck>100</Luck>
+	</ATTRIBUTES>
+	
+	<DEFENSE>
+		<Melee>25</Melee>
+		<Ranged>25</Ranged>
+		<Magic>25</Magic>
+	</DEFENSE>
+	
+	<ELEMENTAL>
+		<Fire>80%</Fire>
+		<Water>100%</Water>
+		<Wind>130%</Wind>
+		<Ice>80%</Ice>
+		<Earth>100%</Earth>
+		<Energy>130%</Energy>
+		<Light>140%</Light>
+		<Darkness>70%</Darkness>
+	</ELEMENTAL>
+	
+	<ATTACK num="1">
+		<Hits>1</Hits>
+		<Element>Darkness</Element>
+		<Type>Melee</Type>
+	</ATTACK>
+
+	<ATTACK num="2">
+		<Hits>2</Hits>
+		<Element>Earth x2</Element>
+		<Type>Melee x2</Type>
+	</ATTACK>
+	
+	<ATTACK num="3">
+		<Hits>2</Hits>
+		<Element>Fire / Ice</Element>
+		<Type>Melee x2</Type>
+	</ATTACK>
+
+	<OTHER>
+		<Notes>Elizabeth's initial HP always matches that of your character.</Notes>
+	</OTHER>
+	
+</enemy>

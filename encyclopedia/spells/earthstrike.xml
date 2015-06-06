@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<spell>
+
+	<name>EarthStrike</name>
+	<description>Call forth a massive stalagmite to do you "dirty work".</description>
+	<image thumbnail="earthstrike_thumb.jpg">earthstrike.png</image>
+
+	<GENERAL>
+		<Level>15</Level>
+		<Element>Earth</Element>
+		<Price>350</Price>
+		<Sell>262</Sell>
+		<MP>7</MP>
+	</GENERAL>
+
+	<ATTACK>
+		<Hits>1</Hits>
+		<Type>Magic</Type>
+		<Element>Earth</Element>
+		<Damage>4-17</Damage>
+		<BTH text="Bonus To Hit">5%</BTH>
+	</ATTACK>
+
+</spell>

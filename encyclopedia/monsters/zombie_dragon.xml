@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<enemy>
+	
+	<name>Zombie Dragon</name>
+	<description>A zombified dragon, he breathes acid doing darkness and fire damage.</description>
+	<image>zombie_dragon2.png</image>
+
+	<GENERAL count="5">
+		<Level>70</Level>
+		<EXP>3750</EXP>
+		<Gold>1000</Gold>
+		<HP>1725-1750</HP>
+		<MP>65-125</MP>
+	</GENERAL>
+	
+	<ATTRIBUTES count="6">
+		<Strength>75</Strength>
+		<Dexterity>75</Dexterity>
+		<Intellect>50</Intellect>
+		<Endurance>50</Endurance>
+		<Charisma>50</Charisma>
+		<Luck>50</Luck>
+	</ATTRIBUTES>
+	
+	<DEFENSE count="3">
+		<Melee>25</Melee>
+		<Ranged>25</Ranged>
+		<Magic>25</Magic>
+	</DEFENSE>
+	
+	<ELEMENTAL count="8">
+		<Fire>120%</Fire>
+		<Water>90%</Water>
+		<Wind>70%</Wind>
+		<Ice>90%</Ice>
+		<Earth>90%</Earth>
+		<Energy>120%</Energy>
+		<Light>120%</Light>
+		<Darkness>60%</Darkness>
+	</ELEMENTAL>
+	
+	<ATTACK count="3" num="1">
+		<Hits>2</Hits>
+		<Element>Darkness / Fire</Element>
+		<Type>Magic x2</Type>
+	</ATTACK>
+	
+	<ATTACK count="3" num="2">
+		<Hits>2</Hits>
+		<Element>Darkness x2</Element>
+		<Type>Melee x2</Type>
+	</ATTACK>
+	
+</enemy>

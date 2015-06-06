@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<weapon>
+
+	<name>HeartBreaker (L50)</name>
+	<description>Level 50 plus version of the HeartBreaker. A unique magic weapon with a powerful fire and light special attack.</description>
+	<image>heartbreaker.png</image>
+
+	<GENERAL>
+		<Level>50</Level>
+		<Type>Magic</Type>
+		<Element>Fire</Element>
+		<Damage>8-53</Damage>
+		<BonusToHit text="Bonus To Hit">0%</BonusToHit>
+		<Price>1000</Price>
+		<Sell>750</Sell>
+	</GENERAL>
+
+	<SPECIAL>
+		<Rate></Rate>
+		<Hits>2</Hits>
+		<Type>Magic, x2</Type>
+		<Element>Fire / Light</Element>
+		<Damage>16-106, x2</Damage>
+		<BonusToHit text="Bonus To Hit">0%</BonusToHit>
+	</SPECIAL>
+
+</weapon>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<spell>
+
+	<name>Fire Bat Swarm</name>
+	<description>Summon several hell bats to assail your opponent with fiery vengeance.</description>
+	<image thumbnail="fire_bat_swarm_thumb.jpg">fire_bat_swarm.png</image>
+
+	<GENERAL>
+		<Level>10</Level>
+		<Element>Fire</Element>
+		<Price>300</Price>
+		<Sell>225</Sell>
+		<MP>5</MP>
+	</GENERAL>
+
+	<ATTACK>
+		<Hits>4</Hits>
+		<Type>Magic, x4</Type>
+		<Element>Fire, x4</Element>
+		<Damage>1-6, x4</Damage>
+		<BTH text="Bonus To Hit">0%, x4</BTH>
+	</ATTACK>
+
+</spell>

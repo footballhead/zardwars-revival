@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- http://zardwars.battleon.com/build30/monsters/monster-stormzard.swf -->
+<enemy>
+	
+	<name>StormZard</name>
+	<description>This shocking creation of the ZardMaster storms onto the scene! Their jaws deliver a powerful jolt of electricity through a victim, and they fire strong bolts of lightning from their mouths.</description>
+	<image>stormzard.png</image>
+
+	<GENERAL>
+		<Level>15</Level>
+		<EXP>450</EXP>
+		<Gold>60</Gold>
+		<HP>105-115</HP>
+		<MP>110-130</MP>
+	</GENERAL>
+	
+	<ATTRIBUTES>
+		<Strength>10</Strength>
+		<Dexterity>30</Dexterity>
+		<Intellect>15</Intellect>
+		<Endurance>10</Endurance>
+		<Charisma>0</Charisma>
+		<Luck>10</Luck>
+	</ATTRIBUTES>
+	
+	<DEFENSE>
+		<Melee>25</Melee>
+		<Ranged>25</Ranged>
+		<Magic>25</Magic>
+	</DEFENSE>
+	
+	<ELEMENTAL>
+		<Fire>100%</Fire>
+		<Water>140%</Water>
+		<Wind>100%</Wind>
+		<Ice>100%</Ice>
+		<Earth>100%</Earth>
+		<Energy>50%</Energy>
+		<Light>100%</Light>
+		<Darkness>100%</Darkness>
+	</ELEMENTAL>
+	
+	<ATTACK num="1">
+		<Hits>1</Hits>
+		<Element>Energy</Element>
+		<Type>Melee</Type>
+	</ATTACK>
+
+	<ATTACK num="2">
+		<Hits>3</Hits>
+		<Element>Energy x3</Element>
+		<Type>Magic x3</Type>
+	</ATTACK>
+	
+</enemy>

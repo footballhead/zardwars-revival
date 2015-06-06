@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<armour>
+
+	<name>Ice Plate</name>
+	<description>Ice frozen so hard it offers great protection. But beware fire...</description>
+	<image>ice_plate.jpg</image>
+
+	<GENERAL>
+		<Level>0</Level>
+		<Element>Ice</Element>
+		<Price>200</Price>
+		<Sell>150</Sell>
+		<Hits>1</Hits>
+	</GENERAL>
+
+	<DEFENSE>
+		<Melee>30</Melee>
+		<Ranged>30</Ranged>
+		<Magic>10</Magic>
+	</DEFENSE>
+
+	<ELEMENTAL>
+		<Fire>110%</Fire>
+		<Water>95%</Water>
+		<Wind>100%</Wind>
+		<Ice>90%</Ice>
+		<Earth>100%</Earth>
+		<Energy>102%</Energy>
+		<Light>102%</Light>
+		<Darkness>100%</Darkness>
+	</ELEMENTAL>
+
+</armour>

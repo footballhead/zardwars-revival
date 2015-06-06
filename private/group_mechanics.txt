@@ -1,0 +1,37 @@
+GROUPS OF 2!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+THINGS TO NOTE:
+	HP is (enemyhp * 2)
+	EXP gain is floor(enemyxp * 2.5)
+		off by one sometimes; result of computational inaccuracy?
+	GOLD is floor(enemygold * 2.5)
+		off by one sometimes; result of computational inaccuracy?
+	
+OBTAINING SOLO STATS FROM GROUPS
+	HP is (grouphp / 2)
+	MP is (groupmp / 2)
+	EXP is (enemyxp / 2.5)
+		be careful of computational inaccuracy
+	gold is (enemygold / 2.5)
+		be careful of compuatational inaccuracy
+
+EXAMPLE - ICEZARD
+			SOLO		GROUP OF 2
+	HP		30			60
+	MP		0			0
+	EXP		150			374
+	GOLD	46			114
+	
+GROUPS OF 3!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+HP is (enemyhp * 3)
+MP is (enemymp * 3)
+EXP is (enemyexp * 3.75)
+Gold is (enemygold * 3.75)
+
+EXAMPLE - ZZOTT
+			SOLO		GROUP OF 2	GRP OF 3
+	HP		100			200			300
+	MP		100			200			300
+	EXP		300			750			1125
+	GOLD	40			100			150

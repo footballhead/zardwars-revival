@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- http://zardwars.battleon.com/build30/monsters/monster-zeel.swf -->
+<enemy>
+	
+	<name>Zeel</name>
+	<description>Zeels are the ghastly result of the energy sorceress Kreehana's crossing of man with eel. Kreehana is still believed to be alive, and still up to her old tricks somewhere...</description>
+	<image>zeel.png</image>
+
+	<GENERAL>
+		<Level>18</Level>
+		<EXP>600</EXP>
+		<Gold>40</Gold>
+		<HP>65-90</HP>
+		<MP>100</MP>
+	</GENERAL>
+	
+	<ATTRIBUTES>
+		<Strength>25</Strength>
+		<Dexterity>25</Dexterity>
+		<Intellect>0</Intellect>
+		<Endurance>20</Endurance>
+		<Charisma>0</Charisma>
+		<Luck>20</Luck>
+	</ATTRIBUTES>
+	
+	<DEFENSE>
+		<Melee>10</Melee>
+		<Ranged>10</Ranged>
+		<Magic>10</Magic>
+	</DEFENSE>
+	
+	<ELEMENTAL>
+		<Fire>20%</Fire>
+		<Water>70%</Water>
+		<Wind>30%</Wind>
+		<Ice>30%</Ice>
+		<Earth>30%</Earth>
+		<Energy>-100%</Energy>
+		<Light>30%</Light>
+		<Darkness>30%</Darkness>
+	</ELEMENTAL>
+	
+	<ATTACK num="1">
+		<Hits>1</Hits>
+		<Element>Energy</Element>
+		<Type>Magic</Type>
+	</ATTACK>
+	
+	<ATTACK num="2">
+		<Hits>2</Hits>
+		<Element>Energy x2</Element>
+		<Type>Melee x2</Type>
+	</ATTACK>
+	
+</enemy>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<guest>
+	
+	<name>Pixie</name>
+	<image>summon_pixie.png</image>
+	
+	<ATTACK count="3" num="1">
+		<Hits>1</Hits>
+		<Element>Light</Element>
+		<Type>Magic</Type>
+	</ATTACK>
+	
+	<ATTACK count="1" num="2">
+		<Notes>Heals player for a small amount of HP.</Notes>
+	</ATTACK>
+	
+	<OTHER>
+		<Notes>Summoned by casting Summon Pixie. Each turn the Pixie uses 15 of your character's MP. If you are out of MP the Pixie will disappear.</Notes>
+	</OTHER>
+	
+</guest>

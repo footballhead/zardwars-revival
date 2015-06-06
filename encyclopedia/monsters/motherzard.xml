@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- http://zardwars.battleon.com/build30/monsters/monster-motherzard.swf -->
+<enemy>
+	
+	<name>MotherZard</name>
+	<description>Zards have to come from somewhere! MotherZards are a breed of their own. They can give birth to Zards of all types depending on the environment they live in.</description>
+	<image>motherzard.png</image>
+
+	<GENERAL>
+		<Level>30</Level>
+		<EXP>1050</EXP>
+		<Gold>50</Gold>
+		<HP>335</HP>
+		<MP>60</MP>
+	</GENERAL>
+	
+	<ATTRIBUTES>
+		<Strength>25</Strength>
+		<Dexterity>5</Dexterity>
+		<Intellect>20</Intellect>
+		<Endurance>50</Endurance>
+		<Charisma>0</Charisma>
+		<Luck>50</Luck>
+	</ATTRIBUTES>
+	
+	<DEFENSE>
+		<Melee>15</Melee>
+		<Ranged>15</Ranged>
+		<Magic>10</Magic>
+	</DEFENSE>
+	
+	<ELEMENTAL>
+		<Fire>100%</Fire>
+		<Water>100%</Water>
+		<Wind>100%</Wind>
+		<Ice>100%</Ice>
+		<Earth>100%</Earth>
+		<Energy>100%</Energy>
+		<Light>100%</Light>
+		<Darkness>100%</Darkness>
+	</ELEMENTAL>
+	
+	<ATTACK num="1">
+		<Hits>2</Hits>
+		<Element>Earth x2</Element>
+		<Type>Melee x2</Type>
+	</ATTACK>
+	
+	<ATTACK num="2">
+		<Hits>1</Hits>
+		<Element>Earth</Element>
+		<Type>Melee</Type>
+	</ATTACK>
+	
+</enemy>

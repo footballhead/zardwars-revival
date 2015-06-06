@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<spell>
+
+	<name>Current Event</name>
+	<description>Lightning to strike you enemy from all sides.</description>
+	<image thumbnail="current_event_thumb.jpg">current_event.png</image>
+
+	<GENERAL>
+		<Level>25</Level>
+		<Element>Energy</Element>
+		<Price>400</Price>
+		<Sell>300</Sell>
+		<MP>6</MP>
+	</GENERAL>
+
+	<ATTACK>
+		<Hits>2</Hits>
+		<Type>Magic, x2</Type>
+		<Element>Energy, x2</Element>
+		<Damage>9-27</Damage>
+		<BTH text="Bonus To Hit">0%, x2</BTH>
+	</ATTACK>
+
+</spell>

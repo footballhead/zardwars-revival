@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<weapon>
+
+	<name>Icebolt Crossbow</name>
+	<description>Send a deadly accurate bolt of ice directly into the heart of your enemy!</description>
+	<image>icebolt_crossbow.png</image>
+
+	<GENERAL>
+		<Level>10</Level>
+		<Type>Ranged</Type>
+		<Element>Ice</Element>
+		<Damage>3-27</Damage>
+		<BonusToHit text="Bonus To Hit">0%</BonusToHit>
+		<Price>300</Price>
+		<Sell>225</Sell>
+	</GENERAL>
+
+	<SPECIAL>
+		<Rate>100%</Rate>
+		<Hits>1</Hits>
+		<Type>Ranged</Type>
+		<Element>Ice</Element>
+		<Damage>3-27</Damage>
+		<BonusToHit text="Bonus To Hit">0%</BonusToHit>
+	</SPECIAL>
+
+</weapon>

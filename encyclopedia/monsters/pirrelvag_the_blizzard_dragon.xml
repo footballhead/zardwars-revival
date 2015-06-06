@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<enemy>
+	
+	<name>Pirrelvag the Blizzard Dragon</name>
+	<description>Pirrelvag is currently taking a holiday on a sunny beach. Plase don't disturb her. Girls just want to have fun!</description>
+	<image>pirrelvag_the_blizzard_dragon2.png</image>
+
+	<GENERAL count="5">
+		<Level>69</Level>
+		<EXP>2850</EXP>
+		<Gold>400</Gold>
+		<HP>1355 - 1390</HP>
+		<MP>230 - 255</MP>
+	</GENERAL>
+	
+	<ATTRIBUTES count="6">
+		<Strength>70</Strength>
+		<Dexterity>45</Dexterity>
+		<Intellect>60</Intellect>
+		<Endurance>40</Endurance>
+		<Charisma>60</Charisma>
+		<Luck>50</Luck>
+	</ATTRIBUTES>
+	
+	<DEFENSE count="3">
+		<Melee>30</Melee>
+		<Ranged>25</Ranged>
+		<Magic>15</Magic>
+	</DEFENSE>
+	
+	<ELEMENTAL count="8">
+		<Fire>180%</Fire>
+		<Water>120%</Water>
+		<Wind>20%</Wind>
+		<Ice>0%</Ice>
+		<Earth>140%</Earth>
+		<Energy>180%</Energy>
+		<Light>50%</Light>
+		<Darkness>0%</Darkness>
+	</ELEMENTAL>
+	
+	<ATTACK count="3" num="1">
+		<Hits>1</Hits>
+		<Element>Ice</Element>
+		<Type>Melee</Type>
+	</ATTACK>
+	
+	<ATTACK count="3" num="2">
+		<Hits>3</Hits>
+		<Element>Ice x3</Element>
+		<Type>Melee x3</Type>
+	</ATTACK>
+	
+</enemy>

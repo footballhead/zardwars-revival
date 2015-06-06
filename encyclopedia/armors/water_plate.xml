@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<armour>
+
+	<name>Water Plate</name>
+	<description>Protects against water attacks and wet environments.</description>
+	<image>water_plate.jpg</image>
+
+	<GENERAL>
+		<Level>0</Level>
+		<Element>Water</Element>
+		<Price>200</Price>
+		<Sell>150</Sell>
+		<Hits>1</Hits>
+	</GENERAL>
+
+	<DEFENSE>
+		<Melee>30</Melee>
+		<Ranged>5</Ranged>
+		<Magic>30</Magic>
+	</DEFENSE>
+
+	<ELEMENTAL>
+		<Fire>105%</Fire>
+		<Water>90%</Water>
+		<Wind>100%</Wind>
+		<Ice>105%</Ice>
+		<Earth>100%</Earth>
+		<Energy>110%</Energy>
+		<Light>100%</Light>
+		<Darkness>100%</Darkness>
+	</ELEMENTAL>
+	
+</armour>

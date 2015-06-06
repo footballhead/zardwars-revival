@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<spell>
+
+	<name>Summon Pixie</name>
+	<description>Summon a cute flying Pixie to join you as a guest. Costs 15 MP per turn during the battle to keep her with you. Cast again to send her away. The Pixie has both a good Magic Light attack, and a pocket full of healing dust.</description>
+	<image>summon_pixie.png</image>
+
+	<GENERAL>
+		<Level>35</Level>
+		<Element>Light</Element>
+		<Price>3000</Price>
+		<Sell>2250</Sell>
+		<MP>1</MP>
+	</GENERAL>
+
+	<EFFECT>
+		<Notes>Summons the Pixie to be a guest, working alongside you and your pet. Casting to summon or remove still takes a turn.</Notes>
+	</EFFECT>
+
+</spell>

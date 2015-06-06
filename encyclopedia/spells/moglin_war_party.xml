@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<spell>
+
+	<name>Moglin War Party</name>
+	<description>A pack of moglins specially bred for war to attack your foe! Four good Earth Melee attacks. Spell by Shigity Shank.</description>
+	<image thumbnail="moglin_war_party_thumb.jpg">moglin_war_party.png</image>
+
+	<GENERAL>
+		<Level>40</Level>
+		<Element>Earth</Element>
+		<Price>1000</Price>
+		<Sell>750</Sell>
+		<MP>10</MP>
+	</GENERAL>
+
+	<ATTACK>
+		<Hits>4</Hits>
+		<Type>Melee, x4</Type>
+		<Element>Earth, x4</Element>
+		<Damage>4-12 / 4-24 / 4-16 / 4-12</Damage>
+		<BTH text="Bonus To Hit">10%, x4</BTH>
+	</ATTACK>
+
+</spell>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- http://zardwars.battleon.com/build30/monsters/monster-icezard.swf -->
+<!-- &actiontype=loadmonster&idLore_Monsters=2&strMonsterName=Icezard&strDescription=The frogzards are the most adaptable creature on this world, and you'll find their voracious jaws in every conceivable habitat...including the frozen reaches of the far north.&intLevel=0&intExp=150&intGold=46&intBaseHP=30&intBaseMP=0&intBaseSP=50&intSTR=0&intDEX=0&intINT=0&intCHA=0&intEND=0&intLUK=0&strExtraData=zard&idLore_Elements=4&idLore_WeaponTypes=3&intWeaponBaseDamage=1&intWeaponRandDamage=15&intWeaponBonusToHit=0&intArmorFIRE=120&intArmorWATER=100&intArmorICE=-10&intArmorWIND=100&intArmorEARTH=100&intArmorENERGY=100&intArmorLIGHT=100&intArmorDARKNESS=100&intArmorMELEE=25&intArmorRANGED=25&intArmorMAGIC=25&strBodyFileName=monster-icezard.swf&strHeadFileName=monster-icezard-head.swf&idLore_Backgrounds=3&intMonsterSounds=0&intIsRandomEncounter=1&intMaxPackSize=2&intCountBattles=3478405&intCountWins=3281449&intCountDeaths=20712&strWeaponElement=Ice&strWeaponType=Magic&strBackgroundName=Ice field&strBackgroundTerrain=ice&strBackgroundFileName=background-ice.swf&intBackgroundSound=0&strDateTime=3/15/2014 10:53:23 AM&intQuantity=1&intExp=150&intGold=46&status=success -->
+<enemy>
+	
+	<name>Icezard</name>
+	<description>The frogzards are the most adaptable creature on this world, and you'll find their voracious jaws in every conceivable habitat... including the frozen reaches of the far north.</description>
+	<image>icezard.png</image>
+
+	<GENERAL>
+		<Level>0</Level>
+		<EXP>150</EXP>
+		<Gold>46</Gold>
+		<HP>30</HP>
+		<MP>0</MP>
+	</GENERAL>
+	
+	<ATTRIBUTES>
+		<Strength>0</Strength>
+		<Dexterity>0</Dexterity>
+		<Intellect>0</Intellect>
+		<Endurance>0</Endurance>
+		<Charisma>0</Charisma>
+		<Luck>0</Luck>
+	</ATTRIBUTES>
+	
+	<DEFENSE>
+		<Melee>25</Melee>
+		<Ranged>25</Ranged>
+		<Magic>25</Magic>
+	</DEFENSE>
+	
+	<ELEMENTAL>
+		<Fire>120%</Fire>
+		<Water>100%</Water>
+		<Wind>100%</Wind>
+		<Ice>-10%</Ice>
+		<Earth>100%</Earth>
+		<Energy>100%</Energy>
+		<Light>100%</Light>
+		<Darkness>100%</Darkness>
+	</ELEMENTAL>
+	
+	<ATTACK num="1">
+		<Hits>1</Hits>
+		<Element>Ice</Element>
+		<Type>Melee</Type>
+	</ATTACK>
+	
+	<ATTACK num="2">
+		<Hits>2</Hits>
+		<Element>Ice x2</Element>
+		<Type>Magic / Melee</Type>
+	</ATTACK>
+	
+</enemy>

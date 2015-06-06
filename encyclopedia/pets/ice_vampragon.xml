@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<pet>
+
+	<name>Ice Vampragon</name>
+	<description>What happens when a vampire bat is magically fused with a dragon? A Vampragon happens, that's what! There are different breeds of them-- this one attacks with ice and heals you a little on its special attack!</description>
+	<image>ice_vampragon.jpg</image>
+
+	<GENERAL>
+		<Level>30</Level>
+		<Element>Ice</Element>
+		<Type>Magic</Type>
+		<Damage>8 to 23</Damage>
+		<TD text="Training Difficulty">10</TD>
+		<Price>5000</Price>
+		<Sell>1000</Sell>
+	</GENERAL>
+
+	<ATTACK num="1">
+		<Hits>1</Hits>
+		<Damage>100%</Damage>
+		<Element>Ice</Element>
+		<Type>Magic</Type>
+	</ATTACK>
+
+	<ATTACK num="2">
+		<Hits>1</Hits>
+		<Element>Ice</Element>
+		<Type>Magic</Type>
+		<Notes>Replenishes 5 HP and 5 MP regardless of whether attack hits.</Notes>
+	</ATTACK>
+
+</pet>

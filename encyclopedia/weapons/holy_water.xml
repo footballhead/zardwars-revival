@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<weapon>
+
+	<name>Holy Water</name>
+	<description>Blessed by a priest or priestess, holy water can be deadly to dark and unholy creatures, especially...vampires.</description>
+	<image>holy_water.png</image>
+
+	<GENERAL>
+		<Level>20</Level>
+		<Type>Magic</Type>
+		<Element>Light</Element>
+		<Damage>8-21</Damage>
+		<BonusToHit text="Bonus To Hit">3%</BonusToHit>
+		<Price>350</Price>
+		<Sell>262</Sell>
+	</GENERAL>
+
+	<SPECIAL>
+		<Rate>100%</Rate>
+		<Hits>2</Hits>
+		<Type>Magic, x2</Type>
+		<Element>Water / Light</Element>
+		<Damage>5-10, x2</Damage>
+		<BTH text="Bonus To Hit">1%, x2</BTH>
+	</SPECIAL>
+
+</weapon>

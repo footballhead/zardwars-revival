@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<spell>
+
+	<name>Tendrils of Darkness</name>
+	<description>Whips of living shadow to strangle your enemy.</description>
+	<image thumbnail="tendrils_of_darkness_thumb.jpg">tendrils_of_darkness.png</image>
+
+	<GENERAL>
+		<Level>0</Level>
+		<Element>Darkness</Element>
+		<Price>100</Price>
+		<Sell>75</Sell>
+		<MP>7</MP>
+	</GENERAL>
+
+	<ATTACK>
+		<Hits>1</Hits>
+		<Type>Magic</Type>
+		<Element>Darkness</Element>
+		<Damage>4-17</Damage>
+		<BTH text="Bonus To Hit">5%</BTH>
+	</ATTACK>
+
+</spell>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- http://zardwars.battleon.com/build30/monsters/monster-zzott.swf -->
+<!-- &actiontype=loadmonster&idLore_Monsters=64&strMonsterName=Zzott&strDescription=No one knows (or remembers) the origins of Zzotts, and no one is ever sure of whose side they're on, but many professors of anatomical science believe them to be overgrown and self-propagating cells discarded by the Energy Lord himself.&intLevel=4&intExp=300&intGold=40&intBaseHP=100&intBaseMP=100&intBaseSP=100&intSTR=5&intDEX=10&intINT=0&intCHA=0&intEND=5&intLUK=0&strExtraData=none&idLore_Elements=6&idLore_WeaponTypes=1&intWeaponBaseDamage=1&intWeaponRandDamage=27&intWeaponBonusToHit=0&intArmorFIRE=100&intArmorWATER=140&intArmorICE=110&intArmorWIND=90&intArmorEARTH=100&intArmorENERGY=-50&intArmorLIGHT=90&intArmorDARKNESS=90&intArmorMELEE=25&intArmorRANGED=25&intArmorMAGIC=25&strBodyFileName=monster-zzott.swf&strHeadFileName=monster-zzott-head.swf&idLore_Backgrounds=30&intMonsterSounds=0&intIsRandomEncounter=1&intMaxPackSize=3&intCountBattles=903567&intCountWins=648665&intCountDeaths=84306&strWeaponElement=Energy&strWeaponType=Melee&strBackgroundName=Rolling Hills&strBackgroundTerrain=hills&strBackgroundFileName=background-rollinghills.swf&intBackgroundSound=0&strDateTime=3/15/2014 10:50:25 AM&intQuantity=1&intExp=300&intGold=40&status=success -->
+<enemy>
+	
+	<name>Zzott</name>
+	<description>No one knows (or remembers) the origins of Zzotts, and no one is ever sure of whose side they're on, but many professors of anatomical science believe them to be overgrown and self-propagating cells discarded by the Energy Lord himself.</description>
+	<image>zzott.png</image>
+
+	<GENERAL count="5">
+		<Level>4</Level>
+		<EXP>300</EXP>
+		<Gold>40</Gold>
+		<HP>100-105</HP>
+		<MP>100</MP>
+	</GENERAL>
+	
+	<ATTRIBUTES count="6">
+		<Strength>5</Strength>
+		<Dexterity>10</Dexterity>
+		<Intellect>0</Intellect>
+		<Endurance>5</Endurance>
+		<Charisma>0</Charisma>
+		<Luck>0</Luck>
+	</ATTRIBUTES>
+	
+	<DEFENSE count="3">
+		<Melee>25</Melee>
+		<Ranged>25</Ranged>
+		<Magic>25</Magic>
+	</DEFENSE>
+	
+	<ELEMENTAL count="8">
+		<Fire>100%</Fire>
+		<Water>140%</Water>
+		<Wind>90%</Wind>
+		<Ice>110%</Ice>
+		<Earth>100%</Earth>
+		<Energy>-50%</Energy>
+		<Light>90%</Light>
+		<Darkness>90%</Darkness>
+	</ELEMENTAL>
+	
+	<ATTACK count="3" num="1">
+		<Hits>1</Hits>
+		<Element>Energy</Element>
+		<Type>Melee</Type>
+	</ATTACK>
+	
+	<ATTACK count="3" num="2">
+		<Hits>2</Hits>
+		<Element>Energy x2</Element>
+		<Type>Melee x2</Type>
+	</ATTACK>
+	
+</enemy>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<weapon>
+
+	<name>Ultimate Crossbow</name>
+	<description>A magical crossbow that can hit with either melee water, magic fire, or ranged earth.</description>
+	<image>ultimate_crossbow.png</image>
+
+	<GENERAL>
+		<Level>50</Level>
+		<Type>Ranged</Type>
+		<Element>Water</Element>
+		<Damage>2-38</Damage>
+		<BonusToHit text="Bonus To Hit">3%</BonusToHit>
+		<Price>9000</Price>
+		<Sell>6750</Sell>
+	</GENERAL>
+
+	<SPECIAL num="1">
+		<Rate>100%</Rate>
+		<Hits>1</Hits>
+		<Type>Melee</Type>
+		<Element>Water</Element>
+		<Damage>4-22</Damage>
+		<BonusToHit text="Bonus To Hit">3%</BonusToHit>
+		<Notes>Blue arrow</Notes>
+	</SPECIAL>
+
+	<SPECIAL num="2">
+		<Rate>100%</Rate>
+		<Hits>2</Hits>
+		<Type>Ranged, x2</Type>
+		<Element>Earth, x2</Element>
+		<Damage>2-11, x2</Damage>
+		<BonusToHit text="Bonus To Hit">5%, x2</BonusToHit>
+		<Notes>Red Arrow</Notes>
+	</SPECIAL>
+
+	<SPECIAL num="3">
+		<Rate>100%</Rate>
+		<Hits>1</Hits>
+		<Type>Magic</Type>
+		<Element>Fire</Element>
+		<Damage>6-22</Damage>
+		<BonusToHit text="Bonus To Hit">0%</BonusToHit>
+		<Notes>Yellow arrow</Notes>
+	</SPECIAL>
+
+	<OTHER>
+		<Notes>The attack lets you choose between the blue, red, or yellow arrows.</Notes>
+	</OTHER>
+
+</weapon>

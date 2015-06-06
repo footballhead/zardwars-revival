@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- http://zardwars.battleon.com/build30/monsters/monster-tropicalmermazon.swf -->
+<enemy>
+	
+	<name>Tropical Mermazon</name>
+	<description>An underwater race of astonishing agility, Mermazons serve the Lord of Water unquestioningly. The Tropical Mermazons are the most specialized warriors.</description>
+	<image>tropical_mermazon.png</image>
+
+	<GENERAL count="5">
+		<Level>30</Level>
+		<EXP>660</EXP>
+		<Gold>200</Gold>
+		<HP>345</HP>
+		<MP>105</MP>
+	</GENERAL>
+	
+	<ATTRIBUTES count="6">
+		<Strength>25</Strength>
+		<Dexterity>25</Dexterity>
+		<Intellect>20</Intellect>
+		<Endurance>25</Endurance>
+		<Charisma>25</Charisma>
+		<Luck>30</Luck>
+	</ATTRIBUTES>
+	
+	<DEFENSE count="3">
+		<Melee>25</Melee>
+		<Ranged>25</Ranged>
+		<Magic>25</Magic>
+	</DEFENSE>
+	
+	<ELEMENTAL count="8">
+		<Fire>110%</Fire>
+		<Water>-10%</Water>
+		<Wind>110%</Wind>
+		<Ice>60%</Ice>
+		<Earth>100%</Earth>
+		<Energy>150%</Energy>
+		<Light>100%</Light>
+		<Darkness>100%</Darkness>
+	</ELEMENTAL>
+	
+	<ATTACK count="3" num="1">
+		<Hits>1</Hits>
+		<Element>Water</Element>
+		<Type>Ranged</Type>
+	</ATTACK>
+	
+	<ATTACK count="3" num="2">
+		<Hits>1</Hits>
+		<Element>Water</Element>
+		<Type>Melee</Type>
+	</ATTACK>
+	
+</enemy>

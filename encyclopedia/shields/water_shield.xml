@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<shield>
+
+	<name>Water Shield</name>
+	<description>Easily absorbs water attacks. Watch out for energy attacks. That'll hurt.</description>
+	<image>water_shield.png</image>
+
+	<GENERAL>
+		<Level>0</Level>
+		<Element>Water</Element>
+		<Price>100</Price>
+		<Sell>40</Sell>
+	</GENERAL>
+
+	<DEFENSE>
+		<Melee>+0</Melee>
+		<Ranged>+0</Ranged>
+		<Magic>+0</Magic>
+	</DEFENSE>
+
+	<ELEMENTAL>
+		<Fire>-5%</Fire>
+		<Water>-5%</Water>
+		<Wind>+0%</Wind>
+		<Ice>+0%</Ice>
+		<Earth>+0%</Earth>
+		<Energy>+10%</Energy>
+		<Light>+0%</Light>
+		<Darkness>+0%</Darkness>
+	</ELEMENTAL>
+
+</shield>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- http://zardwars.battleon.com/build30/monsters/monster-icezard.swf -->
+<enemy>
+	
+	<name>FrostyZard</name>
+	<description>A crazy, more powerful cousin of the IceZards. It really likes playing snow ball fights, and skiing at all the best winter resorts. They usually have a season pass at their favorite places and might just invite you along. But, oh... I think it's hungry...</description>
+	<image>icezard.png</image>
+
+	<GENERAL>
+		<Level>38</Level>
+		<EXP>775</EXP>
+		<Gold>130</Gold>
+		<HP>350</HP>
+		<MP>60</MP>
+	</GENERAL>
+	
+	<ATTRIBUTES>
+		<Strength>75</Strength>
+		<Dexterity>75</Dexterity>
+		<Intellect>0</Intellect>
+		<Endurance>0</Endurance>
+		<Charisma>40</Charisma>
+		<Luck>0</Luck>
+	</ATTRIBUTES>
+	
+	<DEFENSE>
+		<Melee>25</Melee>
+		<Ranged>25</Ranged>
+		<Magic>25</Magic>
+	</DEFENSE>
+	
+	<ELEMENTAL>
+		<Fire>100%</Fire>
+		<Water>-50%</Water>
+		<Wind>50%</Wind>
+		<Ice>-300%</Ice>
+		<Earth>50%</Earth>
+		<Energy>100%</Energy>
+		<Light>100%</Light>
+		<Darkness>0%</Darkness>
+	</ELEMENTAL>
+	
+	<ATTACK num="1">
+		<Hits>1</Hits>
+		<Element>Ice</Element>
+		<Type>Melee</Type>
+	</ATTACK>
+	
+	<ATTACK num="2">
+		<Hits>2</Hits>
+		<Element>Ice x2</Element>
+		<Type>Magic / Melee</Type>
+	</ATTACK>
+	
+</enemy>

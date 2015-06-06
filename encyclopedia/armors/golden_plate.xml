@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<armour>
+
+	<name>Golden Plate</name>
+	<description>The armor of rulers!</description>
+	<image>golden_plate.jpg</image>
+
+	<GENERAL>
+		<Level>50</Level>
+		<Element>Neutral</Element>
+		<Price>100000</Price>
+		<Sell>75000</Sell>
+		<Hits>2</Hits>
+	</GENERAL>
+
+	<DEFENSE>
+		<Melee>45</Melee>
+		<Ranged>45</Ranged>
+		<Magic>45</Magic>
+	</DEFENSE>
+
+	<ELEMENTAL>
+		<Fire>65%</Fire>
+		<Water>65%</Water>
+		<Wind>65%</Wind>
+		<Ice>65%</Ice>
+		<Earth>65%</Earth>
+		<Energy>65%</Energy>
+		<Light>65%</Light>
+		<Darkness>65%</Darkness>
+	</ELEMENTAL>
+
+	<ATTACK>
+		<Rate>100%</Rate>
+		<Hits>2</Hits>
+		<Damage>[Base]-[Base+(Random*0.8)] / [Base]-[Base+(Random*0.5)]</Damage>
+		<BTH text="Bonus To Hit">[Weapon BTH] / [Weapon BTH]+50</BTH>
+	</ATTACK>
+
+</armour>

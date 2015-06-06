@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<pet>
+
+	<name>Raptor Duck</name>
+	<description>A mutant conjured by Jackel Sano!</description>
+	<image>raptor_duck.jpg</image>
+
+	<GENERAL>
+		<Level>10</Level>
+		<Element>Water</Element>
+		<Type>Ranged</Type>
+		<Damage>12 to 42</Damage>
+		<TD text="Training Difficulty">45</TD>
+		<Price>500</Price>
+		<Sell>100</Sell>
+	</GENERAL>
+
+	<ATTACK>
+		<Hits>3</Hits>
+		<Element>Wind / Earth / Water</Element>
+		<Type>Ranged x3</Type>
+	</ATTACK>
+
+</pet>

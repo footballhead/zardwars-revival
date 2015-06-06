@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<armour>
+
+	<name>Zombie Form</name>
+	<description>Take on the appearance of a zombie! +2 random damage, +2 hp regeneration with every melee attack!</description>
+	<image>zombie_form.jpg</image>
+
+	<GENERAL>
+		<Level>35</Level>
+		<Element>Neutral</Element>
+		<Price>30000</Price>
+		<Sell>22500</Sell>
+		<Hits>1</Hits>
+	</GENERAL>
+
+	<DEFENSE>
+		<Melee>30</Melee>
+		<Ranged>35</Ranged>
+		<Magic>35</Magic>
+	</DEFENSE>
+
+	<ELEMENTAL>
+		<Fire>105%</Fire>
+		<Water>95%</Water>
+		<Wind>95%</Wind>
+		<Ice>90%</Ice>
+		<Earth>95%</Earth>
+		<Energy>105%</Energy>
+		<Light>110%</Light>
+		<Darkness>75%</Darkness>
+	</ELEMENTAL>
+
+	<OTHER>
+		<Notes>Adds +2 random damage. Heals 2 HP every attack. Does not let ZardBane trigger.</Notes>
+	</OTHER>
+
+</armour>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<weapon>
+
+	<name>Hammer of Unity</name>
+	<description>
+		If I had a hammer / I'd hammer in the morning /&#60;br&#62;
+		&#60;br&#62;
+		I'd hammer in the evening...all over this land/&#60;br&#62;
+		&#60;br&#62;
+		I'd hammer out danger / I'd hammer out a warning /&#60;br&#62;
+		I'd hammer out love between all of my brothers and my sisters /&#60;br&#62;
+		All over this land.
+	</description>
+	<image>hammer_of_unity.png</image>
+
+	<GENERAL>
+		<Level>35</Level>
+		<Type>Melee</Type>
+		<Element>Fire</Element>
+		<Damage>7-40</Damage>
+		<BonusToHit text="Bonus To Hit">5%</BonusToHit>
+		<Price>1500</Price>
+		<Sell>1125</Sell>
+	</GENERAL>
+
+	<SPECIAL num="1">
+		<Rate>33%</Rate>
+		<Hits>2</Hits>
+		<Type>Ranged, x2</Type>
+		<Element>Fire, x2</Element>
+		<Damage>5.25-30, x2</Damage>
+		<BTH text="Bonus To Hit">5%, x2</BTH>
+	</SPECIAL>
+
+	<SPECIAL num="2">
+		<Rate>33%</Rate>
+		<Hits>2</Hits>
+		<Type>Magic x2</Type>
+		<Element>Fire x2</Element>
+		<Damage>5.25-30, x2</Damage>
+		<BTH text="Bonus To Hit">5%, x2</BTH>
+	</SPECIAL>
+
+	<OTHER>
+		<Notes>The bit of the description that was missing was found here: http://forums2.battleon.com/f/tm.asp?m=1109287</Notes>
+	</OTHER>
+
+</weapon>

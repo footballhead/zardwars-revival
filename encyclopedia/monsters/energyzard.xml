@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- http://zardwars.battleon.com/build30/monsters/monster-energyzard.swf -->
+<!-- &actiontype=loadmonster&idLore_Monsters=15&strMonsterName=Energyzard&strDescription=Created by the Lord of Energy to power his massive weapon forges, some EnergyZards escaped their master's stronghold and now run rampant.&intLevel=1&intExp=180&intGold=50&intBaseHP=50&intBaseMP=0&intBaseSP=0&intSTR=0&intDEX=10&intINT=0&intCHA=0&intEND=0&intLUK=0&strExtraData=zard&idLore_Elements=6&idLore_WeaponTypes=1&intWeaponBaseDamage=1&intWeaponRandDamage=15&intWeaponBonusToHit=0&intArmorFIRE=100&intArmorWATER=120&intArmorICE=100&intArmorWIND=100&intArmorEARTH=100&intArmorENERGY=-10&intArmorLIGHT=100&intArmorDARKNESS=110&intArmorMELEE=20&intArmorRANGED=20&intArmorMAGIC=20&strBodyFileName=monster-energyzard.swf&strHeadFileName=monster-energyzard-head.swf&idLore_Backgrounds=2&intMonsterSounds=0&intIsRandomEncounter=1&intMaxPackSize=2&intCountBattles=3521701&intCountWins=3282957&intCountDeaths=21521&strWeaponElement=Energy&strWeaponType=Melee&strBackgroundName=Hills&strBackgroundTerrain=hills&strBackgroundFileName=background-hillsmts.swf&intBackgroundSound=0&strDateTime=3/15/2014 10:46:57 AM&intQuantity=1&intExp=180&intGold=50&status=success -->
+<enemy>
+	
+	<name>Energyzard</name>
+	<description>Created by the Lord of Energy to power his massive weapon forges, some EnergyZards escaped their master's stronghold and now run rampant.</description>
+	<image>energyzard.png</image>
+
+	<GENERAL>
+		<Level>1</Level>
+		<EXP>180</EXP>
+		<Gold>50</Gold>
+		<HP>50</HP>
+		<MP>0</MP>
+	</GENERAL>
+	
+	<ATTRIBUTES>
+		<Strength>0</Strength>
+		<Dexterity>10</Dexterity>
+		<Intellect>0</Intellect>
+		<Endurance>0</Endurance>
+		<Charisma>0</Charisma>
+		<Luck>0</Luck>
+	</ATTRIBUTES>
+	
+	<DEFENSE>
+		<Melee>20</Melee>
+		<Ranged>20</Ranged>
+		<Magic>20</Magic>
+	</DEFENSE>
+	
+	<ELEMENTAL>
+		<Fire>100%</Fire>
+		<Water>120%</Water>
+		<Wind>100%</Wind>
+		<Ice>100%</Ice>
+		<Earth>100%</Earth>
+		<Energy>-10%</Energy>
+		<Light>100%</Light>
+		<Darkness>110%</Darkness>
+	</ELEMENTAL>
+	
+	<ATTACK num="1">
+		<Hits>1</Hits>
+		<Element>Energy</Element>
+		<Type>Melee</Type>
+	</ATTACK>
+	
+	<ATTACK num="2">
+		<Hits>2</Hits>
+		<Element>Energy x2</Element>
+		<Type>Magic x2</Type>
+	</ATTACK>
+	
+</enemy>

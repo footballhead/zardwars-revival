@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- http://zardwars.battleon.com/build30/monsters/monster-energyzard.swf -->
+<enemy>
+	
+	<name>SparkZard</name>
+	<description>More powerful than the regular EnergyZard, with boosted resistances. It likes playing in dangerous electrical storms with kites, and drinking galloons of batter acid.</description>
+	<image>energyzard.png</image>
+
+	<GENERAL count="5">
+		<Level>36</Level>
+		<EXP>760</EXP>
+		<Gold>120</Gold>
+		<HP>325</HP>
+		<MP>60-90</MP>
+	</GENERAL>
+	
+	<ATTRIBUTES count="6">
+		<Strength>105</Strength>
+		<Dexterity>25</Dexterity>
+		<Intellect>25</Intellect>
+		<Endurance>0</Endurance>
+		<Charisma>0</Charisma>
+		<Luck>25</Luck>
+	</ATTRIBUTES>
+	
+	<DEFENSE count="3">
+		<Melee>20</Melee>
+		<Ranged>20</Ranged>
+		<Magic>20</Magic>
+	</DEFENSE>
+	
+	<ELEMENTAL count="8">
+		<Fire>50%</Fire>
+		<Water>100%</Water>
+		<Wind>-50%</Wind>
+		<Ice>50%</Ice>
+		<Earth>-50%</Earth>
+		<Energy>-300%</Energy>
+		<Light>50%</Light>
+		<Darkness>0%</Darkness>
+	</ELEMENTAL>
+	
+	<ATTACK count="3">
+		<Hits>1</Hits>
+		<Element>Energy</Element>
+		<Type>Melee</Type>
+	</ATTACK>
+	
+	<ATTACK count="3">
+		<Hits>2</Hits>
+		<Element>Energy x2</Element>
+		<Type>Magic x2</Type>
+	</ATTACK>
+	
+</enemy>

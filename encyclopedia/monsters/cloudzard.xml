@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- http://zardwars.battleon.com/build30/monsters/monster-cloudzard.swf -->
+<enemy>
+	
+	<name>CloudZard</name>
+	<description>Flying high, a bird like no other in the sky! The Cloudzard is a creation of the ZardMaster gone wrong. Seems instead of growing scales it grew feathers! His idea for this zard was to be a spy for all his mysterious plots of evil. Will he succeed?</description>
+	<image>cloudzard.png</image>
+
+	<GENERAL>
+		<Level>15</Level>
+		<EXP>450</EXP>
+		<Gold>60</Gold>
+		<HP>100-110</HP>
+		<MP>100</MP>
+	</GENERAL>
+	
+	<ATTRIBUTES>
+		<Strength>10</Strength>
+		<Dexterity>50</Dexterity>
+		<Intellect>0</Intellect>
+		<Endurance>5</Endurance>
+		<Charisma>0</Charisma>
+		<Luck>10</Luck>
+	</ATTRIBUTES>
+	
+	<DEFENSE>
+		<Melee>25</Melee>
+		<Ranged>25</Ranged>
+		<Magic>25</Magic>
+	</DEFENSE>
+	
+	<ELEMENTAL>
+		<Fire>100%</Fire>
+		<Water>100%</Water>
+		<Wind>50%</Wind>
+		<Ice>100%</Ice>
+		<Earth>140%</Earth>
+		<Energy>100%</Energy>
+		<Light>100%</Light>
+		<Darkness>100%</Darkness>
+	</ELEMENTAL>
+	
+	<ATTACK num="1">
+		<Hits>1</Hits>
+		<Element>Wind</Element>
+		<Type>Ranged</Type>
+	</ATTACK>
+	
+	<ATTACK num="2">
+		<Hits>2</Hits>
+		<Element>Wind x2</Element>
+		<Type>Magic x2</Type>
+	</ATTACK>
+	
+</enemy>

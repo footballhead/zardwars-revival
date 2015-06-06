@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- http://zardwars.battleon.com/build30/monsters/monster-ganzard.swf -->
+<enemy>
+	
+	<name>Ganzard</name>
+	<description>Straight from the world of StickQuest comes the fabled Ganzard. It's a tough opponent because stick monsters possess great durability when facing 3 dimensional enemies. Use the Stick Blade to beat the Ganzard off with a... stick?</description>
+	<image>ganzard.png</image>
+
+	<GENERAL>
+		<Level>10</Level>
+		<EXP>600</EXP>
+		<Gold>120</Gold>
+		<HP>200-205</HP>
+		<MP>50-55</MP>
+	</GENERAL>
+	
+	<ATTRIBUTES>
+		<Strength>10</Strength>
+		<Dexterity>10</Dexterity>
+		<Intellect>5</Intellect>
+		<Endurance>5</Endurance>
+		<Charisma>10</Charisma>
+		<Luck>10</Luck>
+	</ATTRIBUTES>
+	
+	<DEFENSE>
+		<Melee>25</Melee>
+		<Ranged>25</Ranged>
+		<Magic>25</Magic>
+	</DEFENSE>
+	
+	<ELEMENTAL>
+		<Fire>70%</Fire>
+		<Water>70%</Water>
+		<Wind>70%</Wind>
+		<Ice>70%</Ice>
+		<Earth>70%</Earth>
+		<Energy>70%</Energy>
+		<Light>70%</Light>
+		<Darkness>70%</Darkness>
+	</ELEMENTAL>
+	
+	<ATTACK>
+		<Hits>1</Hits>
+		<Element>ElementX</Element>
+		<Type>Melee</Type>
+		<Notes>Does 0 damage. Element X is assumed; it could also be Fire</Notes>
+	</ATTACK>
+	
+	<OTHER>
+		<Trivia>By the time you get the Stick Blade this monster no longer appears.</Trivia>
+	</OTHER>
+	
+</enemy>

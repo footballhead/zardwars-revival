@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- http://zardwars.battleon.com/build30/monsters/monster-frogzardhunter.swf -->
+<!-- &actiontype=loadmonster&idLore_Monsters=26&strMonsterName=Frogzard Hunter&strDescription=Crikey!&intLevel=0&intExp=150&intGold=40&intBaseHP=50&intBaseMP=0&intBaseSP=0&intSTR=0&intDEX=0&intINT=0&intCHA=0&intEND=0&intLUK=0&strExtraData=zard&idLore_Elements=3&idLore_WeaponTypes=1&intWeaponBaseDamage=1&intWeaponRandDamage=27&intWeaponBonusToHit=0&intArmorFIRE=100&intArmorWATER=100&intArmorICE=100&intArmorWIND=100&intArmorEARTH=100&intArmorENERGY=100&intArmorLIGHT=100&intArmorDARKNESS=100&intArmorMELEE=10&intArmorRANGED=20&intArmorMAGIC=0&strBodyFileName=monster-frogzardhunter.swf&strHeadFileName=monster-frogzard-head.swf&idLore_Backgrounds=2&intMonsterSounds=0&intIsRandomEncounter=1&intMaxPackSize=1&intCountBattles=1660960&intCountWins=1609099&intCountDeaths=2343&strWeaponElement=Earth&strWeaponType=Melee&strBackgroundName=Hills&strBackgroundTerrain=hills&strBackgroundFileName=background-hillsmts.swf&intBackgroundSound=0&strDateTime=3/15/2014 10:58:02 AM&intQuantity=1&intExp=150&intGold=40&status=success -->
+<enemy>
+	
+	<name>Frogzard Hunter</name>
+	<description>Crikey!</description>
+	<image>frogzard_hunter_enemy.png</image>
+
+	<GENERAL count="5">
+		<Level>0</Level>
+		<EXP>150</EXP>
+		<Gold>40</Gold>
+		<HP>50</HP>
+		<MP>0</MP>
+	</GENERAL>
+	
+	<ATTRIBUTES count="6">
+		<Strength>0</Strength>
+		<Dexterity>0</Dexterity>
+		<Intellect>0</Intellect>
+		<Endurance>0</Endurance>
+		<Charisma>0</Charisma>
+		<Luck>0</Luck>
+	</ATTRIBUTES>
+	
+	<DEFENSE count="3">
+		<Melee>10</Melee>
+		<Ranged>20</Ranged>
+		<Magic>0</Magic>
+	</DEFENSE>
+	
+	<ELEMENTAL count="8">
+		<Fire>100%</Fire>
+		<Water>100%</Water>
+		<Wind>100%</Wind>
+		<Ice>100%</Ice>
+		<Earth>100%</Earth>
+		<Energy>100%</Energy>
+		<Light>100%</Light>
+		<Darkness>100%</Darkness>
+	</ELEMENTAL>
+	
+	<ATTACK count="1">
+		<Notes>Doesn't damage the player. Takes 2 away from visible counter.</Notes>
+	</ATTACK>
+	
+	<OTHER count="1">
+		<Notes>This monster has a counter that starts at 36 and goes down with monster turn. When it hits 0 the game becomes forever stuck on the monster's turn; refreshing the page is the only way to continue.</Notes>
+	</OTHER>
+	
+</enemy>

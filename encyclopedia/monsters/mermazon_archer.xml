@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- http://zardwars.battleon.com/build30/monsters/monster-mermazonarcher.swf -->
+<enemy>
+	
+	<name>Mermazon Archer</name>
+	<description>An underwater race of astonishing agility, Mermazons serve the Lord of Water unquestioningly. Mermazon Archers harness the dangerous element to propel their arrows.</description>
+	<image>mermazon_archer.png</image>
+
+	<GENERAL>
+		<Level>10</Level>
+		<EXP>300</EXP>
+		<Gold>160</Gold>
+		<HP>105-110</HP>
+		<MP>100-110</MP>
+	</GENERAL>
+	
+	<ATTRIBUTES>
+		<Strength>5</Strength>
+		<Dexterity>30</Dexterity>
+		<Intellect>5</Intellect>
+		<Endurance>5</Endurance>
+		<Charisma>0</Charisma>
+		<Luck>5</Luck>
+	</ATTRIBUTES>
+	
+	<DEFENSE>
+		<Melee>35</Melee>
+		<Ranged>15</Ranged>
+		<Magic>25</Magic>
+	</DEFENSE>
+	
+	<ELEMENTAL>
+		<Fire>110%</Fire>
+		<Water>-10%</Water>
+		<Wind>110%</Wind>
+		<Ice>60%</Ice>
+		<Earth>100%</Earth>
+		<Energy>150%</Energy>
+		<Light>100%</Light>
+		<Darkness>100%</Darkness>
+	</ELEMENTAL>
+	
+	<ATTACK>
+		<Hits>1</Hits>
+		<Element>Water</Element>
+		<Type>Ranged</Type>
+	</ATTACK>
+	
+</enemy>

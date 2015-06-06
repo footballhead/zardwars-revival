@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<weapon>
+
+	<name>Siren Spear</name>
+	<description>A weapon that belong to the long-lost race of Sirens, this spear can call forth a "perfect storm" of its own that does 1-10 wind and 15-49 water damage.</description>
+	<image>siren_spear.png</image>
+
+	<GENERAL>
+		<Level>45</Level>
+		<Type>Magic</Type>
+		<Element>Wind</Element>
+		<Damage>3-30</Damage>
+		<BonusToHit text="Bonus To Hit">2%</BonusToHit>
+		<Price>650</Price>
+		<Sell>487</Sell>
+	</GENERAL>
+
+	<SPECIAL>
+		<Rate>35%</Rate>
+		<Hits>2</Hits>
+		<Type>Magic, x2</Type>
+		<Element>Wind / Water</Element>
+		<Damage>1-11 / 15-55</Damage>
+		<BonusToHit text="Bonus To Hit">99% / 0%</BonusToHit>
+	</SPECIAL>
+
+</weapon>

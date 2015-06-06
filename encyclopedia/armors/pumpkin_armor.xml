@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<armour>
+
+	<name>Pumpkin Armor</name>
+	<description>Happy Mogloween! The elite armor of trick or treaters everywhere!</description>
+	<image>pumpkin_armor.jpg</image>
+
+	<GENERAL>
+		<Level>10</Level>
+		<Element>Water</Element>
+		<Price>20000</Price>
+		<Sell>15000</Sell>
+		<Hits>1</Hits>
+	</GENERAL>
+
+	<DEFENSE>
+		<Melee>25</Melee>
+		<Ranged>15</Ranged>
+		<Magic>15</Magic>
+	</DEFENSE>
+
+	<ELEMENTAL>
+		<Fire>90%</Fire>
+		<Water>85%</Water>
+		<Wind>100%</Wind>
+		<Ice>105%</Ice>
+		<Earth>90%</Earth>
+		<Energy>105%</Energy>
+		<Light>95%</Light>
+		<Darkness>90%</Darkness>
+	</ELEMENTAL>
+
+	<OTHER>
+		<Notes>I don't think ZardBane triggers while wearing this armor.</Notes>
+	</OTHER>
+
+</armour>

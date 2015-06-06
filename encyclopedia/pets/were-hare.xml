@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<pet>
+
+	<name>Were-Hare</name>
+	<description>The evil conterpart of the helpful WereBunny.</description>
+	<image>were-hare.jpg</image>
+
+	<GENERAL>
+		<Level>60</Level>
+		<Element>Light</Element>
+		<Type>Melee</Type>
+		<Damage>12 to 29</Damage>
+		<TD text="Training Difficulty">30</TD>
+		<Price>1000</Price>
+		<Sell>200</Sell>
+	</GENERAL>
+
+	<ATTACK num="1">
+		<Hits>1</Hits>
+		<Element>Light</Element>
+		<Type>Melee</Type>
+	</ATTACK>
+
+	<ATTACK num="2">
+		<Hits>1</Hits>
+		<Element>Light</Element>
+		<Type>Ranged</Type>
+	</ATTACK>
+
+</pet>

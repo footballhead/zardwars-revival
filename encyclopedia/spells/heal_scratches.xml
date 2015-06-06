@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<spell>
+
+	<name>Heal Scratches</name>
+	<description>Bathe yourself in a nice green glow of healing magic. (Heals more than 25 hit points)</description>
+	<image thumbnail="heal_scratches_thumb.jpg">heal_scratches.png</image>
+
+	<GENERAL>
+		<Level>30</Level>
+		<Element>Neutral</Element>
+		<Price>1500</Price>
+		<Sell>1000</Sell>
+		<MP>20</MP>
+	</GENERAL>
+
+	<EFFECT num="1">
+		<Rate>90%</Rate>
+		<Notes>Heals player for 25+floor([Player HP]*0.05) HP.</Notes>
+	</EFFECT>
+
+	<EFFECT num="2">
+		<Rate>10%</Rate>
+		<Notes>Heals player for 2*(25+floor([Player HP]*0.05)) HP.</Notes>
+	</EFFECT>
+
+
+</spell>

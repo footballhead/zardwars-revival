@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<enemy>
+	
+	<!-- <ID>1</ID> -->
+	<name>Frogzard</name>
+	<description>Huge, strong and dumb as a rock this estranged evolution of frog lizards are being pushed from their natural habitat in the Zamboo swamp region for some unknown reason, making them a threat to nearby towns and farms.</description>
+	<image>frogzard.png</image>
+
+	<GENERAL>
+		<Level>0</Level>
+		<EXP>180</EXP>
+		<Gold>40</Gold>
+		<HP text="Base HP">30</HP>
+		<MP text="Base MP">0</MP>
+	</GENERAL>
+	
+	<ATTRIBUTES>
+		<Strength>0</Strength>
+		<Dexterity>0</Dexterity>
+		<Intellect>0</Intellect>
+		<Endurance>0</Endurance>
+		<Charisma>0</Charisma>
+		<Luck>0</Luck>
+	</ATTRIBUTES>
+	
+	<DEFENSE>
+		<Melee>25</Melee>
+		<Ranged>25</Ranged>
+		<Magic>25</Magic>
+	</DEFENSE>
+	
+	<ELEMENTAL>
+		<Fire>100%</Fire>
+		<Water>100%</Water>
+		<Wind>100%</Wind>
+		<Ice>100%</Ice>
+		<Earth>100%</Earth>
+		<Energy>100%</Energy>
+		<Light>100%</Light>
+		<Darkness>100%</Darkness>
+	</ELEMENTAL>
+	
+	<ATTACK>
+		<Hits>1</Hits>
+		<Element>Earth</Element>
+		<Type>Melee</Type>
+	</ATTACK>
+	
+</enemy>

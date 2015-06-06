@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<shield>
+
+	<name>Wind Shield</name>
+	<description>Crafted from the carapace of the massive mountaintop-dwelling wind beasts called Altidonts, this wind shield will definitely keep bugs out of your teeth.</description>
+	<image>wind_shield.png</image>
+
+	<GENERAL>
+		<Level>0</Level>
+		<Element>Wind</Element>
+		<Price>100</Price>
+		<Sell>40</Sell>
+	</GENERAL>
+
+	<DEFENSE>
+		<Melee>+0</Melee>
+		<Ranged>+0</Ranged>
+		<Magic>+0</Magic>
+	</DEFENSE>
+
+	<ELEMENTAL>
+		<Fire>+5%</Fire>
+		<Water>+0%</Water>
+		<Wind>-10%</Wind>
+		<Ice>+0%</Ice>
+		<Earth>+0%</Earth>
+		<Energy>+5%</Energy>
+		<Light>+0%</Light>
+		<Darkness>+0%</Darkness>
+	</ELEMENTAL>
+
+</shield>

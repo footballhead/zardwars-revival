@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<shield>
+
+	<name>Monster Claw</name>
+	<description>Forged by the dark warrior Deader, this shield was imbued with powers of all elemental monsters before the great Elemental War.</description>
+	<image>monster_claw.png</image>
+
+	<GENERAL>
+		<Level>60</Level>
+		<Element>Neutral</Element>
+		<Price>3500</Price>
+		<Sell>1000</Sell>
+	</GENERAL>
+
+	<DEFENSE>
+		<Melee>+6</Melee>
+		<Ranged>+4</Ranged>
+		<Magic>-2</Magic>
+	</DEFENSE>
+
+	<ELEMENTAL>
+		<Fire>-5%</Fire>
+		<Water>-5%</Water>
+		<Wind>-5%</Wind>
+		<Ice>-5%</Ice>
+		<Earth>-5%</Earth>
+		<Energy>-5%</Energy>
+		<Light>-5%</Light>
+		<Darkness>-5%</Darkness>
+	</ELEMENTAL>
+
+</shield>

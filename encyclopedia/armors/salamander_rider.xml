@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<armour>
+
+	<name>Salamander Rider</name>
+	<description>One of Valencia's rare trained mini salamanders (she calls them bonsailamanders) is here to help you! 2 hits!</description>
+	<image>salamander_rider.jpg</image>
+
+	<GENERAL>
+		<Level>65</Level>
+		<Element>Fire</Element>
+		<Price>99999</Price>
+		<Sell>74999</Sell>
+	</GENERAL>
+
+	<DEFENSE>
+		<Melee>35</Melee>
+		<Ranged>45</Ranged>
+		<Magic>30</Magic>
+	</DEFENSE>
+
+	<ELEMENTAL>
+		<Fire>75%</Fire>
+		<Water>110%</Water>
+		<Wind>95%</Wind>
+		<Ice>115%</Ice>
+		<Earth>80%</Earth>
+		<Energy>95%</Energy>
+		<Light>90%</Light>
+		<Darkness>95%</Darkness>
+	</ELEMENTAL>
+
+	<ATTACK>
+		<Rate>100%</Rate>
+		<Hits>2</Hits>
+		<Type>Ranged / [Weapon type]</Type>
+		<Element>Fire / [Weapon element]</Element>
+		<Damage>6-16 / [Weapon damage]</Damage>
+		<BTH text="Bonus To Hit">[Weapon BTH] / [Weapon BTH]+10</BTH>
+	</ATTACK>
+
+</armour>

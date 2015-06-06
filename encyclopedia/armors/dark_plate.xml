@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<armour>
+
+	<name>Dark Plate</name>
+	<description>Hardened shadows create incredible fortitude verse evil magic and weapons.</description>
+	<image>dark_plate.jpg</image>
+
+	<GENERAL>
+		<Level>0</Level>
+		<Element>Darkness</Element>
+		<Price>150</Price>
+		<Sell>112</Sell>
+		<Hits>1</Hits>
+	</GENERAL>
+
+	<DEFENSE>
+		<Melee>25</Melee>
+		<Ranged>25</Ranged>
+		<Magic>5</Magic>
+	</DEFENSE>
+
+	<ELEMENTAL>
+		<Fire>100%</Fire>
+		<Water>100%</Water>
+		<Wind>100%</Wind>
+		<Ice>100%</Ice>
+		<Earth>100%</Earth>
+		<Energy>100%</Energy>
+		<Light>120%</Light>
+		<Darkness>80%</Darkness>
+	</ELEMENTAL>
+
+</armour>

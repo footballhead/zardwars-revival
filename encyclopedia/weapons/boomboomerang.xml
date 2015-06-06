@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<weapon>
+
+	<name>BoomBoomerang</name>
+	<description>A boomerang with a special magical fire kick!</description>
+	<image>boomerang.png</image>
+
+	<GENERAL>
+		<Level>10</Level>
+		<Type>Ranged</Type>
+		<Element>Fire</Element>
+		<Damage>3-12</Damage>
+		<BTH text="Bonus To Hit">0%</BTH>
+		<Price>350</Price>
+		<Sell>262</Sell>
+	</GENERAL>
+
+	<SPECIAL>
+		<Rate>100%</Rate>
+		<Hits>2</Hits>
+		<Type>Ranged / Magic</Type>
+		<Element>Wind / Fire</Element>
+		<Damage>3-12, x2</Damage>
+		<BTH text="Bonus To Hit">0%, x2</BTH>
+	</SPECIAL>
+
+</weapon>

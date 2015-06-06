@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- build30/monsters/monster-zardlings-pack.swf -->
+<enemy>
+	
+	<name>Junior Zard Pack</name>
+	<description>Crikey!</description>
+	<image thumbnail="junior_zard_pack_thumb.png">junior_zard_pack.png</image>
+
+	<GENERAL>
+		<Level>40</Level>
+		<EXP>1800</EXP>
+		<Gold>300</Gold>
+		<HP>300</HP>
+		<MP>55-70</MP>
+	</GENERAL>
+	
+	<ATTRIBUTES>
+		<Strength>40</Strength>
+		<Dexterity>60</Dexterity>
+		<Intellect>20</Intellect>
+		<Endurance>0</Endurance>
+		<Charisma>60</Charisma>
+		<Luck>20</Luck>
+	</ATTRIBUTES>
+	
+	<DEFENSE>
+		<Melee>25</Melee>
+		<Ranged>40</Ranged>
+		<Magic>20</Magic>
+	</DEFENSE>
+	
+	<ELEMENTAL>
+		<Fire>100%</Fire>
+		<Water>100%</Water>
+		<Wind>100%</Wind>
+		<Ice>100%</Ice>
+		<Earth>100%</Earth>
+		<Energy>100%</Energy>
+		<Light>100%</Light>
+		<Darkness>100%</Darkness>
+	</ELEMENTAL>
+	
+	<ATTACK>
+		<Hits>[Determined by attacking Zard]</Hits>
+		<Element>[Determined by attacking Zard]</Element>
+		<Type>[Determined by attacking Zard]</Type>
+        <Notes>See the Other section below.</Notes>
+	</ATTACK>
+    
+    <OTHER>
+        <Notes>Basically a group of four Zards, chosen from the Zards below level 10. The choice of Zards only determines which attacks it can perform. Like other group encounters it gets two attacks per turn when two or more Zards are alive and only one turn when one Zard is alive. Each Zard gets a separate HP bar which contributes to the total HP shown. The Zard attacking determines the element and type of the attack; i.e. if the WindZard attacks it can perform its single Wind Melee attack or its double Wind Magic attack. If one or more Zards are dead it can use "Reinforcements!" to replace one or more dead zard with another live one randomly chosen from the options mentioned earlier; using "Reinforcements" does not count as an attack. The frequency with which "Reinforcements!" is used appears to decrease as the battle progresses.</Notes>
+	</OTHER>
+</enemy>

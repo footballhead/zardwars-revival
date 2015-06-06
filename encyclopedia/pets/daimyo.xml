@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<pet>
+
+	<name>Daimyo</name>
+	<description>A noble little dog given special powers by the forces of good.</description>
+	<image>daimyo.jpg</image>
+
+	<GENERAL>
+		<Level>5</Level>
+		<Element>Earth</Element>
+		<Type>Melee</Type>
+		<Damage>24 to 36</Damage>
+		<TD text="Training Difficulty">20</TD>
+		<Price>100</Price>
+		<Sell>20</Sell>
+	</GENERAL>
+
+	<ATTACK>
+		<Hits>6</Hits>
+		<Element>Earth x3 / Light x3</Element>
+		<Type>Melee x3 / Magic x3</Type>
+		<Notes>Attack replenishes both MP and HP by 5.</Notes>
+	</ATTACK>
+	
+</pet>

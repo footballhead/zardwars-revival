@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- ??? -->
+<enemy>
+	
+	<name>Treasure Chest</name>
+	<description>This is your lucky day! Wow!</description>
+	<image thumbnail="treasure_chest_thumb.png">treasure_chest.png</image>
+
+	<GENERAL count="5">
+		<Level>30</Level>
+		<EXP>0</EXP>
+		<Gold>550</Gold>
+		<HP>0</HP>
+		<MP>0</MP>
+	</GENERAL>
+	
+	<ATTRIBUTES count="6">
+		<Strength>0</Strength>
+		<Dexterity>0</Dexterity>
+		<Intellect>0</Intellect>
+		<Endurance>0</Endurance>
+		<Charisma>0</Charisma>
+		<Luck>2000</Luck>
+	</ATTRIBUTES>
+	
+	<DEFENSE count="3">
+		<Melee>25</Melee>
+		<Ranged>25</Ranged>
+		<Magic>25</Magic>
+	</DEFENSE>
+	
+	<ELEMENTAL count="8">
+		<Fire>100%</Fire>
+		<Water>100%</Water>
+		<Wind>100%</Wind>
+		<Ice>100%</Ice>
+		<Earth>100%</Earth>
+		<Energy>100%</Energy>
+		<Light>100%</Light>
+		<Darkness>100%</Darkness>
+	</ELEMENTAL>
+	
+	<OTHER count="1">
+		<Notes>You don't really fight this, persay; there's just a dialog that comes up with an "Open it" button and then you win.</Notes>
+	</OTHER>
+	
+</enemy>

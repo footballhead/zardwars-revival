@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<weapon>
+	
+	<name>Golden Axe</name>
+	<description>The weapon of rulers, this axe costs 700000 gold!</description>
+	<!--<image>golden_axe.jpg</image>-->
+
+	<GENERAL count="5">
+		<Level>75</Level>
+		<Type>Melee</Type>
+		<Element>Light</Element>
+		<Damage>15 to 60</Damage>
+		<BonusToHit>10%</BonusToHit>
+		<Price>700000</Price>
+		<Sell>525000</Sell>
+	</GENERAL>
+	
+	<OTHER count="1">
+		<Notes>Incomplete entry.</Notes>
+	</OTHER>
+	
+</weapon>

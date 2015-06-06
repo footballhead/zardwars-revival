@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<weapon>
+
+	<name>Energy Flail</name>
+	<description>A ball'n'chain that sizzles with electricity.</description>
+	<image>energy_flail.png</image>
+
+	<GENERAL>
+		<Level>5</Level>
+		<Type>Melee</Type>
+		<Element>Energy</Element>
+		<Damage>7-26</Damage>
+		<BonusToHit text="Bonus To Hit">2%</BonusToHit>
+		<Price>150</Price>
+		<Sell>112</Sell>
+	</GENERAL>
+
+</weapon>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<pet>
+
+	<name>Squidge</name>
+	<description>Little Squidge Thing</description>
+
+	<GENERAL>
+		<Level>20</Level>
+		<Element>Earth</Element>
+		<Type>Melee</Type>
+		<Damage>4 to 14</Damage>
+		<Price>0</Price>
+	</GENERAL>
+
+	<OTHER>
+		<Notes>This item has been glitched since the day it was added to the store. Trying to buy this "free" item presents you with a message saying "Item not for sale." There were several complaints but it was never fixed. Nothing is known about it beyond the store page. For info on the pet from AdventureQuest, go to the Battleon forums: http://forums2.battleon.com/f/tm.asp?m=689562</Notes>
+	</OTHER>
+
+</pet>

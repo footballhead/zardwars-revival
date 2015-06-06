@@ -1,0 +1,16 @@
+<div class="pagehead">Experience Requirement Table</div>
+<p>This is a table of the experience required to get to the listed level from the previous level. For example, to get to level 1 from level 0 you need 110 experience; to get to level 2 from level 1 you need 121 experience; etc.</p>
+<p>The max level is 110. The experience required caps at 2 million (around level 104).</p>
+<p>The experience obeys the following recursive formula for level x:<br>
+xp_needed(x) = floor( xp_needed(x-1) * 1.1 ) for x >= 1,<br>
+xp_needed(0) = 100</p>
+<table class="genTable">
+    <tr><td>LEVEL</td>  <td>EXP NEEDED</td></tr>
+    <tr><td>1</td>      <td>110</td></tr>
+    <tr><td>2</td>      <td>121</td></tr>
+    <tr><td>3</td>      <td>133</td></tr>
+    <tr><td>4</td>      <td>146</td></tr>
+    <tr><td>5</td>      <td>161</td></tr>
+    <tr><td>...</td>    <td>...</td></tr>
+</table>
+<p>You get the point.</p>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<spell>
+
+	<name>Daybreak</name>
+	<description>Summon the brightness of a dawn.</description>
+	<image thumbnail="daybreak_thumb.jpg">daybreak.png</image>
+
+	<GENERAL>
+		<Level>20</Level>
+		<Element>Light</Element>
+		<Price>500</Price>
+		<Sell>375</Sell>
+		<MP>10</MP>
+	</GENERAL>
+
+	<ATTACK>
+		<Hits>2</Hits>
+		<Type>Magic, x2</Type>
+		<Element>Light, x2</Element>
+		<Damage>8-26, x2</Damage>
+		<BTH text="Bonus To Hit">5%, x2</BTH>
+	</ATTACK>
+
+</spell>

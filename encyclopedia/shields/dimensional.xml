@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<shield>
+
+	<name>Dimensional</name>
+	<description>The Dimension shield is created by a magical guantlet that helps you greatly defend from all attack types by phasing you in and out of our dimension.</description>
+	<image>dimensional.png</image>
+
+	<GENERAL>
+		<Level>5</Level>
+		<Element>Neutral</Element>
+		<Price>100</Price>
+		<Sell>0</Sell>
+	</GENERAL>
+
+	<DEFENSE>
+		<Melee>+4</Melee>
+		<Ranged>+4</Ranged>
+		<Magic>+4</Magic>
+	</DEFENSE>
+
+	<ELEMENTAL>
+		<Fire>-4%</Fire>
+		<Water>-4%</Water>
+		<Wind>-4%</Wind>
+		<Ice>-4%</Ice>
+		<Earth>-4%</Earth>
+		<Energy>-4%</Energy>
+		<Light>-4%</Light>
+		<Darkness>-4%</Darkness>
+	</ELEMENTAL>
+
+</shield>
