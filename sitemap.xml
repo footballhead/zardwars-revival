@@ -15,10 +15,6 @@
   <changefreq>yearly</changefreq>
 </url>
 <url>
-  <loc>http://zardwarsrevival.nfshost.com/index.php?p=news</loc>
-  <changefreq>yearly</changefreq>
-</url>
-<url>
   <loc>http://zardwarsrevival.nfshost.com/index.php?p=screenshots</loc>
   <changefreq>yearly</changefreq>
 </url>
@@ -64,10 +60,6 @@
 </url>
 <url>
   <loc>http://zardwarsrevival.nfshost.com/index.php?p=the_only_thread</loc>
-  <changefreq>yearly</changefreq>
-</url>
-<url>
-  <loc>http://zardwarsrevival.nfshost.com/index.php?p=news_archives</loc>
   <changefreq>yearly</changefreq>
 </url>
 <url>
