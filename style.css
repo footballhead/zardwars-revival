@@ -117,6 +117,10 @@ a.side:active {
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#660000' , endColorstr='#AA0000');
 }
 
+#footer a, #footer a:hover, #footer a:active, #footer a:visited {
+    color: #FFFFFF;
+}
+
 
 table.genTable {
     border: 1px solid black;
@@ -141,7 +145,7 @@ div.img
 	text-align: center;
 	background-color: #990000;
 	margin: 5px;
-}	
+}
 div.img img
 {
 	display: inline;
