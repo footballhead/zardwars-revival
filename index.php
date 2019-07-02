@@ -85,7 +85,7 @@ function filenameToProper ($filename) {
 				</tr>
 			</table>
 			<div class="hseperator"></div>
-			<div id="footer">Optimized for pretty much every recent browser.</div>
+			<div id="footer">Fork me on GitHub: <a href="https://github.com/footballhead/zardwars-revival">@footballhead/zardwars-revival</a></div>
 		</div>
 	</body>
 	
