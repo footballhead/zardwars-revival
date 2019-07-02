@@ -12,7 +12,7 @@ function printXML( $xml ) {
 		} else if ( $levOneChildName == "image" ) { // floating image
 			if ( isset( $levOneChild[ "thumbnail" ] ) ) { // is there a thumbnail?
 				echo "<div style=\"text-align:center; float:right; padding-right: 10px;\">";
-				echo "<a href=\"http://www.majhost.com/gallery/Hooh251/Michael/ZardWars-Revival/" . $levOneChild . "\">";
+				echo "<a href=\"screenshots/" . $levOneChild . "\">";
 				echo "<img src=\"images/" . $levOneChild[ "thumbnail" ] . "\">";
 				echo "</a>";
 				echo "<br>";
