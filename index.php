@@ -34,7 +34,6 @@ function filenameToProper ($filename) {
 				$formatted = filenameToProper ($page);
 				echo "<title>ZardWars Revival - {$formatted}</title>";
 			} else {
-				echo "<link rel=\"alternate\" type=\"application/rss+xml\" title=\"ZardWars Revival RSS\" href=\"rss.xml\">";
 				echo "<title>ZardWars Revival - For all your ZardWars needs!</title>";
 			}
 		?>
