@@ -1,6 +1,6 @@
-# Zardwars Revival
+# ZardWars Revival
 
-Zardwars encyclopedia currently hosted at http://zardwarsrevival.nfshost.com/
+ZardWars encyclopedia currently hosted at http://zardwarsrevival.nfshost.com/
 
 # License
 
