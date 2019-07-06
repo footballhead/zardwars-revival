@@ -15,7 +15,6 @@ Copy the following to your host of choice:
 * `*.html`
 * `*.php`
 * `style.css`
-* `sitemap.xml`
 
 ## Developing with Docker
 
