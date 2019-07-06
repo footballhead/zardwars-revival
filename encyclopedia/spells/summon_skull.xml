@@ -14,7 +14,7 @@
 	</GENERAL>
 
 	<EFFECT>
-		<Notes>Summons a Flaming Skull to be a guest, working alongside you and your pet. Casting to summon or remove still takes a turn.</Notes>
+		<Notes><![CDATA[Summons a <a href="?e=guests/flaming_skull">Flaming Skull</a> to be a guest, working alongside you and your pet. Casting to summon or remove still takes a turn.]]></Notes>
 	</EFFECT>
 
 </spell>

@@ -11,7 +11,7 @@
 	</ATTACK>
 	
 	<OTHER>
-		<Notes>Summoned by casting Summon Skull. Each turn this guest uses 20 of your character's MP. If you are out of MP this guest will disappear.</Notes>
+		<Notes><![CDATA[Summoned by casting <a href="?e=spells/summon_skull">Summon Skull</a>. Each turn this guest uses 20 of your character's MP. If you are out of MP this guest will disappear.]]></Notes>
 	</OTHER>
 	
 </guest>

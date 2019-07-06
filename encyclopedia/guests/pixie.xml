@@ -15,7 +15,7 @@
 	</ATTACK>
 	
 	<OTHER>
-		<Notes>Summoned by casting Summon Pixie. Each turn the Pixie uses 15 of your character's MP. If you are out of MP the Pixie will disappear.</Notes>
+		<Notes><![CDATA[Summoned by casting <a href="?e=spells/summon_pixie">Summon Pixie</a>. Each turn the Pixie uses 15 of your character's MP. If you are out of MP the Pixie will disappear.]]></Notes>
 	</OTHER>
 	
 </guest>

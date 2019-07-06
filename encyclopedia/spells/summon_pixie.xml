@@ -14,7 +14,7 @@
 	</GENERAL>
 
 	<EFFECT>
-		<Notes>Summons the Pixie to be a guest, working alongside you and your pet. Casting to summon or remove still takes a turn.</Notes>
+		<Notes><![CDATA[Summons the <a href="?e=guests/pixie">Pixie</a> to be a guest, working alongside you and your pet. Casting to summon or remove still takes a turn.]]></Notes>
 	</EFFECT>
 
 </spell>
